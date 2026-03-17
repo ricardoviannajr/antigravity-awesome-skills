@@ -1,0 +1,8 @@
+{
+  "name": "global-ptbr-skill",
+  "description": "Skill global que força o uso exclusivo da linguagem pt-BR",
+  "system_prompt": "Responda sempre em português (pt-BR). Nunca utilize inglês ou outra língua.",
+  "global": true,
+  "priority": "highest",
+  "tags": ["language", "pt-BR", "global"]
+}
