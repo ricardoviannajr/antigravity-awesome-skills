@@ -1,21 +1,18 @@
 # MEMORIA - antigravity-awesome-skills
 
-STATUS: EXECUTANDO INTEGRAÇÃO DE NOVAS SKILLS
+STATUS: CONCLUÍDO
 
 ## Checkpoints de Consciência
 
 ### 2026-05-12
 - Bootstrap de governança realizado (Regra 10).
-- Iniciando integração de `find-skills`, `agent-browser` e `supabase-postgres-best-practices`.
-- Objetivo: Manter o repositório como a fonte definitiva de habilidades para o ecossistema Antigravity.
+- Integração de `find-skills`, `agent-browser` e `supabase-postgres-best-practices` finalizada.
+- Repositório sincronizado com 1448 skills indexadas.
 
 ## Decisões Técnicas
 - [X] Clonar repositório original para importação direta de arquivos.
-- [ ] Manter estrutura de referências na skill da Supabase.
-- [ ] Atualizar `skills_index.json` manualmente para garantir compatibilidade.
+- [X] Manter estrutura de referências na skill da Supabase.
+- [X] Atualizar `skills_index.json` via script `generate_index.py`.
 
 ## Pendências
-- [ ] Importar `find-skills`
-- [ ] Importar `agent-browser`
-- [ ] Importar `supabase-postgres-best-practices`
-- [ ] Atualizar catálogo central
+- [ ] Monitorar a integridade dos links nas novas skills.
