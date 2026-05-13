@@ -7,7 +7,8 @@ STATUS: CONCLUÍDO
 ### 2026-05-12
 - Bootstrap de governança realizado (Regra 10).
 - Integração de `find-skills`, `agent-browser` e `supabase-postgres-best-practices` finalizada.
-- Repositório sincronizado com 1448 skills indexadas.
+- Inclusão do pacote Inference.sh (`ai-image`, `ai-video`, `ai-avatar`, `agent-tools`, `infsh-cli`).
+- Repositório sincronizado com **1453 skills** indexadas.
 
 ## Decisões Técnicas
 - [X] Clonar repositório original para importação direta de arquivos.
