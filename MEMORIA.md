@@ -8,7 +8,9 @@ STATUS: CONCLUÍDO
 - Bootstrap de governança realizado (Regra 10).
 - Integração de `find-skills`, `agent-browser` e `supabase-postgres-best-practices` finalizada.
 - Inclusão do pacote Inference.sh (`ai-image`, `ai-video`, `ai-avatar`, `agent-tools`, `infsh-cli`).
-- Repositório sincronizado com **1453 skills** indexadas.
+- Importação massiva de skills de Marketing (CRO/SEO), Design, RunComfy e Firecrawl.
+- Integração do ecossistema Caveman (juliusbrussee) para eficiência de tokens.
+- Repositório sincronizado com **1484 skills** indexadas.
 
 ## Decisões Técnicas
 - [X] Clonar repositório original para importação direta de arquivos.
