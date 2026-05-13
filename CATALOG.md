@@ -1496,3 +1496,8 @@ Total skills: 1445
 | ind-skills | Official Vercel skill for discovering and researching skills within the ecosystem. | vercel, discovery | find, skills, vercel, discovery, research |
 | gent-browser | High-level browser automation skill from Vercel Labs for navigating, interacting, and extracting data from web pages. | browser, automation | agent, browser, vercel, automation, web |
 | supabase-postgres-best-practices | Comprehensive guide and skill for Postgres best practices on Supabase, including indexing, schema design, and security. | supabase, postgres, database | supabase, postgres, best, practices, indexing, schema, security |
+| i-image-generation | Professional AI image generation using Inference.sh tools. | ai, image, generation | inference, ai, image, generation, tools |
+| i-video-generation | Create high-quality AI videos using Inference.sh specialized tools. | ai, video, generation | inference, ai, video, generation, tools |
+| i-avatar-video | Generate AI-powered avatar videos with speech and facial animation. | ai, avatar, video | inference, ai, avatar, video, speech |
+| gent-tools | Core agent tools from Inference.sh for app discovery and execution. | agent, tools | inference, agent, tools, app, discovery |
+| infsh-cli | Official Inference.sh CLI tools for managing and running agentic applications. | cli, inference | infsh, cli, inference, agent, management |
