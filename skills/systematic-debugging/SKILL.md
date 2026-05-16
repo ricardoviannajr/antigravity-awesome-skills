@@ -1,7 +1,7 @@
 ---
 name: systematic-debugging
 description: "DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação."
-risk: low
+risk: safe
 source: obra/superpowers
 date_added: "2026-05-16"
 ---
