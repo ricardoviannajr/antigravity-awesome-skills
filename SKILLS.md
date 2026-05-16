@@ -42,6 +42,12 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 
 | ID | Descrição |
 | :--- | :--- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. |
 | `acceptance-orchestrator` | Use when a coding task should be driven end-to-end from issue intake through implementation, review, deployment, and acceptance verification with m... |
 | `activecampaign-automation` | Automate ActiveCampaign tasks via Rube MCP (Composio): manage contacts, tags, list subscriptions, automation enrollment, and tasks. Always search t... |
 | `advanced-evaluation` | This skill should be used when the user asks to "implement LLM-as-judge", "compare model outputs", "create evaluation rubrics", "mitigate evaluatio... |
@@ -386,6 +392,12 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 
 | ID | Descrição |
 | :--- | :--- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. |
 | `amplitude-automation` | Automate Amplitude tasks via Rube MCP (Composio): events, user activity, cohorts, user identification. Always search tools first for current schemas. |
 | `angular-ui-patterns` | Modern Angular UI patterns for loading states, error handling, and data display. Use when building UI components, handling async data, or managing ... |
 | `api-documentation` | API documentation workflow for generating OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation. |
@@ -588,6 +600,12 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 
 | ID | Descrição |
 | :--- | :--- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. |
 | `algolia-search` | Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning Use when: adding search to, algol... |
 | `android_ui_verification` | Automated end-to-end UI testing and verification on an Android Emulator using ADB. |
 | `api-design-principles` | Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new A... |
@@ -689,6 +707,12 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 
 | ID | Descrição |
 | :--- | :--- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. |
 | `10-andruia-skill-smith` | Ingeniero de Sistemas de Andru.ia. Diseña, redacta y despliega nuevas habilidades (skills) dentro del repositorio siguiendo el Estándar de Diamante. |
 | `analytics-product` | Analytics de produto — PostHog, Mixpanel, eventos, funnels, cohorts, retencao, north star metric, OKRs e dashboards de produto. Ativar para: config... |
 | `api-testing-observability-api-mock` | You are an API mocking expert specializing in realistic mock services for development, testing, and demos. Design mocks that simulate real API beha... |
@@ -854,6 +878,12 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 
 | ID | Descrição |
 | :--- | :--- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. |
 | `address-github-comments` | Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI. |
 | `bug-hunter` | Systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression. |
 | `c4-architecture-c4-architecture` | Generate comprehensive C4 architecture documentation for an existing repository/codebase using a bottom-up analysis approach. |
@@ -889,8 +919,6 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 | `oss-hunter` | Automatically hunt for high-impact OSS contribution opportunities in trending repositories. |
 | `pr-writer` | ALWAYS use this skill when creating or updating pull requests — never create or edit a PR directly without it. Follows Sentry conventions for PR ti... |
 | `ruby-pro` | Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and te... |
-| `systematic-debugging` | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
-| `test-driven-development` | Use when implementing any feature or bugfix, before writing implementation code |
 | `typescript-pro` | Master TypeScript with advanced types, generics, and strict type safety. Handles complex type systems, decorators, and enterprise-grade patterns. |
 | `unsplash-integration` | Integration skill for searching and fetching high-quality, free-to-use professional photography from Unsplash. |
 | `using-git-worktrees` | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktree... |
@@ -909,6 +937,12 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 
 | ID | Descrição |
 | :--- | :--- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. |
 | `2d-games` | 2D game development principles. Sprites, tilemaps, physics, camera. |
 | `3d-games` | 3D game development principles. Rendering, shaders, physics, cameras. |
 | `architect-review` | Master software architect specializing in modern architecture |
@@ -974,6 +1008,12 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 
 | ID | Descrição |
 | :--- | :--- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. |
 | `advogado-criminal` | Advogado criminalista especializado em Maria da Penha, violencia domestica, feminicidio, direito penal brasileiro, medidas protetivas, inquerito po... |
 | `advogado-especialista` | Advogado especialista em todas as areas do Direito brasileiro: familia, criminal, trabalhista, tributario, consumidor, imobiliario, empresarial, ci... |
 | `alpha-vantage` | Access real-time and historical stock market data, forex rates, cryptocurrency prices, commodities, economic indicators, and 50+ technical indicato... |
@@ -1009,6 +1049,12 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 
 | ID | Descrição |
 | :--- | :--- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. |
 | `carrier-relationship-management` | Codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining st... |
 | `code-refactoring-tech-debt` | You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects. Analyze the codebas... |
 | `codebase-cleanup-tech-debt` | You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects. Analyze the codebas... |
@@ -1046,6 +1092,12 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 
 | ID | Descrição |
 | :--- | :--- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. |
 | `c4-context` | Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, a... |
 | `competitor-alternatives` | When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative... |
 | `content-creator` | Create SEO-optimized marketing content with consistent brand voice. Includes brand voice analyzer, SEO optimizer, content frameworks, and social me... |
@@ -1084,6 +1136,12 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 
 | ID | Descrição |
 | :--- | :--- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. |
 | `007` | Security audit, hardening, threat modeling (STRIDE/PASTA), Red/Blue Team, OWASP checks, code review, incident response, and infrastructure security... |
 | `accessibility-compliance-accessibility-audit` | You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibility. Conduct audits, identify... |
 | `active-directory-attacks` | This skill should be used when the user asks to "attack Active Directory", "exploit AD", "Kerberoasting", "DCSync", "pass-the-hash", "BloodHound en... |
@@ -1266,6 +1324,12 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 
 | ID | Descrição |
 | :--- | :--- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. |
 | `00-andruia-consultant` | Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnostica y traza la hoja de ruta óptima para proyectos de IA en español. |
 | `20-andruia-niche-intelligence` | Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico de un proyecto para inyectar conocimientos, regulaciones y estándares... |
 | `3d-web-experience` | Expert in building 3D experiences for the web - Three.js, React Three Fiber, Spline, WebGL, and interactive 3D scenes. Covers product configurators... |
@@ -1286,7 +1350,6 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 | `bazel-build-optimization` | Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for ent... |
 | `blockchain-developer` | Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterpris... |
 | `blog-writing-guide` | Write, review, and improve blog posts for the Sentry engineering blog following Sentry's specific writing standards, voice, and quality bar. Use th... |
-| `brainstorming` | Use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reas... |
 | `brand-guidelines` | Write copy following Sentry brand guidelines. Use when writing UI text, error messages, empty states, onboarding flows, 404 pages, documentation, m... |
 | `browser-extension-builder` | Expert in building browser extensions that solve real problems - Chrome, Firefox, and cross-browser extensions. Covers extension architecture, mani... |
 | `build` | build |
@@ -1380,8 +1443,6 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 | `typescript-advanced-types` | Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building typ... |
 | `ui-ux-pro-max` | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutt... |
 | `unreal-engine-cpp-pro` | Expert guide for Unreal Engine 5.x C++ development, covering UObject hygiene, performance patterns, and best practices. |
-| `using-superpowers` | Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifyi... |
-| `verification-before-completion` | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirm... |
 | `viral-generator-builder` | Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools... |
 | `vr-ar` | VR/AR development principles. Comfort, interaction, performance requirements. |
 | `web-games` | Web browser game development principles. Framework selection, WebGPU, optimization, PWA. |
@@ -1391,7 +1452,6 @@ O instalador envia os arquivos para a pasta `.antigravity/skills/` na raiz do pr
 | `wiki-architect` | Analyzes code repositories and generates hierarchical documentation structures with onboarding guides. Use when the user wants to create a wiki, ge... |
 | `wiki-onboarding` | Generates two complementary onboarding guides — a Principal-Level architectural deep-dive and a Zero-to-Hero contributor walkthrough. Use when the ... |
 | `wiki-vitepress` | Packages generated wiki Markdown into a VitePress static site with dark theme, dark-mode Mermaid diagrams with click-to-zoom, and production build ... |
-| `writing-plans` | Use when you have a spec or requirements for a multi-step task, before touching code |
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook For... |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state manageme... |
 

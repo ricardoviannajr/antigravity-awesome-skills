@@ -194,6 +194,12 @@ Total skills: 1445
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). | maestro, governance, powers, antigravity | superpowers, maestro, start, task, skills-check |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. | planning, execution, tasks, roadmap | plan, task.md, implementation, roadmap, execution |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. | tdd, testing, quality, red-green-refactor | tdd, test, red-green, unit-test, vitest, jest |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. | debugging, scientific, root-cause, fix | debug, error, bug, fix, root-cause |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. | review, quality, finalization, gatekeeper | finish, complete, review, handoff, done |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. | brainstorming, socratic, design, ideation | brainstorm, ideate, design, feature, creative |
 | `adhx` | Fetch any X/Twitter post as clean LLM-friendly JSON. Converts x.com, twitter.com, or adhx.com links into structured data with full article content, author in... | adhx | adhx, fetch, any, twitter, post, clean, llm, friendly, json, converts, com, links |
 | `advanced-evaluation` | This skill should be used when the user asks to "implement LLM-as-judge", "compare model outputs", "create evaluation rubrics", "mitigate evaluation bias", o... | advanced, evaluation | advanced, evaluation, skill, should, used, user, asks, llm, judge, compare, model, outputs |
 | `agent-framework-azure-ai-py` | Build persistent agents on Azure AI Foundry using the Microsoft Agent Framework Python SDK. | agent, framework, azure, ai, py | agent, framework, azure, ai, py, persistent, agents, foundry, microsoft, python, sdk |
@@ -477,6 +483,12 @@ Total skills: 1445
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). | maestro, governance, powers, antigravity | superpowers, maestro, start, task, skills-check |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. | planning, execution, tasks, roadmap | plan, task.md, implementation, roadmap, execution |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. | tdd, testing, quality, red-green-refactor | tdd, test, red-green, unit-test, vitest, jest |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. | debugging, scientific, root-cause, fix | debug, error, bug, fix, root-cause |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. | review, quality, finalization, gatekeeper | finish, complete, review, handoff, done |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. | brainstorming, socratic, design, ideation | brainstorm, ideate, design, feature, creative |
 | `3d-web-experience` | Expert in building 3D experiences for the web - Three.js, React Three Fiber, Spline, WebGL, and interactive 3D scenes. Covers product configurators, 3D portf... | 3d, web, experience | 3d, web, experience, building, experiences, three, js, react, fiber, spline, webgl, interactive |
 | `algolia-search` | Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning | algolia, search | algolia, search, indexing, react, instantsearch, relevance, tuning |
 | `android-jetpack-compose-expert` | Expert guidance for building modern Android UIs with Jetpack Compose, covering state management, navigation, performance, and Material Design 3. | android, jetpack, compose | android, jetpack, compose, guidance, building, uis, covering, state, navigation, performance, material |
@@ -689,6 +701,12 @@ Total skills: 1445
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). | maestro, governance, powers, antigravity | superpowers, maestro, start, task, skills-check |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. | planning, execution, tasks, roadmap | plan, task.md, implementation, roadmap, execution |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. | tdd, testing, quality, red-green-refactor | tdd, test, red-green, unit-test, vitest, jest |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. | debugging, scientific, root-cause, fix | debug, error, bug, fix, root-cause |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. | review, quality, finalization, gatekeeper | finish, complete, review, handoff, done |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. | brainstorming, socratic, design, ideation | brainstorm, ideate, design, feature, creative |
 | `00-andruia-consultant` | Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnostica y traza la hoja de ruta óptima para proyectos de IA en español. | 00, andruia, consultant | 00, andruia, consultant, arquitecto, de, soluciones, principal, consultor, tecnol, gico, andru, ia |
 | `10-andruia-skill-smith` | Ingeniero de Sistemas de Andru.ia. Diseña, redacta y despliega nuevas habilidades (skills) dentro del repositorio siguiendo el Estándar de Diamante. | 10, andruia, skill, smith | 10, andruia, skill, smith, ingeniero, de, sistemas, andru, ia, dise, redacta, despliega |
 | `20-andruia-niche-intelligence` | Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico de un proyecto para inyectar conocimientos, regulaciones y estándares únicos de... | 20, andruia, niche, intelligence | 20, andruia, niche, intelligence, estratega, de, inteligencia, dominio, andru, ia, analiza, el |
@@ -1012,10 +1030,8 @@ Total skills: 1445
 | `upgrading-expo` | Upgrade Expo SDK versions | upgrading, expo | upgrading, expo, upgrade, sdk, versions |
 | `upstash-qstash` | Upstash QStash expert for serverless message queues, scheduled jobs, and reliable HTTP-based task delivery without managing infrastructure. | upstash, qstash | upstash, qstash, serverless, message, queues, scheduled, jobs, reliable, http, task, delivery, without |
 | `using-git-worktrees` | Git worktrees create isolated workspaces sharing the same repository, allowing work on multiple branches simultaneously without switching. | using, git, worktrees | using, git, worktrees, isolated, workspaces, sharing, same, repository, allowing, work, multiple, branches |
-| `using-superpowers` | Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions | using, superpowers | using, superpowers, starting, any, conversation, establishes, how, find, skills, requiring, skill, invocation |
 | `ux-persuasion-engineer` | One sentence - what this skill does and when to invoke it | ux, persuasion | ux, persuasion, engineer, one, sentence, what, skill, does, invoke |
 | `varlock` | Secure-by-default environment variable management for Claude Code sessions. | varlock | varlock, secure, default, environment, variable, claude, code, sessions |
-| `verification-before-completion` | Claiming work is complete without verification is dishonesty, not efficiency. Use when ANY variation of success/completion claims, ANY expression of satisfac... | verification, before, completion | verification, before, completion, claiming, work, complete, without, dishonesty, efficiency, any, variation, success |
 | `vexor-cli` | Semantic file discovery via `vexor`. Use whenever locating where something is implemented/loaded/defined in a medium or large repo, or when the file location... | vexor, cli | vexor, cli, semantic, file, discovery, via, whenever, locating, where, something, implemented, loaded |
 | `videodb` | Video and audio perception, indexing, and editing. Ingest files/URLs/live streams, build visual/spoken indexes, search with timestamps, edit timelines, add o... | video, editing, transcription, subtitles, search, streaming, ai-generation, media, live-streams, desktop-capture | video, editing, transcription, subtitles, search, streaming, ai-generation, media, live-streams, desktop-capture, videodb, audio |
 | `visual-emotion-engineer` | One sentence - what this skill does and when to invoke it | visual, emotion | visual, emotion, engineer, one, sentence, what, skill, does, invoke |
@@ -1028,7 +1044,6 @@ Total skills: 1445
 | `wiki-researcher` | You are an expert software engineer and systems analyst. Use when user asks "how does X work" with expectation of depth, user wants to understand a complex s... | wiki, researcher | wiki, researcher, software, engineer, analyst, user, asks, how, does, work, expectation, depth |
 | `wiki-vitepress` | Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams. Use when user asks to "build ... | wiki, vitepress | wiki, vitepress, transform, generated, markdown, files, polished, static, site, dark, theme, interactive |
 | `windows-shell-reliability` | Reliable command execution on Windows: paths, encoding, and common binary pitfalls. | windows, shell, reliability | windows, shell, reliability, reliable, command, execution, paths, encoding, common, binary, pitfalls |
-| `writing-plans` | Use when you have a spec or requirements for a multi-step task, before touching code | writing, plans | writing, plans, spec, requirements, multi, step, task, before, touching, code |
 | `writing-skills` | Use when creating, updating, or improving agent skills. | writing, skills | writing, skills, creating, updating, improving, agent |
 | `x-article-publisher-skill` | Publish articles to X/Twitter | x, article, publisher, skill | x, article, publisher, skill, publish, articles, twitter |
 | `xlsx-official` | Unless otherwise stated by the user or existing template | xlsx, official | xlsx, official, unless, otherwise, stated, user, existing |
@@ -1042,6 +1057,12 @@ Total skills: 1445
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). | maestro, governance, powers, antigravity | superpowers, maestro, start, task, skills-check |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. | planning, execution, tasks, roadmap | plan, task.md, implementation, roadmap, execution |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. | tdd, testing, quality, red-green-refactor | tdd, test, red-green, unit-test, vitest, jest |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. | debugging, scientific, root-cause, fix | debug, error, bug, fix, root-cause |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. | review, quality, finalization, gatekeeper | finish, complete, review, handoff, done |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. | brainstorming, socratic, design, ideation | brainstorm, ideate, design, feature, creative |
 | `acceptance-orchestrator` | Use when a coding task should be driven end-to-end from issue intake through implementation, review, deployment, and acceptance verification with minimal hum... | acceptance, orchestrator | acceptance, orchestrator, coding, task, should, driven, issue, intake, through, review, deployment, verification |
 | `agent-evaluation` | Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics, and production monitoring—where even top agents... | agent, evaluation | agent, evaluation, testing, benchmarking, llm, agents, including, behavioral, capability, assessment, reliability, metrics |
 | `agentflow` | Orchestrate autonomous AI development pipelines through your Kanban board (Asana, GitHub Projects, Linear). Manages multi-worker Claude Code dispatch, determ... | agentflow | agentflow, orchestrate, autonomous, ai, development, pipelines, through, kanban, board, asana, github, linear |
@@ -1179,6 +1200,12 @@ Total skills: 1445
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). | maestro, governance, powers, antigravity | superpowers, maestro, start, task, skills-check |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. | planning, execution, tasks, roadmap | plan, task.md, implementation, roadmap, execution |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. | tdd, testing, quality, red-green-refactor | tdd, test, red-green, unit-test, vitest, jest |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. | debugging, scientific, root-cause, fix | debug, error, bug, fix, root-cause |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. | review, quality, finalization, gatekeeper | finish, complete, review, handoff, done |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. | brainstorming, socratic, design, ideation | brainstorm, ideate, design, feature, creative |
 | `007` | Security audit, hardening, threat modeling (STRIDE/PASTA), Red/Blue Team, OWASP checks, code review, incident response, and infrastructure security for any p... | security, audit, owasp, threat-modeling, hardening, pentest | security, audit, owasp, threat-modeling, hardening, pentest, 007, threat, modeling, stride, pasta, red |
 | `accessibility-compliance-accessibility-audit` | You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibility. Conduct audits, identify barriers,... | accessibility, compliance, audit | accessibility, compliance, audit, specializing, wcag, inclusive, assistive, technology, compatibility, conduct, audits, identify |
 | `aegisops-ai` | Autonomous DevSecOps & FinOps Guardrails. Orchestrates Gemini 3 Flash to audit Linux Kernel patches, Terraform cost drifts, and K8s compliance. | aegisops, ai | aegisops, ai, autonomous, devsecops, finops, guardrails, orchestrates, gemini, flash, audit, linux, kernel |
@@ -1358,6 +1385,12 @@ Total skills: 1445
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). | maestro, governance, powers, antigravity | superpowers, maestro, start, task, skills-check |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. | planning, execution, tasks, roadmap | plan, task.md, implementation, roadmap, execution |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. | tdd, testing, quality, red-green-refactor | tdd, test, red-green, unit-test, vitest, jest |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. | debugging, scientific, root-cause, fix | debug, error, bug, fix, root-cause |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. | review, quality, finalization, gatekeeper | finish, complete, review, handoff, done |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. | brainstorming, socratic, design, ideation | brainstorm, ideate, design, feature, creative |
 | `ab-test-setup` | Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness. | ab, setup | ab, setup, test, structured, setting, up, tests, mandatory, gates, hypothesis, metrics, execution |
 | `ad-creative` | Create, iterate, and scale paid ad creative for Google Ads, Meta, LinkedIn, TikTok, and similar platforms. Use when generating headlines, descriptions, prima... | ad, creative | ad, creative, iterate, scale, paid, google, ads, meta, linkedin, tiktok, similar, platforms |
 | `circleci-automation` | Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first f... | circleci | circleci, automation, automate, tasks, via, rube, mcp, composio, trigger, pipelines, monitor, jobs |
@@ -1376,14 +1409,12 @@ Total skills: 1445
 | `screen-reader-testing` | Practical guide to testing web applications with screen readers for comprehensive accessibility validation. | screen, reader | screen, reader, testing, practical, web, applications, readers, accessibility, validation |
 | `semgrep-rule-variant-creator` | Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languag... | semgrep, rule, variant, creator | semgrep, rule, variant, creator, creates, language, variants, existing, rules, porting, specified, target |
 | `shodan-reconnaissance` | Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements. | shodan, reconnaissance | shodan, reconnaissance, provide, systematic, methodologies, leveraging, during, penetration, testing, engagements |
-| `systematic-debugging` | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes | systematic, debugging | systematic, debugging, encountering, any, bug, test, failure, unexpected, behavior, before, proposing, fixes |
 | `tdd-orchestrator` | Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordination, and comprehensive test-driven development practices. | tdd, orchestrator | tdd, orchestrator, specializing, red, green, refactor, discipline, multi, agent, coordination, test, driven |
 | `tdd-workflow` | Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle. | tdd | tdd, test, driven, development, principles, red, green, refactor, cycle |
 | `tdd-workflows-tdd-cycle` | Use when working with tdd workflows tdd cycle | tdd, cycle | tdd, cycle, working |
 | `tdd-workflows-tdd-green` | Implement the minimal code needed to make failing tests pass in the TDD green phase. | tdd, green | tdd, green, minimal, code, needed, failing, tests, pass, phase |
 | `tdd-workflows-tdd-red` | Generate failing tests for the TDD red phase to define expected behavior and edge cases. | tdd, red | tdd, red, generate, failing, tests, phase, define, expected, behavior, edge, cases |
 | `tdd-workflows-tdd-refactor` | Use when working with tdd workflows tdd refactor | tdd, refactor | tdd, refactor, working |
-| `test-driven-development` | Use when implementing any feature or bugfix, before writing implementation code | driven | driven, test, development, implementing, any, feature, bugfix, before, writing, code |
 | `test-fixing` | Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix tests ("fix these tests", "make tests pass... | fixing | fixing, test, systematically, identify, fix, all, failing, tests, smart, grouping, explicitly, asks |
 | `testing-qa` | Comprehensive testing and QA workflow covering unit testing, integration testing, E2E testing, browser automation, and quality assurance. | qa | qa, testing, covering, unit, integration, e2e, browser, automation, quality, assurance |
 | `unit-testing-test-generate` | Generate comprehensive, maintainable unit tests across languages with strong coverage and edge case focus. | unit, generate | unit, generate, testing, test, maintainable, tests, languages, strong, coverage, edge, case |
@@ -1394,6 +1425,12 @@ Total skills: 1445
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
+| `using-superpowers` | MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity). | maestro, governance, powers, antigravity | superpowers, maestro, start, task, skills-check |
+| `writing-plans` | Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos. | planning, execution, tasks, roadmap | plan, task.md, implementation, roadmap, execution |
+| `test-driven-development` | EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho. | tdd, testing, quality, red-green-refactor | tdd, test, red-green, unit-test, vitest, jest |
+| `systematic-debugging` | DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação. | debugging, scientific, root-cause, fix | debug, error, bug, fix, root-cause |
+| `verification-before-completion` | FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano. | review, quality, finalization, gatekeeper | finish, complete, review, handoff, done |
+| `brainstorming` | Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático. | brainstorming, socratic, design, ideation | brainstorm, ideate, design, feature, creative |
 | `activecampaign-automation` | Automate ActiveCampaign tasks via Rube MCP (Composio): manage contacts, tags, list subscriptions, automation enrollment, and tasks. Always search tools first... | activecampaign | activecampaign, automation, automate, tasks, via, rube, mcp, composio, contacts, tags, list, subscriptions |
 | `agent-orchestration-improve-agent` | Systematic improvement of existing agents through performance analysis, prompt engineering, and continuous iteration. | agent, improve | agent, improve, orchestration, systematic, improvement, existing, agents, through, performance, analysis, prompt, engineering |
 | `agent-orchestration-multi-agent-optimize` | Optimize multi-agent systems with coordinated profiling, workload distribution, and cost-aware orchestration. Use when improving agent performance, throughpu... | agent, multi, optimize | agent, multi, optimize, orchestration, coordinated, profiling, workload, distribution, cost, aware, improving, performance |
