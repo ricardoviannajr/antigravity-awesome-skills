@@ -5,6 +5,9 @@ STATUS: CONCLUÍDO (UPGRADED TO SUPERPOWERS)
 ## Checkpoints de Consciência
 
 ### 2026-05-16
+- **Automação Code Review Skills:** Implementação de script Node.js (`scripts/sync-code-review-skills.js`) para scraping dinâmico do Claude Code Marketplace (top 25 skills de Code Review).
+- **Lógica de Sparse Cloning:** Script agora localiza cirurgicamente arquivos `SKILL.md` em repositórios externos, mesmo com estruturas de pastas variadas, e normaliza o metadado `name` para conformidade com o ecossistema.
+- **Workflow Global:** Criação do comando `/update-skills-code-review` no sistema global para acionamento recorrente da sincronização.
 - **Upgrade Metodológico Superpowers:** Migração do ecossistema para a metodologia "Superpowers Agentic".
 - **Skill Maestro:** Criação da meta-skill `using-superpowers` para orquestração de governança e skill-checks.
 - **Refatoração Brainstorming:** Atualização da skill de brainstorming para modo socrático e bloqueio de execução prematura.
