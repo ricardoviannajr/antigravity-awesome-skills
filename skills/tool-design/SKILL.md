@@ -1,11 +1,12 @@
 ---
 name: tool-design
-description: "Build tools that agents can use effectively, including architectural reduction patterns. Use when creating new tools for agent systems, debugging tool-related failures or misuse, or optimizing existing tool sets for better agent performance."
+description: Build tools that agents can use effectively, including architectural
+  reduction patterns. Use when creating new tools for agent systems, debugging tool-related
+  failures or misuse, or optimizing existing tool sets for better agent performance.
 risk: safe
-source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/tool-design"
-date_added: "2026-02-27"
+source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/tool-design
+date_added: '2026-02-27'
 ---
-
 ## When to Use This Skill
 
 Build tools that agents can use effectively, including architectural reduction patterns

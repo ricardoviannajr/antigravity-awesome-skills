@@ -1,9 +1,7 @@
 ---
 name: claude-api
-description: 'Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built
-  with this skill should include prompt caching. Also handles migrating existing Claude
-  API code between Claude model versions (4.5 → 4.6, 4.6 → 4.7, retired-model replacements).
-  TRIGGER when: code impor...'
+description: 'Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built with this skill should include prompt caching. Also handles migrating existing Claude API code between Claude model versions (4.5 → 4.6, 4.6 → 4.7, retired-model replacements). TRIGGER when: code impo...
+
 license: Complete terms in LICENSE.txt
 ---
 # Building LLM-Powered Applications with Claude

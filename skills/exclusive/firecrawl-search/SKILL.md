@@ -16,7 +16,7 @@ Web search with optional content scraping. Returns search results as JSON, optio
 
 - You don't have a specific URL yet
 - You need to find pages, answer questions, or discover sources
-- First step in the [workflow escalation pattern](firecrawl-cli): search → scrape → map → crawl → interact
+- First step in the workflow escalation pattern: search → scrape → map → crawl → interact
 
 ## Quick start
 
@@ -56,5 +56,5 @@ firecrawl search "your query" --sources news --tbs qdr:d -o .firecrawl/news.json
 ## See also
 
 - [firecrawl-scrape](../firecrawl-scrape/SKILL.md) — scrape a specific URL
-- [firecrawl-map](../firecrawl-map/SKILL.md) — discover URLs within a site
+- firecrawl-map — discover URLs within a site
 - [firecrawl-crawl](../firecrawl-crawl/SKILL.md) — bulk extract from a site

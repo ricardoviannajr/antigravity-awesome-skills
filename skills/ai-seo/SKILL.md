@@ -413,7 +413,7 @@ Monthly manual check:
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](../../tools/REGISTRY.md).
+For implementation, see the tools registry.
 
 | Tool | Use For |
 |------|---------|

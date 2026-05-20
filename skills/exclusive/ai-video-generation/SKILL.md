@@ -1,9 +1,7 @@
 ---
 name: ai-video-generation
-description: 'Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok
-  and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse
-  1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities:
-  text-to-video, image-to-video, re...'
+description: 'Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, r...
+
 allowed-tools: Bash(belt *)
 ---
 > **Install the belt CLI skill:** `npx skills add belt-sh/cli`

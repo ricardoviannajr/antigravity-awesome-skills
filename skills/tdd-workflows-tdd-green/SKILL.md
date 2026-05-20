@@ -1,11 +1,11 @@
 ---
 name: tdd-workflows-tdd-green
-description: "Implement the minimal code needed to make failing tests pass in the TDD green phase."
+description: Implement the minimal code needed to make failing tests pass in the TDD
+  green phase.
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
-
 # Green Phase: Simple function
 def product_list(request):
     products = Product.objects.all()

@@ -1,11 +1,11 @@
---- 
+---
 name: unsplash-integration
-description: Integration skill for searching and fetching high-quality, free-to-use professional photography from Unsplash.
+description: Integration skill for searching and fetching high-quality, free-to-use
+  professional photography from Unsplash.
 risk: safe
 source: community
-date_added: "2026-03-07"
+date_added: '2026-03-07'
 ---
-
 # Unsplash Integration Skill
 
 [Unsplash](https://unsplash.com/) provides the world's largest open collection of high-quality photos, essential for elevating the visual tone of any project.

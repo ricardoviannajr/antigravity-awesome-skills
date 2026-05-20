@@ -1,15 +1,25 @@
 ---
 name: tmux
-description: "Expert tmux session, window, and pane management for terminal multiplexing, persistent remote workflows, and shell scripting automation."
+description: Expert tmux session, window, and pane management for terminal multiplexing,
+  persistent remote workflows, and shell scripting automation.
 category: development
 risk: safe
 source: community
-date_added: "2026-03-28"
+date_added: '2026-03-28'
 author: kostakost2
-tags: [tmux, terminal, multiplexer, sessions, shell, remote, automation]
-tools: [claude, cursor, gemini]
+tags:
+- tmux
+- terminal
+- multiplexer
+- sessions
+- shell
+- remote
+- automation
+tools:
+- claude
+- cursor
+- gemini
 ---
-
 # tmux — Terminal Multiplexer
 
 ## Overview
