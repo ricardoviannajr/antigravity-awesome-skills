@@ -105,18 +105,22 @@ def update_repo_contributors_section(content: str, contributors: list[str]) -> s
 
 
 def fetch_contributors(repo: str) -> list[str]:
-    result = subprocess.run(
-        [
-            "gh",
-            "api",
-            f"repos/{repo}/contributors?per_page=100",
-            "--paginate",
-            "--slurp",
-        ],
-        check=True,
-        capture_output=True,
-        text=True,
-    )
+    try:
+        result = subprocess.run(
+            [
+                "gh",
+                "api",
+                f"repos/{repo}/contributors?per_page=100",
+                "--paginate",
+                "--slurp",
+            ],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+    except subprocess.CalledProcessError as exc:
+        print(f"⚠️  Could not fetch contributors for {repo} (exit {exc.returncode}). Skipping.")
+        return []
     payload = json.loads(result.stdout)
     flat_entries: list[dict] = []
     for page in payload:
