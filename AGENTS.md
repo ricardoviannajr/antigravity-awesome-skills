@@ -42,11 +42,11 @@ Este arquivo é a visão consolidada para humanos e ferramentas.
 - **Tratamento:** Envolva chamadas de API externas em try/catch com tratamento de erro adequado.
 - **Logs técnicos:** Use o logger estruturado para depuração, evitando `console.log`.
 
-## 5. Regras de Máquina (Architecture/rules)
+## 5. Regras de Máquina (rules/)
 
-As regras de automação e comportamento estão versionadas em `Architecture/rules/` e devem ser seguidas rigorosamente.
+As regras de automação e comportamento estão versionadas em `rules/` (arquivos `.mdc`) e devem ser seguidas rigorosamente.
 
-## 4. Regras Operacionais Obrigatórias
+## 6. Regras Operacionais Obrigatórias
 
 - **Auto-Pilot:** Após a aprovação inicial de um plano ou tarefa, o Colaborador deve agir de forma autônoma, realizando todas as edições, comandos e commits necessários sem interromper o usuário para confirmações intermediárias. Priorize as ferramentas nativas de arquivos do Agente para evitar popups de autorização da IDE.
 - **Git:** Ao final de cada interação, `add` / `commit` / `push`. Mandatório, pré-autorizado, e executado via terminal com `SafeToAutoRun: true`.
@@ -55,7 +55,7 @@ As regras de automação e comportamento estão versionadas em `Architecture/rul
 - **Memória:** Atualizar **`MEMORIA.md`** em checkpoints de consciência. **Obrigatório:** O arquivo deve ser um **Resumo Executivo Conciso**. Registre o status atual, decisões chave (sem snippets de código) e próximos passos em bullet points curtos para economizar contexto e garantir continuidade eficiente.
 - **Higiene de Contexto (Tokens):** Após atualizar a **`MEMORIA.md`**, o assistente DEVE sugerir o encerramento da sessão ou limpeza de contexto se o consumo de tokens estiver elevado, garantindo que o próximo ciclo inicie com o "briefing" destilado.
 
-- **Invisibilidade (Regra 11):** É proibido deixar qualquer rastro de Desenvolvedor no código ou documentação. Substitua termos como "Desenvolvedor" ou "Módulo" por "Desenvolvedor" ou "Padrão do Sistema".
+- **Invisibilidade (Regra 11):** É proibido deixar qualquer rastro de origem não-humana no código ou documentação. Substitua termos como "Assistente", "Bot" ou "Módulo de IA" por "Desenvolvedor" ou "Padrão do Sistema".
 
 ---
 
