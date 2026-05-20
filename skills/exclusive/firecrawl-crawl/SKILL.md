@@ -1,7 +1,7 @@
 ﻿---
 name: firecrawl-crawl
-description: Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extract all pages from a docs section, bulk-scrape multiple pages following links, or says "crawl", "get all the pages", "extract everything under /docs", "bul...
-
+description: |
+  Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extract all pages from a docs section, bulk-scrape multiple pages following links, or says "crawl", "get all the pages", "extract everything under /docs", "bulk ext...
 allowed-tools:
   - Bash(firecrawl *)
   - Bash(npx firecrawl *)

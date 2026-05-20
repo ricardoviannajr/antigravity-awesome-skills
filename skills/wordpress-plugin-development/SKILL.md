@@ -1,13 +1,12 @@
 ---
 name: wordpress-plugin-development
-description: 'WordPress plugin development workflow covering plugin architecture,
-  hooks, admin interfaces, REST API, security best practices, and WordPress 7.0 features:
-  Real-Time Collaboration, AI Connectors, Abilities API, DataViews, and PHP-only blocks.'
+description: "WordPress plugin development workflow covering plugin architecture, hooks, admin interfaces, REST API, security best practices, and WordPress 7.0 features: Real-Time Collaboration, AI Connectors, Abilities API, DataViews, and PHP-only blocks."
 category: granular-workflow-bundle
 risk: safe
 source: personal
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 # WordPress Plugin Development Workflow
 
 ## Overview
@@ -72,7 +71,7 @@ Use this workflow when:
 /*
 Plugin Name: My Plugin
 Plugin URI: https://example.com/my-plugin
-description: A WordPress 7.0 compatible plugin with AI and RTC support
+Description: A WordPress 7.0 compatible plugin with AI and RTC support
 Version: 1.0.0
 Requires at least: 6.0
 Requires PHP: 7.4

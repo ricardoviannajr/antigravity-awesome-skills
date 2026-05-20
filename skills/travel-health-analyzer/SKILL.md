@@ -5,6 +5,7 @@ allowed-tools: Read, Write, Grep, Glob
 risk: unknown
 source: community
 ---
+
 # 旅行健康分析技能
 
 ## When to Use

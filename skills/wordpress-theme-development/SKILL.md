@@ -1,13 +1,12 @@
 ---
 name: wordpress-theme-development
-description: 'WordPress theme development workflow covering theme architecture, template
-  hierarchy, custom post types, block editor support, responsive design, and WordPress
-  7.0 features: DataViews, Pattern Editing, Navigation Overlays, and admin refresh.'
+description: "WordPress theme development workflow covering theme architecture, template hierarchy, custom post types, block editor support, responsive design, and WordPress 7.0 features: DataViews, Pattern Editing, Navigation Overlays, and admin refresh."
 category: granular-workflow-bundle
 risk: safe
 source: personal
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 # WordPress Theme Development Workflow
 
 ## Overview
@@ -76,7 +75,7 @@ Theme Name: My Custom Theme
 Theme URI: https://example.com
 Author: Developer Name
 Author URI: https://example.com
-description: A WordPress 7.0 compatible theme with modern design
+Description: A WordPress 7.0 compatible theme with modern design
 Version: 1.0.0
 Requires at least: 6.0
 Requires PHP: 7.4

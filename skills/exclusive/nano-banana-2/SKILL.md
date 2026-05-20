@@ -57,7 +57,7 @@ If the user said "Nano Banana" / "nano-banana-2" / "Gemini image" explicitly, ro
 | `limit_generations` | bool | no | true | Limit each prompt round to one generation. |
 | `enable_web_search` | bool | no | false | Adds web grounding (extra cost + latency). |
 
-For image edit (preserve subject + apply changes), see the sibling `nano-banana-edit` skill.
+For image edit (preserve subject + apply changes), see the sibling [`nano-banana-edit`](../nano-banana-edit) skill.
 
 ## How to invoke
 

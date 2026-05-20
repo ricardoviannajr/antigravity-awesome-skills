@@ -1,11 +1,11 @@
 ---
 name: verification-before-completion
-description: 'FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes
-  e documentação antes do handoff ao humano.'
-risk: safe
+description: "FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano."
+risk: low
 source: obra/superpowers
-date_added: '2026-05-16'
+date_added: "2026-05-16"
 ---
+
 # 🏁 Verification Before Completion
 
 Antes de dizer "Terminei", você deve passar por este portão de qualidade. Apressar a entrega é a causa número 1 de bugs em produção.

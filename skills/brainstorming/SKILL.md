@@ -2,7 +2,7 @@
 name: brainstorming
 description: Use antes de qualquer trabalho criativo (features, arquitetura, comportamento).
   Transforma ideias vagas em designs validados via diálogo socrático.
-risk: safe
+risk: low
 source: obra/superpowers + Antigravity
 date_added: '2026-05-16'
 ---

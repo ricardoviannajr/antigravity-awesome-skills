@@ -1,7 +1,9 @@
 ---
 name: ai-image-generation
-description: 'Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-ima...
-
+description: 'Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve
+  and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2
+  Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities:
+  text-to-image, image-to-imag...'
 allowed-tools: Bash(belt *)
 ---
 > **Install the belt CLI skill:** `npx skills add belt-sh/cli`
