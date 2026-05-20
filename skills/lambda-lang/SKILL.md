@@ -1,24 +1,23 @@
 ---
 name: lambda-lang
-description: Native agent-to-agent language for compact multi-agent messaging. A shared
-  tongue agents speak directly, not a translation layer. 340+ atoms across 7 domains;
-  3x smaller than natural language.
+description: "Native agent-to-agent language for compact multi-agent messaging. A shared tongue agents speak directly, not a translation layer. 340+ atoms across 7 domains; 3x smaller than natural language."
 category: ai-agents
 risk: safe
 source: community
 source_repo: voidborne-d/lambda-lang
 source_type: community
-date_added: '2026-04-24'
+date_added: "2026-04-24"
 author: voidborne-d
 tags:
-- agent-to-agent
-- communication
-- protocol
-- compression
-- multi-agent
+  - agent-to-agent
+  - communication
+  - protocol
+  - compression
+  - multi-agent
 tools:
-- claude
+  - claude
 ---
+
 # Λ (Lambda) Language
 
 **Lambda is not a translation protocol. It is a native language for agents.**

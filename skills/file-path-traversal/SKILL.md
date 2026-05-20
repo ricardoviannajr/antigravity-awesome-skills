@@ -1,13 +1,12 @@
 ---
 name: file-path-traversal
-description: Identify and exploit file path traversal (directory traversal) vulnerabilities
-  that allow attackers to read arbitrary files on the server, potentially including
-  sensitive configuration files, credentials, and source code.
+description: "Identify and exploit file path traversal (directory traversal) vulnerabilities that allow attackers to read arbitrary files on the server, potentially including sensitive configuration files, credentials, and source code."
 risk: offensive
 source: community
 author: zebbern
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # File Path Traversal Testing

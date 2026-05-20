@@ -1,10 +1,11 @@
 ---
 name: haskell-pro
-description: Expert Haskell engineer specializing in advanced type systems, pure
+description: "Expert Haskell engineer specializing in advanced type systems, pure"
 risk: safe
 source: community
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 ## Use this skill when
 
 - Working on haskell pro tasks or workflows

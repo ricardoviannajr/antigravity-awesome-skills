@@ -1,11 +1,9 @@
 ---
 name: ai-video-generation
-description: 'Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok
-  and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse
-  1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities:
-  text-to-video, image-to-video, re...'
+description: "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse"
 allowed-tools: Bash(belt *)
 ---
+
 > **Install the belt CLI skill:** `npx skills add belt-sh/cli`
 
 # AI Video Generation
@@ -251,3 +249,4 @@ Browse all apps: `belt app list`
 - [Running Apps](https://inference.sh/docs/apps/running) - How to run apps via CLI
 - [Streaming Results](https://inference.sh/docs/api/sdk/streaming) - Real-time progress updates
 - [Content Pipeline Example](https://inference.sh/docs/examples/content-pipeline) - Building media workflows
+

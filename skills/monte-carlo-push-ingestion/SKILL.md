@@ -1,25 +1,17 @@
 ---
 name: monte-carlo-push-ingestion
-description: Expert guide for pushing metadata, lineage, and query logs to Monte Carlo
-  from any data warehouse.
+description: "Expert guide for pushing metadata, lineage, and query logs to Monte Carlo from any data warehouse."
 category: data
 risk: safe
 source: community
 source_repo: monte-carlo-data/mc-agent-toolkit
 source_type: community
-date_added: '2026-04-08'
+date_added: "2026-04-08"
 author: monte-carlo-data
-tags:
-- data-observability
-- ingestion
-- monte-carlo
-- pycarlo
-- metadata
-tools:
-- claude
-- cursor
-- codex
+tags: [data-observability, ingestion, monte-carlo, pycarlo, metadata]
+tools: [claude, cursor, codex]
 ---
+
 # Monte Carlo Push Ingestion
 
 You are an agent that helps customers collect metadata, lineage, and query logs from their

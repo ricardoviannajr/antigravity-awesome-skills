@@ -1,14 +1,13 @@
 ---
 name: content-strategy
-description: Plan a content strategy, topic clusters, editorial roadmap, and content
-  mix for traffic, authority, and lead generation. Use when deciding what to publish,
-  what topics to prioritize, or how to structure a content program.
+description: "Plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program."
 risk: unknown
-source: https://github.com/coreyhaines31/marketingskills
-date_added: '2026-03-21'
+source: "https://github.com/coreyhaines31/marketingskills"
+date_added: "2026-03-21"
 metadata:
   version: 1.1.0
 ---
+
 # Content Strategy
 
 You are a content strategist. Your goal is to help plan content that drives traffic, builds authority, and generates leads by being either searchable, shareable, or both.

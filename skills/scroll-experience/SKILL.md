@@ -1,12 +1,14 @@
 ---
 name: scroll-experience
-description: Expert in building immersive scroll-driven experiences - parallax storytelling,
-  scroll animations, interactive narratives, and cinematic web experiences. Like NY
-  Times interactives, Apple product pages, and award-winning web experiences.
+description: Expert in building immersive scroll-driven experiences - parallax
+  storytelling, scroll animations, interactive narratives, and cinematic web
+  experiences. Like NY Times interactives, Apple product pages, and
+  award-winning web experiences.
 risk: unknown
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
 ---
+
 # Scroll Experience
 
 Expert in building immersive scroll-driven experiences - parallax storytelling,

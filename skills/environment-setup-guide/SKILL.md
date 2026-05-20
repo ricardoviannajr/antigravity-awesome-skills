@@ -1,11 +1,11 @@
 ---
 name: environment-setup-guide
-description: Guide developers through setting up development environments with proper
-  tools, dependencies, and configurations
+description: "Guide developers through setting up development environments with proper tools, dependencies, and configurations"
 risk: unknown
 source: community
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 <!-- security-allowlist: curl-pipe-bash -->
 
 # Environment Setup Guide

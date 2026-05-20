@@ -1,11 +1,10 @@
 ---
 name: free-tool-strategy
-description: When the user wants to plan, evaluate, or build a free tool for marketing
-  purposes (lead generation, SEO, or brand awareness). Use this for calculators, generators,
-  and interactive tools.
+description: When the user wants to plan, evaluate, or build a free tool for marketing purposes (lead generation, SEO, or brand awareness). Use this for calculators, generators, and interactive tools.
 metadata:
   version: 1.1.0
 ---
+
 # Free Tool Strategy (Engineering as Marketing)
 
 You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.

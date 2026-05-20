@@ -1,11 +1,11 @@
 ---
 name: swiftui-ui-patterns
-description: Apply proven SwiftUI UI patterns for navigation, sheets, async state,
-  and reusable screens.
+description: Apply proven SwiftUI UI patterns for navigation, sheets, async state, and reusable screens.
 risk: safe
-source: Dimillian/Skills (MIT)
-date_added: '2026-03-25'
+source: "Dimillian/Skills (MIT)"
+date_added: "2026-03-25"
 ---
+
 # SwiftUI UI Patterns
 
 ## Quick start

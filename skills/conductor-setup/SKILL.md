@@ -7,8 +7,9 @@ risk: unknown
 source: community
 metadata:
   author: Shpigford
-  version: '1.0'
+  version: "1.0"
 ---
+
 Set up this Rails project for Conductor, the Mac app for parallel coding agents.
 
 ## When to Use

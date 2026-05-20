@@ -1,25 +1,16 @@
 ---
 name: indexing-issue-auditor
-description: High-level technical SEO and site architecture auditor. Invoke to scan
-  local or live environments for indexing, crawl budget, and structural errors.
+description: "High-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors."
 category: growth
 risk: safe
 source: self
 source_type: self
-date_added: '2026-04-13'
+date_added: "2026-04-13"
 author: WHOISABHISHEKADHIKARI
-tags:
-- seo
-- architecture
-- indexing
-- crawler
-- sitemap
-tools:
-- claude
-- cursor
-- gemini
-- antigravity
+tags: [seo, architecture, indexing, crawler, sitemap]
+tools: [claude, cursor, gemini, antigravity]
 ---
+
 # Indexing Issue Auditor & Technical SEO Architect
 
 ## Overview
@@ -122,3 +113,4 @@ For every audit, you MUST generate a table in this exact format:
 - `@seo-structure-architect` - For detailed header hierarchy and schema markup.
 - `@security-auditor` - For server-side security and vulnerability checks.
 - `@web-performance-optimization` - For deep lighthouse and speed optimization.
+

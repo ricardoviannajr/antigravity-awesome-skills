@@ -1,11 +1,11 @@
 ---
 name: postgresql
-description: Design a PostgreSQL-specific schema. Covers best-practices, data types,
-  indexing, constraints, performance patterns, and advanced features
+description: "Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features"
 risk: unknown
 source: community
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 # PostgreSQL Table Design 
 
 ## Use this skill when

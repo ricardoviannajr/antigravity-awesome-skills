@@ -1,11 +1,11 @@
 ---
 name: python-packaging
-description: Comprehensive guide to creating, structuring, and distributing Python
-  packages using modern packaging tools, pyproject.toml, and publishing to PyPI.
+description: "Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI."
 risk: safe
 source: community
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 # Python Packaging
 
 Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI.

@@ -1,10 +1,10 @@
 ---
 name: odoo-hr-payroll-setup
-description: 'Expert guide for Odoo HR and Payroll: salary structures, payslip rules,
-  leave policies, employee contracts, and payroll journal entries.'
+description: "Expert guide for Odoo HR and Payroll: salary structures, payslip rules, leave policies, employee contracts, and payroll journal entries."
 risk: safe
-source: self
+source: "self"
 ---
+
 # Odoo HR & Payroll Setup
 
 ## Overview
@@ -31,7 +31,7 @@ This skill guides HR managers and payroll accountants through setting up Odoo HR
 ```text
 Menu: Payroll → Configuration → Salary Structures → New
 
-name: US Employee Monthly
+Name: US Employee Monthly
 Payslip Code: MONTHLY
 
 Rules (executed top-to-bottom — order matters):
@@ -52,7 +52,7 @@ Rules (executed top-to-bottom — order matters):
 ```text
 Menu: Time Off → Configuration → Time Off Types → New
 
-name: Annual Leave / PTO
+Name: Annual Leave / PTO
 Approval: Time Off Officer
 Leave Validation: Time Off Officer  (single approver)
   or: "Both" for HR + Manager double approval

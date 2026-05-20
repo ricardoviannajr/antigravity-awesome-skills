@@ -1,11 +1,11 @@
 ---
 name: pydantic-models-py
-description: Create Pydantic models following the multi-model pattern for clean API
-  contracts.
+description: "Create Pydantic models following the multi-model pattern for clean API contracts."
 risk: unknown
 source: community
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 # Pydantic Models
 
 Create Pydantic models following the multi-model pattern for clean API contracts.

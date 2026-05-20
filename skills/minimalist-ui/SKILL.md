@@ -1,24 +1,15 @@
 ---
 name: minimalist-ui
-description: Use when creating clean editorial interfaces with warm monochrome palettes,
-  crisp borders, restrained motion, and flat bento layouts.
+description: "Use when creating clean editorial interfaces with warm monochrome palettes, crisp borders, restrained motion, and flat bento layouts."
 category: frontend
 risk: safe
 source: community
 source_repo: Leonxlnx/taste-skill
 source_type: community
-date_added: '2026-04-17'
+date_added: "2026-04-17"
 author: Leonxlnx
-tags:
-- frontend
-- design
-- minimalism
-- ui
-tools:
-- claude
-- cursor
-- codex
-- antigravity
+tags: [frontend, design, minimalism, ui]
+tools: [claude, cursor, codex, antigravity]
 ---
 # Protocol: Premium Utilitarian Minimalism UI Architect
 
@@ -36,8 +27,8 @@ tools:
 
 
 ## 1. Protocol Overview
-name: Premium Utilitarian Minimalism & Editorial UI
-description: An advanced frontend engineering directive for generating highly refined, ultra-minimalist, "document-style" web interfaces analogous to top-tier workspace platforms. This protocol strictly enforces a high-contrast warm monochrome palette, bespoke typographic hierarchies, meticulous structural macro-whitespace, bento-grid layouts, and an ultra-flat component architecture with deliberate muted pastel accents. It actively rejects standard generic SaaS design trends.
+Name: Premium Utilitarian Minimalism & Editorial UI
+Description: An advanced frontend engineering directive for generating highly refined, ultra-minimalist, "document-style" web interfaces analogous to top-tier workspace platforms. This protocol strictly enforces a high-contrast warm monochrome palette, bespoke typographic hierarchies, meticulous structural macro-whitespace, bento-grid layouts, and an ultra-flat component architecture with deliberate muted pastel accents. It actively rejects standard generic SaaS design trends.
 
 ## 2. Absolute Negative Constraints (Banned Elements)
 The AI must strictly avoid the following generic web development defaults:

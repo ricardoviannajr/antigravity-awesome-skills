@@ -1,7 +1,6 @@
 ---
 name: stability-ai
-description: Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image,
-  img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos.
+description: Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos.
 risk: safe
 source: community
 date_added: '2026-03-06'
@@ -18,6 +17,7 @@ tools:
 - gemini-cli
 - codex-cli
 ---
+
 # Stability AI — Gerador de Imagens Profissional
 
 ## Overview

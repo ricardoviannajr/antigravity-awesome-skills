@@ -5,6 +5,7 @@ allowed-tools: Read, Grep, Glob, Write
 risk: unknown
 source: community
 ---
+
 # 健康趋势分析器
 
 分析一段时间内健康数据的趋势和模式，识别变化、相关性，并提供数据驱动的健康洞察。

@@ -1,12 +1,11 @@
 ---
 name: customs-trade-compliance
-description: Codified expertise for customs documentation, tariff classification,
-  duty optimisation, restricted party screening, and regulatory compliance across
-  multiple jurisdictions.
+description: Codified expertise for customs documentation, tariff classification, duty optimisation, restricted party screening, and regulatory compliance across multiple jurisdictions.
 risk: safe
 source: https://github.com/ai-evos/agent-skills
 date_added: '2026-02-27'
 ---
+
 ## When to Use
 Use this skill when navigating international trade regulations, classifying goods under HS codes, determining appropriate Incoterms, managing import/export documentation, or optimizing customs duty payments through Free Trade Agreements.
 

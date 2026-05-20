@@ -1,10 +1,10 @@
 ---
 name: odoo-sales-crm-expert
-description: 'Expert guide for Odoo Sales and CRM: pipeline stages, quotation templates,
-  pricelists, sales teams, lead scoring, and forecasting.'
+description: "Expert guide for Odoo Sales and CRM: pipeline stages, quotation templates, pricelists, sales teams, lead scoring, and forecasting."
 risk: safe
-source: self
+source: "self"
 ---
+
 # Odoo Sales & CRM Expert
 
 ## Overview
@@ -77,7 +77,7 @@ Menu: Sales → Configuration → Settings
 
 Menu: Sales → Configuration → Pricelists → New
 
-name: VIP Customer — 15% Off
+Name: VIP Customer — 15% Off
 Currency: USD
 Discount Policy: Show public price & discount on quotation
 

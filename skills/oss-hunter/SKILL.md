@@ -1,11 +1,11 @@
 ---
 name: oss-hunter
-description: Automatically hunt for high-impact OSS contribution opportunities in
-  trending repositories.
+description: "Automatically hunt for high-impact OSS contribution opportunities in trending repositories."
 risk: safe
-source: https://github.com/jackjin1997/ClawForge
-date_added: '2026-02-27'
+source: "https://github.com/jackjin1997/ClawForge"
+date_added: "2026-02-27"
 ---
+
 # OSS Hunter 🎯
 
 A precision skill for agents to find, analyze, and strategize for high-impact Open Source contributions. This skill helps you become a top-tier contributor by identifying the most "mergeable" and influential issues in trending repositories.

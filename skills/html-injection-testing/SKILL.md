@@ -1,14 +1,12 @@
 ---
 name: html-injection-testing
-description: Identify and exploit HTML injection vulnerabilities that allow attackers
-  to inject malicious HTML content into web applications. This vulnerability enables
-  attackers to modify page appearance, create phishing pages, and steal user credentials
-  through injected forms.
+description: "Identify and exploit HTML injection vulnerabilities that allow attackers to inject malicious HTML content into web applications. This vulnerability enables attackers to modify page appearance, create phishing pages, and steal user credentials through injected forms."
 risk: offensive
 source: community
 author: zebbern
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # HTML Injection Testing
@@ -147,7 +145,7 @@ Payload persists in database:
 
 ```html
 <!-- Profile bio injection -->
-name: John Doe
+Name: John Doe
 Bio: <div style="position:absolute;top:0;left:0;width:100%;height:100%;background:white;">
      <h1>Site Under Maintenance</h1>
      <p>Please login at <a href="http://attacker.com/login">portal.company.com</a></p>

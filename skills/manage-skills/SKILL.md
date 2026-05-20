@@ -1,13 +1,12 @@
 ---
 name: manage-skills
-description: Discover, list, create, edit, toggle, copy, move, and delete AI agent
-  skills across 11 tools (Cursor, Claude, Agents, Windsurf, Copilot, Codex, Cline,
-  Aider, Continue, Roo Code, Augment)
+description: Discover, list, create, edit, toggle, copy, move, and delete AI agent skills across 11 tools (Cursor, Claude, Agents, Windsurf, Copilot, Codex, Cline, Aider, Continue, Roo Code, Augment)
 risk: critical
 source: community
 source_repo: umutbozdag/agent-skills-manager
 source_type: community
 ---
+
 # Manage AI Agent Skills
 
 You can manage skills and rules for all major AI coding tools directly from the terminal. This skill teaches you the directory layout, file format, and operations for each tool.

@@ -1,10 +1,10 @@
 ---
 name: odoo-project-timesheet
-description: 'Expert guide for Odoo Project and Timesheets: task stages, billable
-  time tracking, timesheet approval, budget alerts, and invoicing from timesheets.'
+description: "Expert guide for Odoo Project and Timesheets: task stages, billable time tracking, timesheet approval, budget alerts, and invoicing from timesheets."
 risk: safe
-source: self
+source: "self"
 ---
+
 # Odoo Project & Timesheet
 
 ## Overview
@@ -31,7 +31,7 @@ This skill helps you configure Odoo Project and Timesheets for service businesse
 ```text
 Menu: Project → New Project (or the "+" button in Project view)
 
-name:     Website Redesign — Acme Corp
+Name:     Website Redesign — Acme Corp
 Customer: Acme Corporation
 Billable: YES  (toggle ON)
 

@@ -1,11 +1,9 @@
 ---
 name: firebase-auth-basics
-description: Guide for setting up and using Firebase Authentication. Use this skill
-  when the user's app requires user sign-in, user management, or secure data access
-  using auth rules.
-compatibility: This skill is best used with the Firebase CLI, but does not require
-  it. Firebase CLI can be accessed through `npx -y firebase-tools@latest`.
+description: Guide for setting up and using Firebase Authentication. Use this skill when the user's app requires user sign-in, user management, or secure data access using auth rules.
+compatibility: This skill is best used with the Firebase CLI, but does not require it. Firebase CLI can be accessed through `npx -y firebase-tools@latest`.
 ---
+
 ## Prerequisites
 
 - **Firebase Project**: Created via `npx -y firebase-tools@latest projects:create` (see `firebase-basics`).
@@ -89,10 +87,10 @@ See [references/client_sdk_web.md](references/client_sdk_web.md).
 **Flutter**
 See [references/flutter_setup.md](references/flutter_setup.md).
 **Android (Kotlin)**
-See references/client_sdk_android.md.
+See [references/client_sdk_android.md](references/client_sdk_android.md).
 
 ### 3. Security Rules
 
 Secure your data using `request.auth` in Firestore/Storage rules.
 
-See references/security_rules.md.
+See [references/security_rules.md](references/security_rules.md).

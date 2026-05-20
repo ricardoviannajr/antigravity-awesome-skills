@@ -1,10 +1,11 @@
 ---
 name: internal-comms-anthropic
-description: 'To write internal communications, use this skill for:'
+description: "To write internal communications, use this skill for:"
 risk: unknown
 source: community
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 ## When to use this skill
 To write internal communications, use this skill for:
 - 3P updates (Progress, Plans, Problems)

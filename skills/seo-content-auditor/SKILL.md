@@ -1,12 +1,11 @@
 ---
 name: seo-content-auditor
-description: Analyzes provided content for quality, E-E-A-T signals, and SEO best
-  practices. Scores content and provides improvement recommendations based on established
-  guidelines.
+description: Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 risk: safe
 source: community
 date_added: '2026-02-27'
 ---
+
 ## Use this skill when
 
 - Working on seo content auditor tasks or workflows

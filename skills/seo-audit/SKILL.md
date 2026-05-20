@@ -1,11 +1,11 @@
 ---
 name: seo-audit
-description: Diagnose and audit SEO issues affecting crawlability, indexation, rankings,
-  and organic performance.
+description: Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.
 risk: safe
 source: community
 date_added: '2026-02-27'
 ---
+
 # SEO Audit
 
 You are an **SEO diagnostic specialist**.

@@ -1,11 +1,9 @@
 ---
 name: ai-avatar-video
-description: 'Create AI avatar and talking head videos via inference.sh CLI. Recommended:
-  P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse.
-  Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs,
-  Kokoro. Capabilities: audio...'
+Description: "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driv..."
 allowed-tools: Bash(belt *)
 ---
+
 > **Install the belt CLI skill:** `npx skills add belt-sh/cli`
 
 # AI Avatar & Talking Head Videos

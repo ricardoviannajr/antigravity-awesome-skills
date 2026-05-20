@@ -1,11 +1,11 @@
 ---
 name: brand-guidelines-anthropic
-description: To access Anthropic's official brand identity and style resources, use
-  this skill.
+description: "To access Anthropic's official brand identity and style resources, use this skill."
 risk: unknown
 source: community
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 # Anthropic Brand Styling
 
 ## Overview

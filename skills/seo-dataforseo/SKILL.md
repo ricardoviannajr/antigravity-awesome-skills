@@ -1,21 +1,20 @@
 ---
 name: seo-dataforseo
-description: Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor
-  analysis, on-page checks, and AI visibility data. Trigger when the user needs real
-  SEO data rather than static guidance.
+description: "Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO data rather than static guidance."
 risk: unknown
-source: https://github.com/AgriciDaniel/claude-seo
-date_added: '2026-03-21'
+source: "https://github.com/AgriciDaniel/claude-seo"
+date_added: "2026-03-21"
 user-invokable: true
-argument-hint: '[command] [query]'
+argument-hint: "[command] [query]"
 allowed-tools:
-- Read
-- Grep
-- Glob
-- Bash
-- WebFetch
-- Write
+  - Read
+  - Grep
+  - Glob
+  - Bash
+  - WebFetch
+  - Write
 ---
+
 # DataForSEO: Live SEO Data (Extension)
 
 Live search data via the DataForSEO MCP server. Provides real-time SERP results,

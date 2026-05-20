@@ -1,13 +1,13 @@
----
-name: kling-3-0
+---name: kling-3-0
 displayName: Kling 3.0 - Pro Pack on RunComfy
 description: Kling 3.0 video generation on RunComfy. Kling 3.0 (also called Kling
   V3.0) is Kuaishou Technology's third-generation multi-shot video model with native
   synchronized audio and consistent character identity across shots. This skill covers
-  all six Kling 3.0 endpoints, spanni...
+  all six Kling 3.0 endpoints, spanning th...
 homepage: https://www.runcomfy.com
 license: MIT
 ---
+
 # Kling 3.0 - Pro Pack on RunComfy
 
 [runcomfy.com](https://www.runcomfy.com/?utm_source=skills.sh&utm_medium=skill&utm_campaign=kling-3-0) Â· [docs](https://docs.runcomfy.com/cli/introduction) Â· [GitHub](https://github.com/agentspace-so/runcomfy-agent-skills/tree/main/kling-3-0)

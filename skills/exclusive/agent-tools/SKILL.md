@@ -1,11 +1,9 @@
 ---
 name: agent-tools
-description: 'Run 250+ AI apps via inference.sh CLI - image generation, video creation,
-  LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance,
-  OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating
-  images/videos, callin...'
+description: "Run 250+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok"
 allowed-tools: Bash(belt *)
 ---
+
 > **Install the belt CLI skill:** `npx skills add belt-sh/cli`
 
 # [inference.sh](https://inference.sh)
@@ -146,3 +144,4 @@ npx skills add inference-sh/skills@background-removal
 - [CLI Setup](https://inference.sh/docs/extend/cli-setup) - Installing the CLI
 - [Workflows vs Agents](https://inference.sh/blog/concepts/workflows-vs-agents) - When to use each
 - [Why Agent Runtimes Matter](https://inference.sh/blog/agent-runtime/why-runtimes-matter) - Runtime benefits
+

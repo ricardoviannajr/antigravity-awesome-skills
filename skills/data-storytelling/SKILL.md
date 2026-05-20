@@ -1,11 +1,11 @@
 ---
 name: data-storytelling
-description: Transform raw data into compelling narratives that drive decisions and
-  inspire action.
+description: "Transform raw data into compelling narratives that drive decisions and inspire action."
 risk: safe
 source: community
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 # Data Storytelling
 
 Transform raw data into compelling narratives that drive decisions and inspire action.

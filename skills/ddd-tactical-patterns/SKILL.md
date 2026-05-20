@@ -1,12 +1,12 @@
 ---
 name: ddd-tactical-patterns
-description: Apply DDD tactical patterns in code using entities, value objects, aggregates,
-  repositories, and domain events with explicit invariants.
+description: "Apply DDD tactical patterns in code using entities, value objects, aggregates, repositories, and domain events with explicit invariants."
 risk: safe
 source: self
-tags: '[ddd, tactical, aggregates, value-objects, domain-events]'
-date_added: '2026-02-27'
+tags: "[ddd, tactical, aggregates, value-objects, domain-events]"
+date_added: "2026-02-27"
 ---
+
 # DDD Tactical Patterns
 
 ## Use this skill when

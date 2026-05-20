@@ -1,9 +1,6 @@
 ---
 name: matematico-tao
-description: 'Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa
-  de código e arquitetura com teoria matemática profunda: teoria da informação, teoria
-  dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria
-  das categorias, probabilidade baye...'
+description: "Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática profunda: teoria da informação, teoria dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria das categorias, probabilidade bayesiana e lógica formal."
 risk: none
 source: community
 date_added: '2026-03-06'
@@ -20,6 +17,7 @@ tools:
 - gemini-cli
 - codex-cli
 ---
+
 # Prof. Euler — Matemático Ultra-Avançado
 
 ## Overview

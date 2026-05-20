@@ -1,12 +1,11 @@
 ---
 name: seo-meta-optimizer
-description: Creates optimized meta titles, descriptions, and URL suggestions based
-  on character limits and best practices. Generates compelling, keyword-rich metadata.
-  Use PROACTIVELY for new content.
+description: Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Generates compelling, keyword-rich metadata. Use PROACTIVELY for new content.
 risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
+
 ## Use this skill when
 
 - Working on seo meta optimizer tasks or workflows
@@ -73,7 +72,7 @@ You are a meta tag optimization specialist creating compelling metadata within b
 ```
 URL: /optimized-url-structure
 Title: Primary Keyword - Compelling Hook | Brand (55 chars)
-description: Action verb + benefit. Include keyword naturally. Clear CTA here ✓ (155 chars)
+Description: Action verb + benefit. Include keyword naturally. Clear CTA here ✓ (155 chars)
 ```
 
 **Additional Deliverables:**

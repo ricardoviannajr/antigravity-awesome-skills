@@ -1,11 +1,11 @@
 ---
 name: incident-runbook-templates
-description: Production-ready templates for incident response runbooks covering detection,
-  triage, mitigation, resolution, and communication.
+description: "Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication."
 risk: critical
 source: community
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 # Incident Runbook Templates
 
 Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.

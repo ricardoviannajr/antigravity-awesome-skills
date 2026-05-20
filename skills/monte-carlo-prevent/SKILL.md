@@ -1,25 +1,17 @@
 ---
 name: monte-carlo-prevent
-description: Surfaces Monte Carlo data observability context (table health, alerts,
-  lineage, blast radius) before SQL/dbt edits.
+description: "Surfaces Monte Carlo data observability context (table health, alerts, lineage, blast radius) before SQL/dbt edits."
 category: data
 risk: safe
 source: community
 source_repo: monte-carlo-data/mc-agent-toolkit
 source_type: community
-date_added: '2026-04-08'
+date_added: "2026-04-08"
 author: monte-carlo-data
-tags:
-- data-observability
-- dbt
-- schema
-- monte-carlo
-- lineage
-tools:
-- claude
-- cursor
-- codex
+tags: [data-observability, dbt, schema, monte-carlo, lineage]
+tools: [claude, cursor, codex]
 ---
+
 # Monte Carlo Prevent Skill
 
 This skill brings Monte Carlo's data observability context directly into your editor. When you're modifying a dbt model or SQL pipeline, use it to surface table health, lineage, active alerts, and to generate monitors-as-code without leaving Claude Code.

@@ -1,10 +1,11 @@
 ---
 name: 2d-games
-description: 2D game development principles. Sprites, tilemaps, physics, camera.
+description: "2D game development principles. Sprites, tilemaps, physics, camera."
 risk: none
 source: community
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 # 2D Game Development
 
 > Principles for 2D game systems.

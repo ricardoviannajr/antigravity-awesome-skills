@@ -1,11 +1,11 @@
 ---
 name: azure-keyvault-py
-description: Azure Key Vault SDK for Python. Use for secrets, keys, and certificates
-  management with secure storage.
+description: Azure Key Vault SDK for Python. Use for secrets, keys, and certificates management with secure storage.
 risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
+
 # Azure Key Vault SDK for Python
 
 Secure storage and management for secrets, cryptographic keys, and certificates.

@@ -1,13 +1,12 @@
 ---
 name: smtp-penetration-testing
-description: Conduct comprehensive security assessments of SMTP (Simple Mail Transfer
-  Protocol) servers to identify vulnerabilities including open relays, user enumeration,
-  weak authentication, and misconfiguration.
+description: "Conduct comprehensive security assessments of SMTP (Simple Mail Transfer Protocol) servers to identify vulnerabilities including open relays, user enumeration, weak authentication, and misconfiguration."
 risk: offensive
 source: community
 author: zebbern
-date_added: '2026-02-27'
+date_added: "2026-02-27"
 ---
+
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # SMTP Penetration Testing
