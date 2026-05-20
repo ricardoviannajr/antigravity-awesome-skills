@@ -1,19 +1,14 @@
 ---
 name: wan-2-7
-displayName: "Wan 2.7 — Pro Pack on RunComfy"
-description: >
-  Generate text-to-video with Wan 2.7 (Wan-AI's flagship motion model)
-  on RunComfy. Documents Wan 2.7's strengths (multi-reference conditioning,
-  audio-driven lip-sync via `audio_url`, smoother transitions, prompt
-  expansion), the duration / resolution / aspect-ratio schema, and
-  when to route to HappyHorse 1.0 / Seedance 2.0 / Kling / LTX 2
-  instead. Calls `runcomfy run wan-ai/wan-2-7/text-to-video` through
-  the local RunComfy CLI. Triggers on "wan", "wan 2.7", "wan-2-7",
-  "wan video", or any explicit ask to generate video with this model.
+displayName: Wan 2.7 — Pro Pack on RunComfy
+description: Generate text-to-video with Wan 2.7 (Wan-AI's flagship motion model)
+  on RunComfy. Documents Wan 2.7's strengths (multi-reference conditioning, audio-driven
+  lip-sync via `audio_url`, smoother transitions, prompt expansion), the duration
+  / resolution / aspect-ratio schema, ...
 homepage: https://www.runcomfy.com
 license: MIT
+risk: safe
 ---
-
 # Wan 2.7 — Pro Pack on RunComfy
 
 [runcomfy.com](https://www.runcomfy.com/?utm_source=skills.sh&utm_medium=skill&utm_campaign=wan-2-7) · [Text-to-video](https://www.runcomfy.com/models/wan-ai/wan-2-7/text-to-video?utm_source=skills.sh&utm_medium=skill&utm_campaign=wan-2-7) · [GitHub](https://github.com/agentspace-so/runcomfy-skills/tree/main/wan-2-7)

@@ -1,11 +1,11 @@
 ---
 name: azure-storage-blob-rust
-description: Azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers.
+description: Azure Blob Storage SDK for Rust. Use for uploading, downloading, and
+  managing blobs and containers.
 risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
-
 # Azure Blob Storage SDK for Rust
 
 Client library for Azure Blob Storage — Microsoft's object storage solution for the cloud.

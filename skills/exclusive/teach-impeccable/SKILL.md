@@ -1,3 +1,9 @@
+---
+name: teach-impeccable
+description: 'Gathers design context for a project and writes two complementary files
+  at the project root:'
+risk: safe
+---
 # Teach Flow
 
 Gathers design context for a project and writes two complementary files at the project root:

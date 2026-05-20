@@ -1,13 +1,14 @@
----name: flux-kontext
+---
+name: flux-kontext
 displayName: Flux Kontext Pro â€” Pro Pack on RunComfy
 description: Edit images with Flux 1 Kontext Pro (Black Forest Labs' precise local
   image-edit model) on RunComfy â€” bundled with the model's documented prompting
   patterns so the skill gets sharper output than naive prompting against the same
-  model. Documents Flux Kontext's strengths (sing...
+  model. Documents Flux Kontext's strengths ...
 homepage: https://www.runcomfy.com
 license: MIT
+risk: safe
 ---
-
 # Flux Kontext Pro â€” Pro Pack on RunComfy
 
 [runcomfy.com](https://www.runcomfy.com/?utm_source=skills.sh&utm_medium=skill&utm_campaign=flux-kontext) Â· [Model page](https://www.runcomfy.com/models/blackforestlabs/flux-1-kontext-pro/image-to-image?utm_source=skills.sh&utm_medium=skill&utm_campaign=flux-kontext) Â· [GitHub](https://github.com/agentspace-so/runcomfy-skills/tree/main/flux-kontext)

@@ -1,14 +1,11 @@
 ---
 name: robius-matrix-integration
-description: |
-  CRITICAL: Use for Matrix SDK integration with Makepad. Triggers on:
-  Matrix SDK, sliding sync, MatrixRequest, timeline,
-  matrix-sdk, matrix client, robrix, matrix room,
-  Matrix 集成, 聊天客户端
+description: 'CRITICAL: Use for Matrix SDK integration with Makepad. Triggers on:
+  Matrix SDK, sliding sync, MatrixRequest, timeline, matrix-sdk, matrix client, robrix,
+  matrix room, Matrix 集成, 聊天客户端'
 risk: unknown
 source: community
 ---
-
 # Robius Matrix SDK Integration Skill
 
 Best practices for integrating external APIs with Makepad applications based on Robrix and Moly codebases.

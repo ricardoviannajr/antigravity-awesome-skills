@@ -5,7 +5,6 @@ allowed-tools: Read, Grep, Glob, Write
 risk: unknown
 source: community
 ---
-
 # 运动分析器技能
 
 分析运动数据，识别运动模式，评估健身进展，并提供个性化训练建议。

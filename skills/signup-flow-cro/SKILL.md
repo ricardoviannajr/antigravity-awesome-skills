@@ -1,10 +1,14 @@
 ---
 name: signup-flow-cro
-Description: When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions "signup conversions," "registration friction," "signup form optimization," "free trial signup," "reduce signup dropoff," "account creation flow," ...
+Description: When the user wants to optimize signup, registration, account creation,
+  or trial activation flows. Also use when the user mentions "signup conversions,"
+  "registration friction," "signup form optimization," "free trial signup," "reduce
+  signup dropoff," "account creation flow," ...
 metadata:
   version: 1.1.0
+risk: safe
+description: Skill for signup-flow-cro
 ---
-
 # Signup Flow CRO
 
 You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation.

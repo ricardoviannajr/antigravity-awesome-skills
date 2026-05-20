@@ -5,7 +5,6 @@ allowed-tools: Read, Grep, Glob, Write
 risk: unknown
 source: community
 ---
-
 # 睡眠分析器技能
 
 分析睡眠数据，识别睡眠模式，评估睡眠质量，并提供个性化睡眠改善建议。

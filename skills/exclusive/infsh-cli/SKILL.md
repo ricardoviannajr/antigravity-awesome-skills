@@ -1,9 +1,12 @@
 ---
 name: infsh-cli
-description: "Run 250+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok"
+description: 'Run 250+ AI apps via inference.sh CLI - image generation, video creation,
+  LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance,
+  OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating
+  images/videos, callin...'
 allowed-tools: Bash(belt *)
+risk: safe
 ---
-
 > **Install the belt CLI skill:** `npx skills add belt-sh/cli`
 
 # [inference.sh](https://inference.sh)

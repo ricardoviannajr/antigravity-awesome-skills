@@ -1,14 +1,17 @@
 ---
 name: audit-website
-description: Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 230+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover and asses website or webapp issues and health.
+description: Audit websites for SEO, performance, security, technical, content, and
+  15 other issue cateories with 230+ rules using the squirrelscan CLI. Returns LLM-optimized
+  reports with health scores, broken links, meta tag analysis, and actionable recommendations.
+  Use to discover a...
 license: See LICENSE file in repository root
 compatibility: Requires squirrel CLI installed and accessible in PATH
 metadata:
   author: squirrelscan
-  version: "1.22"
+  version: '1.22'
 allowed-tools: Bash(squirrel:*) Read Edit Grep Glob
+risk: safe
 ---
-
 # Website Audit Skill
 
 Audit websites for SEO, technical, content, performance and security issues using the squirrelscan cli.
@@ -379,7 +382,7 @@ The LLM format is a compact XML/text hybrid optimized for token efficiency (40% 
 - **Broken Links**: List of broken external and internal links
 - **Recommendations**: Prioritized action items with fix suggestions
 
-See [OUTPUT-FORMAT.md](references/OUTPUT-FORMAT.md) for detailed format specification.
+See OUTPUT-FORMAT.md for detailed format specification.
 
 ## Examples
 
@@ -465,6 +468,6 @@ The audit is stored in a local database and can be retrieved later with `squirre
 
 ## Additional Resources
 
-- **Output Format Reference**: [OUTPUT-FORMAT.md](references/OUTPUT-FORMAT.md)
+- **Output Format Reference**: OUTPUT-FORMAT.md
 - **squirrelscan Documentation**: https://docs.squirrelscan.com
 - **CLI Help**: `squirrel audit --help`

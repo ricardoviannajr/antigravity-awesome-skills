@@ -1,9 +1,14 @@
 ---
 Name: pdf-official
-Description: Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypti...
+Description: Use this skill whenever the user wants to do anything with PDF files.
+  This includes reading or extracting text/tables from PDFs, combining or merging
+  multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks,
+  creating new PDFs, filling PDF forms, encrypti...
 license: Proprietary. LICENSE.txt has complete terms
+name: pdf-official
+risk: safe
+description: Skill for pdf-official
 ---
-
 # PDF Processing Guide
 
 ## Overview

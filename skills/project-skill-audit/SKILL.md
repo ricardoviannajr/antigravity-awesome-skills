@@ -2,10 +2,9 @@
 name: project-skill-audit
 description: Audit a project and recommend the highest-value skills to add or update.
 risk: safe
-source: "Dimillian/Skills (MIT)"
-date_added: "2026-03-25"
+source: Dimillian/Skills (MIT)
+date_added: '2026-03-25'
 ---
-
 # Project Skill Audit
 
 ## Overview

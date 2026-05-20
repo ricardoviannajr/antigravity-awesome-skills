@@ -1,3 +1,8 @@
+---
+name: firecrawl-scrape
+description: "\uFEFF---"
+risk: safe
+---
 ﻿---
 name: firecrawl-scrape
 description: |

@@ -1,11 +1,11 @@
 ---
 name: test-driven-development
-description: "EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho."
-risk: low
+description: 'EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código
+  de produção antes do teste falho.'
+risk: safe
 source: obra/superpowers
-date_added: "2026-05-16"
+date_added: '2026-05-16'
 ---
-
 # 🧪 Test-Driven Development (TDD)
 
 Esta skill garante a integridade do código através do ciclo disciplinado de testes.
