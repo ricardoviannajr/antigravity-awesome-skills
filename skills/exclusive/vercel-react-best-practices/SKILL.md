@@ -1,14 +1,14 @@
----name: vercel-react-best-practices
+---
+name: vercel-react-best-practices
 description: React composition patterns that scale. Use when refactoring components
   with boolean prop proliferation, building flexible component libraries, or designing
   reusable APIs. Triggers on tasks involving compound components, render props, context
-  providers, or component architectur...
+  providers, or component archit...
 license: MIT
 metadata:
   author: vercel
   version: 1.0.0
 ---
-
 # React Composition Patterns
 
 Composition patterns for building flexible, maintainable React components. Avoid

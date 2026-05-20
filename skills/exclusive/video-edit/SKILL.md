@@ -1,23 +1,13 @@
 ---
 name: video-edit
-displayName: "Video Edit — Pro Pack on RunComfy"
-description: >
-  Edit existing video on RunComfy — this skill is a smart router that
-  matches the user's intent to the right edit model in the RunComfy
-  catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap
-  / packaging swap, identity + motion preservation), Kling 2.6 Pro
-  Motion Control (transfer precise motion from a reference video to a
-  target character), or Lucy Edit Restyle (lightweight identity-stable
-  restyle / outfit swap). Bundles each model's documented prompting
-  patterns so the skill gets sharper edits without burning iterations
-  on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>`
-  through the local RunComfy CLI. Triggers on "video edit", "edit
-  video", "restyle video", "swap video background", "motion control",
-  "outfit swap video", or any explicit ask to transform a video.
+displayName: Video Edit — Pro Pack on RunComfy
+description: Edit existing video on RunComfy — this skill is a smart router that matches
+  the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7
+  Edit-Video (general restyle / background swap / packaging swap, identity + motion
+  preservation), Kling 2.6 Pro Moti...
 homepage: https://www.runcomfy.com
 license: MIT
 ---
-
 # Video Edit — Pro Pack on RunComfy
 
 [runcomfy.com](https://www.runcomfy.com/?utm_source=skills.sh&utm_medium=skill&utm_campaign=video-edit) · [Wan 2.7 Edit-Video](https://www.runcomfy.com/models/wan-ai/wan-2-7/edit-video?utm_source=skills.sh&utm_medium=skill&utm_campaign=video-edit) · [Kling Motion-Control Pro](https://www.runcomfy.com/models/kling/kling-2-6/motion-control-pro?utm_source=skills.sh&utm_medium=skill&utm_campaign=video-edit) · [Lucy Edit Restyle](https://www.runcomfy.com/models/decart/lucy-edit/restyle?utm_source=skills.sh&utm_medium=skill&utm_campaign=video-edit) · [GitHub](https://github.com/agentspace-so/runcomfy-skills/tree/main/video-edit)

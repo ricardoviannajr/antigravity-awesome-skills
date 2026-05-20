@@ -1,10 +1,11 @@
 ---
 name: n8n-expression-syntax
-description: Validate n8n expression syntax and fix common errors. Use when writing n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting expression errors, or working with webhook data in workflows.
+description: Validate n8n expression syntax and fix common errors. Use when writing
+  n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting
+  expression errors, or working with webhook data in workflows.
 risk: unknown
 source: community
 ---
-
 # n8n Expression Syntax
 
 Expert guide for writing correct n8n expressions in workflows.
@@ -292,7 +293,7 @@ For real workflow examples, see EXAMPLES.md
 ```
 New form submission!
 
-Name: {{$json.body.name}}
+name: {{$json.body.name}}
 Email: {{$json.body.email}}
 Message: {{$json.body.message}}
 ```

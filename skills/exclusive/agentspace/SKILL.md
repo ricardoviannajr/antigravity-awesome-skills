@@ -1,22 +1,14 @@
 ---
 name: agentspace
-displayName: "🪢 Agentspace — See what your agent is doing, from anywhere"
-description: >
-  See what your AI agent is doing, from anywhere. The agent keeps
-  writing — logs, code, generated outputs, screenshots, artifacts.
-  One command turns the folder into a live URL you (or a teammate)
-  open in any browser to watch files evolve, edit in place, or
-  comment — no sync, no zip, no account. Workspaces stay live 24
-  hours anonymously; one email claim keeps them permanent. Hosted
-  on Cloudflare. Triggers on "show me what the agent is doing",
-  "open the agent's folder", "share this folder", "give me a link",
-  "hand off this workspace", or any ask to make an agent's local
-  file state visible from another device or to another person.
-emoji: "🪢"
+displayName: 🪢 Agentspace — See what your agent is doing, from anywhere
+description: See what your AI agent is doing, from anywhere. The agent keeps writing
+  — logs, code, generated outputs, screenshots, artifacts. One command turns the folder
+  into a live URL you (or a teammate) open in any browser to watch files evolve, edit
+  in place, or comment — no sync...
+emoji: 🪢
 homepage: https://agentspace.so
 license: MIT
 ---
-
 # 🪢 Agentspace
 
 **See what your agent is doing — from anywhere.**
@@ -67,4 +59,4 @@ Do not pipe a remote script into a shell to install.
 - Do not require a global install if `npx` already works.
 - Do not move the user into a different project just to use agentspace.so.
 - If the user asks to "share this folder" and the target is ambiguous, confirm the exact path before running.
-- If you need exact command variants, read [references/commands.md](references/commands.md).
+- If you need exact command variants, read references/commands.md.

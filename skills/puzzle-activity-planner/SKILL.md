@@ -1,17 +1,26 @@
 ---
 name: puzzle-activity-planner
-description: "Plan puzzle-based activities for classrooms, parties, and events with pre-configured generator links"
+description: Plan puzzle-based activities for classrooms, parties, and events with
+  pre-configured generator links
 category: education
 risk: safe
 source: community
 source_repo: fruitwyatt/puzzle-activity-planner
 source_type: community
-date_added: "2026-04-11"
+date_added: '2026-04-11'
 author: fruitwyatt
-tags: [education, puzzle, classroom, activity-planning, event]
-tools: [claude, cursor, gemini, codex]
+tags:
+- education
+- puzzle
+- classroom
+- activity-planning
+- event
+tools:
+- claude
+- cursor
+- gemini
+- codex
 ---
-
 # Puzzle Activity Planner
 
 ## Overview

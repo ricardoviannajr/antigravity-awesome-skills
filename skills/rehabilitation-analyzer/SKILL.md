@@ -5,7 +5,6 @@ allowed-tools: Read, Grep, Glob, Write, Edit
 risk: unknown
 source: community
 ---
-
 # 康复训练分析技能
 
 ## When to Use

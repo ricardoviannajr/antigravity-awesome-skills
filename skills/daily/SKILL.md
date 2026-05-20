@@ -3,12 +3,11 @@ name: daily
 description: Documentation and capabilities reference for Daily
 metadata:
   mintlify-proj: daily
-  version: "1.0"
+  version: '1.0'
 risk: safe
 source: community
-date_added: "2026-03-07"
+date_added: '2026-03-07'
 ---
-
 ## When to Use
 - You are building a real-time voice or multimodal AI application that uses Daily or Pipecat-style transports.
 - You need guidance on low-latency audio, video, text, and AI service orchestration in one pipeline.

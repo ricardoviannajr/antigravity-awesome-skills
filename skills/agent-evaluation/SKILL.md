@@ -1,13 +1,12 @@
 ---
 name: agent-evaluation
-description: Testing and benchmarking LLM agents including behavioral testing,
-  capability assessment, reliability metrics, and production monitoring—where
-  even top agents achieve less than 50% on real-world benchmarks
+description: Testing and benchmarking LLM agents including behavioral testing, capability
+  assessment, reliability metrics, and production monitoring—where even top agents
+  achieve less than 50% on real-world benchmarks
 risk: safe
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
 ---
-
 # Agent Evaluation
 
 Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics, and production monitoring—where even top agents achieve less than 50% on real-world benchmarks

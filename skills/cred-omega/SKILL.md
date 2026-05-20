@@ -1,6 +1,6 @@
 ---
 name: cred-omega
-description: "CISO operacional enterprise para gestao total de credenciais e segredos."
+description: CISO operacional enterprise para gestao total de credenciais e segredos.
 risk: critical
 source: community
 date_added: '2026-03-06'
@@ -18,7 +18,6 @@ tools:
 - gemini-cli
 - codex-cli
 ---
-
 # CRED-OMEGA: Security Engine for All API Keys (Enterprise)
 
 ## Overview

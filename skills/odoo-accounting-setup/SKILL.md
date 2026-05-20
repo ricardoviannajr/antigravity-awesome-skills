@@ -1,10 +1,10 @@
 ---
 name: odoo-accounting-setup
-description: "Expert guide for configuring Odoo Accounting: chart of accounts, journals, fiscal positions, taxes, payment terms, and bank reconciliation."
+description: 'Expert guide for configuring Odoo Accounting: chart of accounts, journals,
+  fiscal positions, taxes, payment terms, and bank reconciliation.'
 risk: safe
-source: "self"
+source: self
 ---
-
 # Odoo Accounting Setup
 
 ## Overview
@@ -31,7 +31,7 @@ This skill guides functional consultants and business owners through setting up 
 ```text
 Menu: Accounting → Configuration → Payment Terms → New
 
-Name: Net 30 / 2% Early Pay Discount
+name: Net 30 / 2% Early Pay Discount
 Company: [Your Company]
 
 Lines:
@@ -55,7 +55,7 @@ Early Payment Discount (Odoo 16+):
 ```text
 Menu: Accounting → Configuration → Fiscal Positions → New
 
-Name: EU Intra-Community B2B
+name: EU Intra-Community B2B
 Auto-detection: ON
   - Country Group: Europe
   - VAT Required: YES (customer must have EU VAT number)
@@ -73,7 +73,7 @@ Account Mapping:
 ```text
 Menu: Accounting → Configuration → Reconciliation Models → New
 
-Name: Bank Fee Auto-Match
+name: Bank Fee Auto-Match
 Type: Write-off
 Matching Order: 1
 

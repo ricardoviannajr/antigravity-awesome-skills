@@ -1,10 +1,10 @@
 ---
 name: odoo-ecommerce-configurator
-description: "Expert guide for Odoo eCommerce and Website: product catalog, payment providers, shipping methods, SEO, and order-to-fulfillment workflow."
+description: 'Expert guide for Odoo eCommerce and Website: product catalog, payment
+  providers, shipping methods, SEO, and order-to-fulfillment workflow.'
 risk: safe
-source: "self"
+source: self
 ---
-
 # Odoo eCommerce Configurator
 
 ## Overview
@@ -78,7 +78,7 @@ Webhook:
 ```text
 Menu: Inventory → Configuration → Delivery Methods → New
 
-Name: Standard Shipping (3–5 business days)
+name: Standard Shipping (3–5 business days)
 Provider: Fixed Price
 Delivery Product: [Shipping] Standard  (used for invoicing)
 

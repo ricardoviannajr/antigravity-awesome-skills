@@ -1,19 +1,29 @@
 ---
 name: buywhere-product-catalog
-description: "Use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents."
+description: Use BuyWhere's MCP and API surfaces to add product search, price comparison,
+  and deal discovery to AI shopping agents.
 category: ecommerce
 risk: safe
 source: official
 source_repo: BuyWhere/buywhere-mcp
 source_type: official
-license: "Not declared"
-license_source: "https://github.com/BuyWhere/buywhere-mcp"
-date_added: "2026-04-29"
+license: Not declared
+license_source: https://github.com/BuyWhere/buywhere-mcp
+date_added: '2026-04-29'
 author: BuyWhere
-tags: [buywhere, ecommerce, shopping, mcp, api, product-catalog]
-tools: [claude, cursor, codex, gemini]
+tags:
+- buywhere
+- ecommerce
+- shopping
+- mcp
+- api
+- product-catalog
+tools:
+- claude
+- cursor
+- codex
+- gemini
 ---
-
 # BuyWhere Product Catalog
 
 ## Overview

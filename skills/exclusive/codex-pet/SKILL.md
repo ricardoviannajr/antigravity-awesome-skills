@@ -1,26 +1,13 @@
 ---
 name: codex-pet
-displayName: "Codex Pet — Pro Pack on RunComfy"
-description: >
-  Codex Pet generator on RunComfy. Build a Codex-compatible Codex Pet
-  spritesheet.webp + pet.json from a single reference image, drop it
-  into `${CODEX_HOME:-$HOME/.codex}/pets/<name>/` and Codex picks it up
-  as a custom Codex Pet next to the 8 built-ins. This skill produces
-  the exact Codex Pet atlas Codex expects (1536x1872 PNG/WebP, 8 cols x
-  9 rows, 192x208 cells, 9 animation states — idle, running-right,
-  running-left, waving, jumping, failed, waiting, running, review).
-  Calls OpenAI GPT Image 2 edit ONCE via the local RunComfy CLI as
-  `runcomfy run openai/gpt-image-2/edit` to produce a canonical Codex
-  Pet pose, then assembles all 9 animation rows programmatically with
-  ImageMagick micro-transforms — no Codex Pro, no `$imagegen`, no
-  OPENAI_API_KEY required, only RUNCOMFY_TOKEN. Triggers on "codex pet",
-  "create codex pet", "make codex pet", "hatch codex pet", "/hatch
-  image", "desktop pet codex", "codex pets", "spritesheet.webp", or any
-  explicit ask to build a custom pet for OpenAI Codex.
+displayName: Codex Pet — Pro Pack on RunComfy
+description: Codex Pet generator on RunComfy. Build a Codex-compatible Codex Pet spritesheet.webp
+  + pet.json from a single reference image, drop it into `${CODEX_HOME:-$HOME/.codex}/pets/<name>/`
+  and Codex picks it up as a custom Codex Pet next to the 8 built-ins. This skill
+  produces ...
 homepage: https://www.runcomfy.com
 license: MIT
 ---
-
 # Codex Pet — Pro Pack on RunComfy
 
 [runcomfy.com](https://www.runcomfy.com/?utm_source=skills.sh&utm_medium=skill&utm_campaign=codex-pet) · [GPT Image 2 edit endpoint](https://www.runcomfy.com/models/openai/gpt-image-2/edit?utm_source=skills.sh&utm_medium=skill&utm_campaign=codex-pet) · [docs](https://docs.runcomfy.com/cli/introduction?utm_source=skills.sh&utm_medium=skill&utm_campaign=codex-pet)

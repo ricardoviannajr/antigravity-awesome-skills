@@ -1,10 +1,11 @@
 ---
 name: iterate-pr
-description: Iterate on a PR until CI passes. Use when you need to fix CI failures, address review feedback, or continuously push fixes until all checks are green. Automates the feedback-fix-push-wait cycle.
+description: Iterate on a PR until CI passes. Use when you need to fix CI failures,
+  address review feedback, or continuously push fixes until all checks are green.
+  Automates the feedback-fix-push-wait cycle.
 risk: critical
 source: community
 ---
-
 # Iterate on PR Until CI Passes
 
 Continuously iterate on the current branch until all CI checks pass and review feedback is addressed.

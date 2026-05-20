@@ -1,13 +1,13 @@
----name: seedance-v2
+---
+name: seedance-v2
 displayName: Seedance 2.0 Pro â€” Pro Pack on RunComfy
 description: Generate cinematic short-form video with ByteDance Seedance 2.0 Pro on
   RunComfy. Documents Seedance 2.0 Pro's strengths (multi-modal references â€” up
   to 9 images, 3 videos, 3 audio â€” synchronized in-pass audio with natural lip-sync,
-  cinematic motion refinement), the 4â€“15s...
+  cinematic motion refinement), the 4â...
 homepage: https://www.runcomfy.com
 license: MIT
 ---
-
 # Seedance 2.0 Pro â€” Pro Pack on RunComfy
 
 [runcomfy.com](https://www.runcomfy.com/?utm_source=skills.sh&utm_medium=skill&utm_campaign=seedance-v2) Â· [Seedance 2.0 Pro](https://www.runcomfy.com/models/bytedance/seedance-v2/pro?utm_source=skills.sh&utm_medium=skill&utm_campaign=seedance-v2) Â· [GitHub](https://github.com/agentspace-so/runcomfy-skills/tree/main/seedance-v2)

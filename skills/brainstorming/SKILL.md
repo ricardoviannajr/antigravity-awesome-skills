@@ -1,11 +1,11 @@
 ---
 name: brainstorming
-description: "Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático."
+description: Use antes de qualquer trabalho criativo (features, arquitetura, comportamento).
+  Transforma ideias vagas em designs validados via diálogo socrático.
 risk: low
 source: obra/superpowers + Antigravity
-date_added: "2026-05-16"
+date_added: '2026-05-16'
 ---
-
 # 🧠 Brainstorming: Do Caos ao Design
 
 Esta skill transforma ideias brutas em especificações claras e validadas **antes** de qualquer implementação.

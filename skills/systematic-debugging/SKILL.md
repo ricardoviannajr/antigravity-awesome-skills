@@ -1,11 +1,11 @@
 ---
 name: systematic-debugging
-description: "DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação."
+description: 'DEBUG: Processo científico de 4 fases para identificar a causa raiz,
+  evitando adivinhação.'
 risk: safe
 source: obra/superpowers
-date_added: "2026-05-16"
+date_added: '2026-05-16'
 ---
-
 # 🔍 Systematic Debugging
 
 Não tente "chutar" a solução. Siga o processo científico para garantir que o bug seja erradicado, não apenas mascarado.

@@ -1,11 +1,10 @@
 ---
 name: cc-skill-strategic-compact
-description: "Development skill from everything-claude-code"
+description: Development skill from everything-claude-code
 risk: none
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
-
 # cc-skill-strategic-compact
 
 Development skill skill.

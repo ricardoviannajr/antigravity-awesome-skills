@@ -1,10 +1,10 @@
 ---
 name: filesystem-context
-description: Use for file-based context management, dynamic context discovery, and reducing context window bloat. Offload context to files for just-in-time loading.
+description: Use for file-based context management, dynamic context discovery, and
+  reducing context window bloat. Offload context to files for just-in-time loading.
 risk: unknown
 source: community
 ---
-
 # Filesystem-Based Context Engineering
 
 The filesystem provides a single interface through which agents can flexibly store, retrieve, and update an effectively unlimited amount of context. This pattern addresses the fundamental constraint that context windows are limited while tasks often require more information than fits in a single window.

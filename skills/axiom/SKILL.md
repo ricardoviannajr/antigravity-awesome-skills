@@ -1,11 +1,13 @@
 ---
 name: axiom
-description: "First-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English."
+description: 'First-principles assumption auditor. Classifies each hidden assumption
+  (fact / convention / belief / interest-driven), ranks by fragility × impact, and
+  rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or
+  English.'
 risk: safe
 source: community
-date_added: "2026-04-13"
+date_added: '2026-04-13'
 ---
-
 # Axiom — First-Principles Assumption Auditor / 第一性原理拆解器
 
 Strip any question down to its irreducible truths, then rebuild from there.

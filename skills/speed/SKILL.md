@@ -6,7 +6,6 @@ risk: unknown
 source: community
 tools: Write, Bash, Read
 ---
-
 # Speed Reader
 
 Launch the RSVP speed reader to display text one word at a time with Spritz-style ORP (Optimal Recognition Point) highlighting.

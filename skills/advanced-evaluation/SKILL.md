@@ -1,11 +1,13 @@
 ---
 name: advanced-evaluation
-description: This skill should be used when the user asks to "implement LLM-as-judge", "compare model outputs", "create evaluation rubrics", "mitigate evaluation bias", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment.
+description: This skill should be used when the user asks to "implement LLM-as-judge",
+  "compare model outputs", "create evaluation rubrics", "mitigate evaluation bias",
+  or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines,
+  or automated quality assessment.
 risk: safe
 source: community
 date_added: 2026-03-18
 ---
-
 # Advanced Evaluation
 
 This skill covers production-grade techniques for evaluating LLM outputs using LLMs as judges. It synthesizes research from academic papers, industry practices, and practical implementation experience into actionable patterns for building reliable evaluation systems.
@@ -77,7 +79,7 @@ Direct scoring requires three components: clear criteria, a calibrated scale, an
 **Criteria Definition Pattern**:
 ```
 Criterion: [Name]
-Description: [What this criterion measures]
+description: [What this criterion measures]
 Weight: [Relative importance, 0-1]
 ```
 
