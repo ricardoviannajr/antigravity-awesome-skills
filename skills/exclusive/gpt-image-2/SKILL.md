@@ -1,25 +1,18 @@
----
-name: gpt-image-2
-displayName: "GPT Image 2 — Pro Pack on RunComfy"
-description: >
-  Generate and edit images with OpenAI GPT Image 2 (ChatGPT Images 2.0)
-  on RunComfy. Documents GPT Image 2's strengths (embedded text, logos,
-  multilingual typography, instruction precision), its 3 fixed sizes,
-  edit-with-preservation language, and when to route to a sibling
-  (Flux 2 / Nano Banana Pro / Seedream) instead. Calls `runcomfy run
-  openai/gpt-image-2/text-to-image` or `/edit` through the local
-  RunComfy CLI. Triggers on "gpt image 2", "gpt-image-2", "ChatGPT
-  Images 2", "image 2", or any explicit ask to generate or edit with
-  this model.
+---name: gpt-image-2
+displayName: GPT Image 2 â€” Pro Pack on RunComfy
+description: Generate and edit images with OpenAI GPT Image 2 (ChatGPT Images 2.0)
+  on RunComfy. Documents GPT Image 2's strengths (embedded text, logos, multilingual
+  typography, instruction precision), its 3 fixed sizes, edit-with-preservation language,
+  and when to route to a sibling (Flux...
 homepage: https://www.runcomfy.com
 license: MIT
 ---
 
-# GPT Image 2 — Pro Pack on RunComfy
+# GPT Image 2 â€” Pro Pack on RunComfy
 
-[runcomfy.com](https://www.runcomfy.com/?utm_source=skills.sh&utm_medium=skill&utm_campaign=gpt-image-2) · [Text-to-image](https://www.runcomfy.com/models/openai/gpt-image-2/text-to-image?utm_source=skills.sh&utm_medium=skill&utm_campaign=gpt-image-2) · [Edit](https://www.runcomfy.com/models/openai/gpt-image-2/edit?utm_source=skills.sh&utm_medium=skill&utm_campaign=gpt-image-2) · [GitHub](https://github.com/agentspace-so/runcomfy-skills/tree/main/gpt-image-2)
+[runcomfy.com](https://www.runcomfy.com/?utm_source=skills.sh&utm_medium=skill&utm_campaign=gpt-image-2) Â· [Text-to-image](https://www.runcomfy.com/models/openai/gpt-image-2/text-to-image?utm_source=skills.sh&utm_medium=skill&utm_campaign=gpt-image-2) Â· [Edit](https://www.runcomfy.com/models/openai/gpt-image-2/edit?utm_source=skills.sh&utm_medium=skill&utm_campaign=gpt-image-2) Â· [GitHub](https://github.com/agentspace-so/runcomfy-skills/tree/main/gpt-image-2)
 
-OpenAI **GPT Image 2** (ChatGPT Images 2.0) hosted on the **RunComfy Model API** — no OpenAI key, async REST.
+OpenAI **GPT Image 2** (ChatGPT Images 2.0) hosted on the **RunComfy Model API** â€” no OpenAI key, async REST.
 
 ```bash
 npx skills add agentspace-so/runcomfy-skills --skill gpt-image-2 -g
@@ -38,13 +31,13 @@ GPT Image 2's distinct strength is **directive precision**: it follows multi-ele
 | Hyperrealistic portrait | Nano Banana Pro |
 | Cinematic / aesthetic-first hero shots | Seedream 5 |
 
-If the user explicitly asked for GPT Image 2 / ChatGPT Image 2 / Image 2, route here regardless — don't second-guess the model choice.
+If the user explicitly asked for GPT Image 2 / ChatGPT Image 2 / Image 2, route here regardless â€” don't second-guess the model choice.
 
 ## Prerequisites
 
-1. **RunComfy CLI** — `npm i -g @runcomfy/cli`
-2. **RunComfy account** — `runcomfy login` opens a browser device-code flow.
-3. **CI / containers** — set `RUNCOMFY_TOKEN=<token>` instead of `runcomfy login`.
+1. **RunComfy CLI** â€” `npm i -g @runcomfy/cli`
+2. **RunComfy account** â€” `runcomfy login` opens a browser device-code flow.
+3. **CI / containers** â€” set `RUNCOMFY_TOKEN=<token>` instead of `runcomfy login`.
 
 ## Endpoints + input schema
 
@@ -54,18 +47,18 @@ Two endpoints, same model.
 
 | Field | Type | Required | Default | Notes |
 |---|---|---|---|---|
-| `prompt` | string | yes | — | The positive prompt |
-| `size` | enum | no | `1024_1024` | `1024_1024` (1:1), `1024_1536` (2:3 portrait), `1536_1024` (3:2 landscape) — **only these three** |
+| `prompt` | string | yes | â€” | The positive prompt |
+| `size` | enum | no | `1024_1024` | `1024_1024` (1:1), `1024_1536` (2:3 portrait), `1536_1024` (3:2 landscape) â€” **only these three** |
 
 ### `openai/gpt-image-2/edit`
 
 | Field | Type | Required | Default | Notes |
 |---|---|---|---|---|
-| `prompt` | string | yes | — | Natural-language **edit instruction** |
-| `images` | string[] | yes | — | **Up to 10** reference image URLs (publicly fetchable HTTPS) |
+| `prompt` | string | yes | â€” | Natural-language **edit instruction** |
+| `images` | string[] | yes | â€” | **Up to 10** reference image URLs (publicly fetchable HTTPS) |
 | `size` | enum | no | `auto` | `auto` (preserve input ratio), or one of the three fixed sizes above |
 
-`size=auto` on edit preserves the input aspect ratio — strongly recommended unless the edit explicitly changes framing.
+`size=auto` on edit preserves the input aspect ratio â€” strongly recommended unless the edit explicitly changes framing.
 
 ## How to invoke
 
@@ -108,19 +101,19 @@ runcomfy --output json run openai/gpt-image-2/text-to-image \
   --input '{"prompt":"..."}' --no-wait | jq -r .request_id
 ```
 
-## Prompting — what actually works
+## Prompting â€” what actually works
 
 These are model-specific patterns that empirically improve output quality. Apply to text-to-image and edit alike.
 
-**Be explicit on subject + setting + mood.** "A close-up of a matte ceramic water bottle on warm linen, soft window light, neutral background" — three concrete directives — beats "nice product photo of a bottle".
+**Be explicit on subject + setting + mood.** "A close-up of a matte ceramic water bottle on warm linen, soft window light, neutral background" â€” three concrete directives â€” beats "nice product photo of a bottle".
 
 **Quote embedded text exactly. Keep it short.** GPT Image 2 is the strongest text-rendering model in this class, but only when you **put the literal characters in quotes**. Long blocks of text degrade. For multilingual text, name the script: "Japanese kana", "Cyrillic", "Arabic right-to-left".
 
-**Use compositional cues directly.** "rule of thirds", "close-up", "aerial view", "centered subject", "shallow depth of field" — these have learned-meaning to the model.
+**Use compositional cues directly.** "rule of thirds", "close-up", "aerial view", "centered subject", "shallow depth of field" â€” these have learned-meaning to the model.
 
 **Iterate one attribute at a time.** When refining, change one thing per iteration (lighting OR background OR pose OR text) and keep the rest of the prompt verbatim. The model holds composition stable across iterations when only one knob moves.
 
-**Don't conflict instructions.** "no text" + "the word 'AQUA+' on the label" is incoherent — the model will pick one and you don't control which.
+**Don't conflict instructions.** "no text" + "the word 'AQUA+' on the label" is incoherent â€” the model will pick one and you don't control which.
 
 **Don't pile up styles.** "ukiyo-e + watercolor + 8K + cinematic + minimalist" cancels out. Pick one or two style anchors max.
 
@@ -128,7 +121,7 @@ For the **edit** endpoint specifically:
 
 - **State preservation goals.** "**keep** the person's pose and face identity unchanged", "**keep** the brand mark and typography on the package", "**keep** the overall framing". The model needs to know what NOT to change.
 - **Use directional language for spatial edits.** "Move the headline from top-right to bottom-center", not "reposition the headline".
-- **Multi-ref**: number the images in the prompt — "subject from image 1, lighting and background from image 2" — and the model will route the cues correctly.
+- **Multi-ref**: number the images in the prompt â€” "subject from image 1, lighting and background from image 2" â€” and the model will route the cues correctly.
 
 ## Where it shines
 
@@ -136,13 +129,13 @@ For the **edit** endpoint specifically:
 |---|---|
 | **E-commerce product photography** | Reliable text on labels, brand-safe lighting, consistent across SKUs |
 | **High-conversion ads** | Headline + visual integration in one pass |
-| **Brand asset localization** | One source asset → many language variants of the same headline |
+| **Brand asset localization** | One source asset â†’ many language variants of the same headline |
 | **Signage, posters, packaging mock-ups** | Text rendering accuracy at multiple scales |
 | **UI mockups, scientific illustrations** | Layout precision and label legibility |
 
 ## Sample prompts (verified to produce strong results)
 
-**Text-to-image — product hero:**
+**Text-to-image â€” product hero:**
 
 ```
 A minimal hero product still life: a matte ceramic water bottle on warm linen,
@@ -150,15 +143,15 @@ soft window light, the word "AQUA+" in clean sans-serif on the label,
 subtle rim highlights, e-commerce ready, 8K detail, neutral background
 ```
 
-**Text-to-image — multilingual signage:**
+**Text-to-image â€” multilingual signage:**
 
 ```
-A small Tokyo café storefront at dusk, warm interior glow,
-the sign reads "コーヒー" in bold Japanese kana on a wooden plaque,
+A small Tokyo cafÃ© storefront at dusk, warm interior glow,
+the sign reads "ã‚³ãƒ¼ãƒ’ãƒ¼" in bold Japanese kana on a wooden plaque,
 shallow depth of field, rule of thirds, cinematic
 ```
 
-**Edit — background swap with preservation:**
+**Edit â€” background swap with preservation:**
 
 ```
 Turn the background into a bright minimal white-to-soft-gray studio sweep
@@ -172,7 +165,7 @@ keep the main person or product, pose, and face identity unchanged
 - **Only 3 fixed sizes** on text-to-image (and the same 3 + `auto` on edit). Extreme aspect ratios are auto-resized to the nearest supported one.
 - **Prompt length** ~ a few thousand tokens. Long blocks of embedded text degrade output.
 - **Edit's multi-image** support is "guidance from up to 10 refs", not ControlNet-style stacks. The first image is treated as the primary; the rest provide auxiliary cues.
-- **Photorealism on portraits** is not its strongest suit — Nano Banana Pro wins that head-to-head.
+- **Photorealism on portraits** is not its strongest suit â€” Nano Banana Pro wins that head-to-head.
 
 ## Exit codes
 
@@ -200,7 +193,7 @@ Full reference: [docs.runcomfy.com/cli/troubleshooting](https://docs.runcomfy.co
 
 ## What this skill is not
 
-Not a direct OpenAI API client. Not a capability grant — depends on a working RunComfy account. Not multi-tenant.
+Not a direct OpenAI API client. Not a capability grant â€” depends on a working RunComfy account. Not multi-tenant.
 
 ## Security & Privacy
 

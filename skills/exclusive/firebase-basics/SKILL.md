@@ -94,12 +94,12 @@ Adhere to these principles:
 
 # References
 
-- **Initialize Firebase:** See [references/firebase-service-init.md](references/firebase-service-init.md) when you need to initialize new Firebase services using the CLI.
-- **Exploring Commands:** See [references/firebase-cli-guide.md](references/firebase-cli-guide.md) to discover and understand CLI functionality.
+- **Initialize Firebase:** See references/firebase-service-init.md when you need to initialize new Firebase services using the CLI.
+- **Exploring Commands:** See references/firebase-cli-guide.md to discover and understand CLI functionality.
 - **SDK Setup:** For detailed guides on adding Firebase to your app:
-  - **Web**: See [references/web_setup.md](references/web_setup.md)
-  - **Android**: See [references/android_setup.md](references/android_setup.md)
-  - **iOS**: See [references/ios_setup.md](references/ios_setup.md)
+  - **Web**: See references/web_setup.md
+  - **Android**: See references/android_setup.md
+  - **iOS**: See references/ios_setup.md
 
 # Common Issues
 

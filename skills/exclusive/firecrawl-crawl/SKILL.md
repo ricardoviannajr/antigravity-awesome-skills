@@ -1,7 +1,7 @@
----
+﻿---
 name: firecrawl-crawl
 description: |
-  Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extract all pages from a docs section, bulk-scrape multiple pages following links, or says "crawl", "get all the pages", "extract everything under /docs", "bulk extract", or needs content from many pages on the same site. Handles depth limits, path filtering, and concurrent extraction.
+  Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extract all pages from a docs section, bulk-scrape multiple pages following links, or says "crawl", "get all the pages", "extract everything under /docs", "bulk ext...
 allowed-tools:
   - Bash(firecrawl *)
   - Bash(npx firecrawl *)
@@ -15,7 +15,7 @@ Bulk extract content from a website. Crawls pages following links up to a depth/
 
 - You need content from many pages on a site (e.g., all `/docs/`)
 - You want to extract an entire site section
-- Step 4 in the [workflow escalation pattern](firecrawl-cli): search → scrape → map → **crawl** → interact
+- Step 4 in the workflow escalation pattern: search â†’ scrape â†’ map â†’ **crawl** â†’ interact
 
 ## Quick start
 
@@ -48,11 +48,11 @@ firecrawl crawl <job-id>
 ## Tips
 
 - Always use `--wait` when you need the results immediately. Without it, crawl returns a job ID for async polling.
-- Use `--include-paths` to scope the crawl — don't crawl an entire site when you only need one section.
+- Use `--include-paths` to scope the crawl â€” don't crawl an entire site when you only need one section.
 - Crawl consumes credits per page. Check `firecrawl credit-usage` before large crawls.
 
 ## See also
 
-- [firecrawl-scrape](../firecrawl-scrape/SKILL.md) — scrape individual pages
-- [firecrawl-map](../firecrawl-map/SKILL.md) — discover URLs before deciding to crawl
-- [firecrawl-download](../firecrawl-download/SKILL.md) — download site to local files (uses map + scrape)
+- [firecrawl-scrape](../firecrawl-scrape/SKILL.md) â€” scrape individual pages
+- firecrawl-map â€” discover URLs before deciding to crawl
+- firecrawl-download â€” download site to local files (uses map + scrape)

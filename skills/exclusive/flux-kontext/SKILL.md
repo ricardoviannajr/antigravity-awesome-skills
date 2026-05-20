@@ -1,28 +1,18 @@
----
-name: flux-kontext
-displayName: "Flux Kontext Pro — Pro Pack on RunComfy"
-description: >
-  Edit images with Flux 1 Kontext Pro (Black Forest Labs' precise local
-  image-edit model) on RunComfy — bundled with the model's documented
-  prompting patterns so the skill gets sharper output than naive
-  prompting against the same model. Documents Flux Kontext's strengths
-  (single-reference precise local edits, strong prompt control,
-  consistent high-fidelity outputs), the schema (single image + prompt),
-  and when to route to Nano Banana Edit / GPT Image 2 edit / Flux 2
-  Klein instead. Calls
-  `runcomfy run blackforestlabs/flux-1-kontext/pro/edit` through the
-  local RunComfy CLI. Triggers on "flux kontext", "flux-kontext",
-  "flux 1 kontext", "kontext", "BFL kontext", or any explicit ask to
-  edit with this model.
+---name: flux-kontext
+displayName: Flux Kontext Pro â€” Pro Pack on RunComfy
+description: Edit images with Flux 1 Kontext Pro (Black Forest Labs' precise local
+  image-edit model) on RunComfy â€” bundled with the model's documented prompting
+  patterns so the skill gets sharper output than naive prompting against the same
+  model. Documents Flux Kontext's strengths (sing...
 homepage: https://www.runcomfy.com
 license: MIT
 ---
 
-# Flux Kontext Pro — Pro Pack on RunComfy
+# Flux Kontext Pro â€” Pro Pack on RunComfy
 
-[runcomfy.com](https://www.runcomfy.com/?utm_source=skills.sh&utm_medium=skill&utm_campaign=flux-kontext) · [Model page](https://www.runcomfy.com/models/blackforestlabs/flux-1-kontext-pro/image-to-image?utm_source=skills.sh&utm_medium=skill&utm_campaign=flux-kontext) · [GitHub](https://github.com/agentspace-so/runcomfy-skills/tree/main/flux-kontext)
+[runcomfy.com](https://www.runcomfy.com/?utm_source=skills.sh&utm_medium=skill&utm_campaign=flux-kontext) Â· [Model page](https://www.runcomfy.com/models/blackforestlabs/flux-1-kontext-pro/image-to-image?utm_source=skills.sh&utm_medium=skill&utm_campaign=flux-kontext) Â· [GitHub](https://github.com/agentspace-so/runcomfy-skills/tree/main/flux-kontext)
 
-Black Forest Labs' **Flux 1 Kontext Pro** — single-reference precise local image edit — hosted on the **RunComfy Model API**. Strong prompt control, consistent outputs, high fidelity.
+Black Forest Labs' **Flux 1 Kontext Pro** â€” single-reference precise local image edit â€” hosted on the **RunComfy Model API**. Strong prompt control, consistent outputs, high fidelity.
 
 ```bash
 npx skills add agentspace-so/runcomfy-skills --skill flux-kontext -g
@@ -34,7 +24,7 @@ npx skills add agentspace-so/runcomfy-skills --skill flux-kontext -g
 |---|---|
 | Single-image precise local edit ("she's now holding X") | **Flux Kontext** |
 | High-fidelity preservation of source identity | **Flux Kontext** |
-| Batch edits across 1–20 images | Nano Banana Edit |
+| Batch edits across 1â€“20 images | Nano Banana Edit |
 | Edit multilingual / embedded text in image | GPT Image 2 edit |
 | Generate from scratch, no source image | Flux 2 Klein |
 
@@ -42,9 +32,9 @@ If the user said "Flux Kontext" / "kontext" / "BFL Kontext" explicitly, route he
 
 ## Prerequisites
 
-1. **RunComfy CLI** — `npm i -g @runcomfy/cli`
-2. **RunComfy account** — `runcomfy login` opens a browser device-code flow.
-3. **CI / containers** — set `RUNCOMFY_TOKEN=<token>` instead of `runcomfy login`.
+1. **RunComfy CLI** â€” `npm i -g @runcomfy/cli`
+2. **RunComfy account** â€” `runcomfy login` opens a browser device-code flow.
+3. **CI / containers** â€” set `RUNCOMFY_TOKEN=<token>` instead of `runcomfy login`.
 
 ## Endpoints + input schema
 
@@ -52,16 +42,16 @@ If the user said "Flux Kontext" / "kontext" / "BFL Kontext" explicitly, route he
 
 | Field | Type | Required | Default | Notes |
 |---|---|---|---|---|
-| `prompt` | string | yes | — | Single declarative edit instruction. |
-| `image` | string | yes | — | Single source image URL (publicly fetchable HTTPS). |
+| `prompt` | string | yes | â€” | Single declarative edit instruction. |
+| `image` | string | yes | â€” | Single source image URL (publicly fetchable HTTPS). |
 | `aspect_ratio` | enum | no | (input) | Pick from supported W:H options on the model page. |
-| `seed` | int | no | — | Reuse for variant comparisons. |
+| `seed` | int | no | â€” | Reuse for variant comparisons. |
 
-The schema is intentionally minimal — Kontext leans on prompt + single ref. For multi-image or web-grounded edits, route to Nano Banana Edit.
+The schema is intentionally minimal â€” Kontext leans on prompt + single ref. For multi-image or web-grounded edits, route to Nano Banana Edit.
 
 ## How to invoke
 
-**Default — local edit, preserve everything else:**
+**Default â€” local edit, preserve everything else:**
 
 ```bash
 runcomfy run blackforestlabs/flux-1-kontext/pro/edit \
@@ -84,23 +74,23 @@ runcomfy run blackforestlabs/flux-1-kontext/pro/edit \
   --output-dir <absolute/path>
 ```
 
-## Prompting — what actually works
+## Prompting â€” what actually works
 
 **One declarative instruction.** Kontext shines on prompts shaped like the docs example: `"She is now holding an orange umbrella and smiling"`. Imperative mood, single change.
 
 **Preservation first.** Lead with `"Keep [identity / pose / framing / brand] unchanged."` Then the change. Models honor what's stated up front.
 
-**Single ref only — pick the right one.** No multi-image fanout here. If you have multiple references, decide which is primary and pass that one. For multi-image flows, route to Nano Banana Edit.
+**Single ref only â€” pick the right one.** No multi-image fanout here. If you have multiple references, decide which is primary and pass that one. For multi-image flows, route to Nano Banana Edit.
 
 **Iterate on small changes.** If Kontext drifts, split a compound edit into sequential single-instruction passes (pass 1: change background, pass 2: change clothing).
 
-**Aspect ratio — pick from the supported enum.** Out-of-list values 422 or crop.
+**Aspect ratio â€” pick from the supported enum.** Out-of-list values 422 or crop.
 
 **Anti-patterns:**
-- Compound prompts ("change A and add B and remove C") → drift.
-- Trying to fan out to multiple source images → wrong model (use Nano Banana Edit).
-- Prompts written in passive voice → less reliable.
-- Asking for novel composition without a source image → wrong model (use Flux 2 Klein t2i).
+- Compound prompts ("change A and add B and remove C") â†’ drift.
+- Trying to fan out to multiple source images â†’ wrong model (use Nano Banana Edit).
+- Prompts written in passive voice â†’ less reliable.
+- Asking for novel composition without a source image â†’ wrong model (use Flux 2 Klein t2i).
 
 ## Where it shines
 
@@ -136,9 +126,9 @@ shoulder bag, dark brown, hanging on the right shoulder.
 
 ## Limitations
 
-- **Single source image only.** For multi-image flows, use Nano Banana Edit (1–20).
-- **Public RunComfy docs are minimal** — schema fields beyond prompt + image + aspect_ratio + seed may exist; check the [model page](https://www.runcomfy.com/models/blackforestlabs/flux-1-kontext-pro/image-to-image?utm_source=skills.sh&utm_medium=skill&utm_campaign=flux-kontext) for the latest field list.
-- **Compound prompts drift** — split into sequential passes.
+- **Single source image only.** For multi-image flows, use Nano Banana Edit (1â€“20).
+- **Public RunComfy docs are minimal** â€” schema fields beyond prompt + image + aspect_ratio + seed may exist; check the [model page](https://www.runcomfy.com/models/blackforestlabs/flux-1-kontext-pro/image-to-image?utm_source=skills.sh&utm_medium=skill&utm_campaign=flux-kontext) for the latest field list.
+- **Compound prompts drift** â€” split into sequential passes.
 - **For multilingual / embedded text editing, GPT Image 2 edit usually wins.**
 
 ## Exit codes
