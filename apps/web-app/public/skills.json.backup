@@ -158,10 +158,10 @@
     "path": "skills/ab-test-setup",
     "category": "marketing",
     "name": "ab-test-setup",
-    "description": "Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -420,6 +420,28 @@
     }
   },
   {
+    "id": "agent-browser",
+    "path": "skills/exclusive/agent-browser",
+    "category": "exclusive",
+    "name": "agent-browser",
+    "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web apps, or automating any browser task. Triggers include requests to \"open ...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "agent-evaluation",
     "path": "skills/agent-evaluation",
     "category": "ai-agents",
@@ -618,6 +640,28 @@
     }
   },
   {
+    "id": "agent-tools",
+    "path": "skills/exclusive/agent-tools",
+    "category": "exclusive",
+    "name": "agent-tools",
+    "description": "Run 250+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, callin...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "agentflow",
     "path": "skills/agentflow",
     "category": "uncategorized",
@@ -668,7 +712,7 @@
     "path": "skills/agentic-actions-auditor",
     "category": "ai-ml",
     "name": "agentic-actions-auditor",
-    "description": "Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations  including Claude Code Action,  Gemini CLI, OpenAI Codex, and GitHub AI  Inference.  Detects attack vectors where attacker-controlled  input reaches. AI agents running in CI/CD pipelines.\n",
+    "description": "Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHub AI Inference. Detects attack vectors where attacker-controlled input reaches. AI agents running in CI/CD pipelines.",
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-18",
@@ -774,6 +818,28 @@
     }
   },
   {
+    "id": "agentspace",
+    "path": "skills/exclusive/agentspace",
+    "category": "exclusive",
+    "name": "agentspace",
+    "description": "See what your AI agent is doing, from anywhere. The agent keeps writing \u2014 logs, code, generated outputs, screenshots, artifacts. One command turns the folder into a live URL you (or a teammate) open in any browser to watch files evolve, edit in place, or comment \u2014 no sync...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "ai-agent-development",
     "path": "skills/ai-agent-development",
     "category": "granular-workflow-bundle",
@@ -825,6 +891,28 @@
     "description": "AI\u9a71\u52a8\u7684\u7efc\u5408\u5065\u5eb7\u5206\u6790\u7cfb\u7edf\uff0c\u6574\u5408\u591a\u7ef4\u5ea6\u5065\u5eb7\u6570\u636e\u3001\u8bc6\u522b\u5f02\u5e38\u6a21\u5f0f\u3001\u9884\u6d4b\u5065\u5eb7\u98ce\u9669\u3001\u63d0\u4f9b\u4e2a\u6027\u5316\u5efa\u8bae\u3002\u652f\u6301\u667a\u80fd\u95ee\u7b54\u548cAI\u5065\u5eb7\u62a5\u544a\u751f\u6210\u3002",
     "risk": "unknown",
     "source": "community",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "ai-avatar-video",
+    "path": "skills/exclusive/ai-avatar-video",
+    "category": "exclusive",
+    "name": "ai-avatar-video",
+    "description": "Skill for ai-avatar-video",
+    "risk": "safe",
+    "source": "unknown",
     "date_added": null,
     "plugin": {
       "targets": {
@@ -905,6 +993,28 @@
       "reasons": [
         "target_specific_home_path"
       ]
+    }
+  },
+  {
+    "id": "ai-image-generation",
+    "path": "skills/exclusive/ai-image-generation",
+    "category": "exclusive",
+    "name": "ai-image-generation",
+    "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-imag...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
     }
   },
   {
@@ -1002,10 +1112,10 @@
     "path": "skills/ai-seo",
     "category": "ai-ml",
     "name": "ai-seo",
-    "description": "Optimize content for AI search and LLM citations across AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and similar systems. Use when improving AI visibility, answer engine optimization, or citation readiness.",
-    "risk": "unknown",
-    "source": "https://github.com/coreyhaines31/marketingskills",
-    "date_added": "2026-03-21",
+    "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Ove...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -1028,6 +1138,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "ai-video-generation",
+    "path": "skills/exclusive/ai-video-generation",
+    "category": "exclusive",
+    "name": "ai-video-generation",
+    "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, re...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -1156,10 +1288,10 @@
     "path": "skills/algorithmic-art",
     "category": "graphics-processing",
     "name": "algorithmic-art",
-    "description": "Algorithmic philosophies are computational aesthetic movements that are then expressed through code. Output .md files (philosophy), .html files (interactive viewer), and .js files (generative algorithms).",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying e...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -1818,7 +1950,7 @@
     "path": "skills/apify-actor-development",
     "category": "automation",
     "name": "apify-actor-development",
-    "description": "Important: Before you begin, fill in the generatedBy property in the meta section of .actor/actor.json. Replace it with the tool and model you're currently using, such as \"Claude Code with Claude Sonnet 4.5\". This helps Apify monitor and improve AGENTS.md for specific AI tools and models.",
+    "description": "Important: Before you begin, fill in the generatedBy property in the meta section of .actor/actor.json. Replace it with the tool and model you're currently using, such as \"Claude Code with Claude Sonnet 4.5\". This helps Apify monitor and improve AGENTS.md for specific AI ...",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -2500,6 +2632,28 @@
     }
   },
   {
+    "id": "audit-website",
+    "path": "skills/exclusive/audit-website",
+    "category": "exclusive",
+    "name": "audit-website",
+    "description": "Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 230+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover a...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "auri-core",
     "path": "skills/auri-core",
     "category": "voice-agents",
@@ -2950,6 +3104,116 @@
     "risk": "critical",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "azure-cosmos-ts",
+    "path": "skills/azure-cosmos-ts",
+    "category": "cloud",
+    "name": "Azure Cosmos Ts",
+    "description": "Data plane SDK for Azure Cosmos DB NoSQL API operations \u2014 CRUD on documents, queries, bulk operations.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "azure-keyvault-secrets-ts",
+    "path": "skills/azure-keyvault-secrets-ts",
+    "category": "cloud",
+    "name": "Azure Keyvault Secrets Ts",
+    "description": "Manage secrets with Azure Key Vault.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "azure-storage-blob-ts",
+    "path": "skills/azure-storage-blob-ts",
+    "category": "cloud",
+    "name": "Azure Storage Blob Ts",
+    "description": "SDK for Azure Blob Storage operations \u2014 upload, download, list, and manage blobs and containers.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "azure-storage-file-share-ts",
+    "path": "skills/azure-storage-file-share-ts",
+    "category": "cloud",
+    "name": "Azure Storage File Share Ts",
+    "description": "SDK for Azure File Share operations \u2014 SMB file shares, directories, and file operations.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "azure-storage-queue-ts",
+    "path": "skills/azure-storage-queue-ts",
+    "category": "cloud",
+    "name": "Azure Storage Queue Ts",
+    "description": "SDK for Azure Queue Storage operations \u2014 send, receive, peek, and manage messages in queues.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -3866,28 +4130,6 @@
     }
   },
   {
-    "id": "azure-cosmos-ts",
-    "path": "skills/azure-cosmos-ts",
-    "category": "cloud",
-    "name": "azure-cosmos-ts",
-    "description": "Azure Cosmos DB JavaScript/TypeScript SDK (@azure/cosmos) for data plane operations. Use for CRUD operations on documents, queries, bulk operations, and container management.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "azure-data-tables-java",
     "path": "skills/azure-data-tables-java",
     "category": "cloud",
@@ -4333,28 +4575,6 @@
     "category": "cloud",
     "name": "azure-keyvault-secrets-rust",
     "description": "Azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API keys. Triggers: \"keyvault secrets rust\", \"SecretClient rust\", \"get secret rust\", \"set secret rust\".",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "azure-keyvault-secrets-ts",
-    "path": "skills/azure-keyvault-secrets-ts",
-    "category": "cloud",
-    "name": "azure-keyvault-secrets-ts",
-    "description": "Manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets). Use when storing and retrieving application secrets or configuration values.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -5362,28 +5582,6 @@
     }
   },
   {
-    "id": "azure-storage-blob-ts",
-    "path": "skills/azure-storage-blob-ts",
-    "category": "cloud",
-    "name": "azure-storage-blob-ts",
-    "description": "Azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "azure-storage-file-datalake-py",
     "path": "skills/azure-storage-file-datalake-py",
     "category": "cloud",
@@ -5428,55 +5626,11 @@
     }
   },
   {
-    "id": "azure-storage-file-share-ts",
-    "path": "skills/azure-storage-file-share-ts",
-    "category": "cloud",
-    "name": "azure-storage-file-share-ts",
-    "description": "Azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share) for SMB file share operations.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "azure-storage-queue-py",
     "path": "skills/azure-storage-queue-py",
     "category": "cloud",
     "name": "azure-storage-queue-py",
     "description": "Azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchronous processing.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "azure-storage-queue-ts",
-    "path": "skills/azure-storage-queue-ts",
-    "category": "cloud",
-    "name": "azure-storage-queue-ts",
-    "description": "Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -5762,7 +5916,7 @@
     "path": "skills/bash-pro",
     "category": "development",
     "name": "bash-pro",
-    "description": "Master of defensive Bash scripting for production automation, CI/CD\npipelines, and system utilities. Expert in safe, portable, and testable shell\nscripts.\n",
+    "description": "Master of defensive Bash scripting for production automation, CI/CD pipelines, and system utilities. Expert in safe, portable, and testable shell scripts.",
     "risk": "critical",
     "source": "community",
     "date_added": "2026-02-27",
@@ -5850,7 +6004,7 @@
     "path": "skills/bdi-mental-states",
     "category": "ai-ml",
     "name": "bdi-mental-states",
-    "description": "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.",
+    "description": "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or ne...",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -6206,10 +6360,10 @@
     "path": "skills/brainstorming",
     "category": "uncategorized",
     "name": "brainstorming",
-    "description": "Use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via di\u00e1logo socr\u00e1tico.",
+    "risk": "safe",
+    "source": "obra/superpowers + Antigravity",
+    "date_added": "2026-05-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -6228,9 +6382,9 @@
     "path": "skills/brand-guidelines",
     "category": "marketing",
     "name": "brand-guidelines",
-    "description": "Write copy following Sentry brand guidelines. Use when writing UI text, error messages, empty states, onboarding flows, 404 pages, documentation, marketing copy, or any user-facing content. Covers both Plain Speech (default) and Sentry Voice tones.",
-    "risk": "unknown",
-    "source": "community",
+    "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+    "risk": "safe",
+    "source": "unknown",
     "date_added": null,
     "plugin": {
       "targets": {
@@ -6888,10 +7042,10 @@
     "path": "skills/canvas-design",
     "category": "graphics-processing",
     "name": "canvas-design",
-    "description": "These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copy...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -6914,6 +7068,160 @@
     "risk": "safe",
     "source": "https://github.com/ai-evos/agent-skills",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "cavecrew",
+    "path": "skills/exclusive/cavecrew",
+    "category": "exclusive",
+    "name": "cavecrew",
+    "description": "Decision guide for delegating to caveman-style subagents. Tells the main thread WHEN to spawn `cavecrew-investigator` (locate code), `cavecrew-builder` (1-2 file edit), or `cavecrew-reviewer` (diff review) instead of doing the work inline or using vanilla `Explore`. Subag...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "caveman",
+    "path": "skills/exclusive/caveman",
+    "category": "exclusive",
+    "name": "caveman",
+    "description": "Ultra-compressed communication mode. Cuts token usage ~75% by speaking like caveman while keeping full technical accuracy. Supports intensity levels: lite, full (default), ultra, wenyan-lite, wenyan-full, wenyan-ultra. Use when user says \"caveman mode\", \"talk like caveman...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "caveman-commit",
+    "path": "skills/exclusive/caveman-commit",
+    "category": "exclusive",
+    "name": "caveman-commit",
+    "description": "Ultra-compressed commit message generator. Cuts noise from commit messages while preserving intent and reasoning. Conventional Commits format. Subject \u00e2\u2030\u00a450 chars, body only when \"why\" isn't obvious. Use when user says \"write a commit\", \"commit message\", \"generate commit\"...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "caveman-compress",
+    "path": "skills/exclusive/caveman-compress",
+    "category": "exclusive",
+    "name": "caveman-compress",
+    "description": "Compress natural language memory files (CLAUDE.md, todos, preferences) into caveman format to save input tokens. Preserves all technical substance, code, URLs, and structure. Compressed version overwrites the original file. Human-readable backup saved as FILE.original.md....",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "caveman-help",
+    "path": "skills/exclusive/caveman-help",
+    "category": "exclusive",
+    "name": "caveman-help",
+    "description": "Quick-reference card for all caveman modes, skills, and commands. One-shot display, not a persistent mode. Trigger: /caveman-help, \"caveman help\", \"what caveman commands\", \"how do I use caveman\".",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "caveman-review",
+    "path": "skills/exclusive/caveman-review",
+    "category": "exclusive",
+    "name": "caveman-review",
+    "description": "Ultra-compressed code review comments. Cuts noise from PR feedback while preserving the actionable signal. Each comment is one line: location, problem, fix. Use when user says \"review this PR\", \"code review\", \"review the diff\", \"/review\", or invokes /caveman-review. Auto-...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "caveman-stats",
+    "path": "skills/exclusive/caveman-stats",
+    "category": "exclusive",
+    "name": "caveman-stats",
+    "description": "Show real token usage and estimated savings for the current session. Reads directly from the Claude Code session log \u2014 no AI estimation. Triggers on /caveman-stats. Output is injected by the mode-tracker hook; the model itself does not compute the numbers.",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -7218,7 +7526,7 @@
     "path": "skills/cicd-automation-workflow-automate",
     "category": "automation",
     "name": "cicd-automation-workflow-automate",
-    "description": "You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design and implement automation that reduces manual work, improves consistency, and accelerates delivery while maintaining quality and security.",
+    "description": "You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design and implement automation that reduces manual work, improves consistency, and accelerates delivery while maintaini...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -7328,7 +7636,7 @@
     "path": "skills/clarity-gate",
     "category": "data-ai",
     "name": "clarity-gate",
-    "description": "Pre-ingestion verification for epistemic quality in RAG systems. Ensures documents are properly qualified before entering knowledge bases. Produces CGD (Clarity-Gated Documents) and validates SOT (Source of Truth) files.\n",
+    "description": "Pre-ingestion verification for epistemic quality in RAG systems. Ensures documents are properly qualified before entering knowledge bases. Produces CGD (Clarity-Gated Documents) and validates SOT (Source of Truth) files.",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -7394,10 +7702,10 @@
     "path": "skills/claude-api",
     "category": "ai-ml",
     "name": "claude-api",
-    "description": "Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.",
-    "risk": "unknown",
-    "source": "https://github.com/anthropics/skills",
-    "date_added": "2026-03-21",
+    "description": "Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built with this skill should include prompt caching. Also handles migrating existing Claude API code between Claude model versions (4.5 \u2192 4.6, 4.6 \u2192 4.7, retired-model replacements). TRIGGER when: code impor...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -8062,7 +8370,7 @@
     "path": "skills/code-simplifier",
     "category": "development",
     "name": "code-simplifier",
-    "description": "Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to \"simplify code\", \"clean up code\", \"refactor for clarity\", \"improve readability\", or review recently modified code for elegance. Focuses on project-specific best practices.",
+    "description": "Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to \"simplify code\", \"clean up code\", \"refactor for clarity\", \"improve readability\", or review recently modified code for elegance. Focuses on proje...",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -8176,6 +8484,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-04-12",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "codex-pet",
+    "path": "skills/exclusive/codex-pet",
+    "category": "exclusive",
+    "name": "codex-pet",
+    "description": "Codex Pet generator on RunComfy. Build a Codex-compatible Codex Pet spritesheet.webp + pet.json from a single reference image, drop it into `${CODEX_HOME:-$HOME/.codex}/pets/<name>/` and Codex picks it up as a custom Codex Pet next to the 8 built-ins. This skill produces ...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -8304,10 +8634,10 @@
     "path": "skills/competitor-alternatives",
     "category": "business",
     "name": "competitor-alternatives",
-    "description": "You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitiv...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -8348,7 +8678,7 @@
     "path": "skills/comprehensive-review-pr-enhance",
     "category": "code-quality",
     "name": "comprehensive-review-pr-enhance",
-    "description": "Generate structured PR descriptions from diffs, add review checklists, risk assessments, and test coverage summaries. Use when the user says \"write a PR description\", \"improve this PR\", \"summarize my changes\", \"PR review\", \"pull request\", or asks to document a diff for reviewers.\n",
+    "description": "Generate structured PR descriptions from diffs, add review checklists, risk assessments, and test coverage summaries. Use when the user says \"write a PR description\", \"improve this PR\", \"summarize my changes\", \"PR review\", \"pull request\", or asks to document a diff for re...",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -8568,7 +8898,7 @@
     "path": "skills/conductor-validator",
     "category": "workflow",
     "name": "conductor-validator",
-    "description": "Validates Conductor project artifacts for completeness,\nconsistency, and correctness. Use after setup, when diagnosing issues, or\nbefore implementation to verify project context.\n",
+    "description": "Validates Conductor project artifacts for completeness, consistency, and correctness. Use after setup, when diagnosing issues, or before implementation to verify project context.",
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
@@ -10042,7 +10372,7 @@
     "path": "skills/debugger",
     "category": "development-and-testing",
     "name": "debugger",
-    "description": "Debugging specialist for errors, test failures, and unexpected\nbehavior. Use proactively when encountering any issues.\n",
+    "description": "Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering any issues.",
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
@@ -10370,12 +10700,12 @@
   {
     "id": "design-taste-frontend",
     "path": "skills/design-taste-frontend",
-    "category": "frontend",
+    "category": "web-development",
     "name": "design-taste-frontend",
-    "description": "Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules.",
+    "description": "Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict component architecture, CSS hardware acceleration, and balanced design engineering.",
     "risk": "safe",
-    "source": "community",
-    "date_added": "2026-04-17",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -10594,7 +10924,7 @@
     "path": "skills/distributed-debugging-debug-trace",
     "category": "reliability",
     "name": "distributed-debugging-debug-trace",
-    "description": "You are a debugging expert specializing in setting up comprehensive debugging environments, distributed tracing, and diagnostic tools. Configure debugging workflows, implement tracing solutions, and establish troubleshooting practices for development and production environments.",
+    "description": "You are a debugging expert specializing in setting up comprehensive debugging environments, distributed tracing, and diagnostic tools. Configure debugging workflows, implement tracing solutions, and establish troubleshooting practices for development and production enviro...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -10704,10 +11034,10 @@
     "path": "skills/doc-coauthoring",
     "category": "document-processing",
     "name": "doc-coauthoring",
-    "description": "This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement & Structure, and Reader Testing.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through i...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -10858,10 +11188,10 @@
     "path": "skills/docx-official",
     "category": "document-processing",
     "name": "docx-official",
-    "description": "A user may ask you to create, edit, or analyze the contents of a .docx file. A .docx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of contents, headings...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -11650,7 +11980,7 @@
     "path": "skills/event-sourcing-architect",
     "category": "architecture",
     "name": "event-sourcing-architect",
-    "description": "Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection building, saga orchestration, and eventual consistency patterns. Use PROACTIVELY for event-sourced systems, audit trail requirements, or complex domain modeling with temporal queries.",
+    "description": "Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection building, saga orchestration, and eventual consistency patterns. Use PROACTIVELY for event-sourced systems, audit trail requirements, or complex domain modeling ...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -11760,7 +12090,7 @@
     "path": "skills/explain-like-socrates",
     "category": "content",
     "name": "explain-like-socrates",
-    "description": "Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concept like socrates.\n",
+    "description": "Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concept like socrates.",
     "risk": "safe",
     "source": "original",
     "date_added": "2026-03-11",
@@ -12438,6 +12768,28 @@
     }
   },
   {
+    "id": "find-skills",
+    "path": "skills/exclusive/find-skills",
+    "category": "exclusive",
+    "name": "find-skills",
+    "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "finishing-a-development-branch",
     "path": "skills/finishing-a-development-branch",
     "category": "workflow",
@@ -12482,6 +12834,122 @@
     }
   },
   {
+    "id": "firebase-auth-basics",
+    "path": "skills/exclusive/firebase-auth-basics",
+    "category": "exclusive",
+    "name": "firebase-auth-basics",
+    "description": "Guide for setting up and using Firebase Authentication. Use this skill when the user's app requires user sign-in, user management, or secure data access using auth rules.",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "firebase-basics",
+    "path": "skills/exclusive/firebase-basics",
+    "category": "exclusive",
+    "name": "firebase-basics",
+    "description": "Provides foundational setup, authentication, and project management workflows for Firebase using the Firebase CLI. Use when checking Firebase CLI version (must use 'npx -y firebase-tools@latest --version'), initializing a Firebase environment, authenticating, setting acti...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "firecrawl-crawl",
+    "path": "skills/exclusive/firecrawl-crawl",
+    "category": "exclusive",
+    "name": "firecrawl-crawl",
+    "description": "\ufeff---",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "escaped_local_reference"
+      ]
+    }
+  },
+  {
+    "id": "firecrawl-parse",
+    "path": "skills/exclusive/firecrawl-parse",
+    "category": "exclusive",
+    "name": "firecrawl-parse",
+    "description": "Efficiently extract and convert the contents of any local file\u2014such as PDF, DOCX, DOC, ODT, RTF, XLSX, XLS, or HTML\u2014into clean, well-formatted markdown saved to disk. Use this skill whenever the user requests to parse, read, or extract information from a file on their com...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "escaped_local_reference"
+      ]
+    }
+  },
+  {
+    "id": "firecrawl-scrape",
+    "path": "skills/exclusive/firecrawl-scrape",
+    "category": "exclusive",
+    "name": "firecrawl-scrape",
+    "description": "\ufeff---",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "escaped_local_reference"
+      ]
+    }
+  },
+  {
     "id": "firecrawl-scraper",
     "path": "skills/firecrawl-scraper",
     "category": "data",
@@ -12501,6 +12969,30 @@
         "docs": null
       },
       "reasons": []
+    }
+  },
+  {
+    "id": "firecrawl-search",
+    "path": "skills/exclusive/firecrawl-search",
+    "category": "exclusive",
+    "name": "firecrawl-search",
+    "description": "Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, research a topic, look something up, find recent news, discover sources, or says \"search for\", \"find me\", \"look up\", \"what are people saying about\", or \"f...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "escaped_local_reference"
+      ]
     }
   },
   {
@@ -12658,6 +13150,50 @@
     }
   },
   {
+    "id": "flux-2-klein",
+    "path": "skills/exclusive/flux-2-klein",
+    "category": "exclusive",
+    "name": "flux-2-klein",
+    "description": "Generate images with Flux 2 Klein (Black Forest Labs' distilled fast variant of Flux 2) on RunComfy \u2014 bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux 2 Klein's strengths (s...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "flux-kontext",
+    "path": "skills/exclusive/flux-kontext",
+    "category": "exclusive",
+    "name": "flux-kontext",
+    "description": "Edit images with Flux 1 Kontext Pro (Black Forest Labs' precise local image-edit model) on RunComfy \u00e2\u20ac\u201d bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux Kontext's strengths ...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "food-database-query",
     "path": "skills/food-database-query",
     "category": "health",
@@ -12684,10 +13220,10 @@
     "path": "skills/form-cro",
     "category": "marketing",
     "name": "form-cro",
-    "description": "Optimize any form that is NOT signup or account registration \u2014 including lead capture, contact, demo request, application, survey, quote, and checkout forms.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "When the user wants to optimize any form that is NOT signup/registration \u2014 including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"f...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -13102,10 +13638,10 @@
     "path": "skills/free-tool-strategy",
     "category": "marketing",
     "name": "free-tool-strategy",
-    "description": "You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes (lead generation, SEO, or brand awareness). Use this for calculators, generators, and interactive tools.",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -13190,10 +13726,10 @@
     "path": "skills/frontend-design",
     "category": "front-end",
     "name": "frontend-design",
-    "description": "You are a frontend designer-engineer, not a layout generator.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layou...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -13652,7 +14188,7 @@
     "path": "skills/gh-review-requests",
     "category": "workflow",
     "name": "gh-review-requests",
-    "description": "Fetch unread GitHub notifications for open PRs where review is requested from a specified team or opened by a team member. Use when asked to \"find PRs I need to review\", \"show my review requests\", \"what needs my review\", \"fetch GitHub review requests\", or \"check team review queue\".",
+    "description": "Fetch unread GitHub notifications for open PRs where review is requested from a specified team or opened by a team member. Use when asked to \"find PRs I need to review\", \"show my review requests\", \"what needs my review\", \"fetch GitHub review requests\", or \"check team revi...",
     "risk": "safe",
     "source": "community",
     "date_added": null,
@@ -14374,6 +14910,52 @@
     }
   },
   {
+    "id": "gpt-image-2",
+    "path": "skills/exclusive/gpt-image-2",
+    "category": "exclusive",
+    "name": "gpt-image-2",
+    "description": "Generate and edit images with OpenAI GPT Image 2 (ChatGPT Images 2.0) on RunComfy. Documents GPT Image 2's strengths (embedded text, logos, multilingual typography, instruction precision), its 3 fixed sizes, edit-with-preservation language, and when to route to a sibling ...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "gpt-image-edit",
+    "path": "skills/exclusive/gpt-image-edit",
+    "category": "exclusive",
+    "name": "gpt-image-edit",
+    "description": "Edit images with OpenAI GPT Image 2 (the `/edit` endpoint of ChatGPT Images 2.0) on RunComfy \u2014 bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents GPT Image Edit's strengths (preser...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "escaped_local_reference"
+      ]
+    }
+  },
+  {
     "id": "gpt-taste",
     "path": "skills/gpt-taste",
     "category": "frontend",
@@ -14492,6 +15074,50 @@
     "risk": "safe",
     "source": "self",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "happyhorse-1-0",
+    "path": "skills/exclusive/happyhorse-1-0",
+    "category": "exclusive",
+    "name": "happyhorse-1-0",
+    "description": "Generate text-to-video with HappyHorse 1.0 on RunComfy. Documents HappyHorse 1.0's strengths (#1 on Artificial Analysis Video Arena, native 1080p with in-pass synchronized audio, multi-shot character consistency, 6-language prompt support), the duration / aspect-ratio / r...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "harden",
+    "path": "skills/exclusive/harden",
+    "category": "exclusive",
+    "name": "harden",
+    "description": "Designs that only work with perfect data aren't production-ready. Harden the interface against the inputs, errors, languages, and network conditions that real users will throw at it.",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -15436,7 +16062,7 @@
     "path": "skills/humanize-chinese",
     "category": "content",
     "name": "humanize-chinese",
-    "description": "Detect and rewrite AI-like Chinese text with a practical workflow for scoring, humanization, academic AIGC reduction, and style conversion. Use when the user asks to \u53bbAI\u5473, \u964dAIGC, \u53bb\u9664AI\u75d5\u8ff9, \u8bba\u6587\u964d\u91cd, \u77e5\u7f51\u68c0\u6d4b, \u7ef4\u666e\u68c0\u6d4b, humanize chinese, detect AI text, or make Chinese text sound more natural.",
+    "description": "Detect and rewrite AI-like Chinese text with a practical workflow for scoring, humanization, academic AIGC reduction, and style conversion. Use when the user asks to \u53bbAI\u5473, \u964dAIGC, \u53bb\u9664AI\u75d5\u8ff9, \u8bba\u6587\u964d\u91cd, \u77e5\u7f51\u68c0\u6d4b, \u7ef4\u666e\u68c0\u6d4b, humanize chinese, detect AI text, or make Chinese text sound more n...",
     "risk": "safe",
     "source": "community",
     "date_added": "2026-04-03",
@@ -15674,6 +16300,28 @@
     }
   },
   {
+    "id": "image-edit",
+    "path": "skills/exclusive/image-edit",
+    "category": "exclusive",
+    "name": "image-edit",
+    "description": "Edit images on RunComfy \u2014 this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Nano Banana Edit (batch up to 20, identity-preserving default), OpenAI GPT Image 2 Edit (multilingual in-image text rewrite, multi-...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "image-studio",
     "path": "skills/image-studio",
     "category": "graphics-processing",
@@ -15682,6 +16330,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "image-to-video",
+    "path": "skills/exclusive/image-to-video",
+    "category": "exclusive",
+    "name": "image-to-video",
+    "description": "Animate any still image on RunComfy \u2014 this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for ...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -15894,6 +16564,28 @@
     }
   },
   {
+    "id": "infsh-cli",
+    "path": "skills/exclusive/infsh-cli",
+    "category": "exclusive",
+    "name": "infsh-cli",
+    "description": "Run 250+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, callin...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "inngest",
     "path": "skills/inngest",
     "category": "workflow",
@@ -16008,10 +16700,10 @@
     "path": "skills/internal-comms",
     "category": "uncategorized",
     "name": "internal-comms",
-    "description": "Write internal communications such as status reports, leadership updates, 3P updates, newsletters, FAQs, incident reports, and project updates using repeatable internal formats.",
-    "risk": "unknown",
-    "source": "https://github.com/anthropics/skills",
-    "date_added": "2026-03-21",
+    "description": "Skill for internal-comms",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -16646,7 +17338,7 @@
     "path": "skills/keyword-extractor",
     "category": "marketing",
     "name": "keyword-extractor",
-    "description": "Extracts up to 50 highly relevant SEO keywords from text. Use when user wants to generate or extract keywords for given text.\n",
+    "description": "Extracts up to 50 highly relevant SEO keywords from text. Use when user wants to generate or extract keywords for given text.",
     "risk": "safe",
     "source": "original",
     "date_added": "2026-03-11",
@@ -16672,6 +17364,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "kling-3-0",
+    "path": "skills/exclusive/kling-3-0",
+    "category": "exclusive",
+    "name": "kling-3-0",
+    "description": "Kling 3.0 video generation on RunComfy. Kling 3.0 (also called Kling V3.0) is Kuaishou Technology's third-generation multi-shot video model with native synchronized audio and consistent character identity across shots. This skill covers all six Kling 3.0 endpoints, spanni...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -17728,7 +18442,7 @@
     "path": "skills/llm-structured-output",
     "category": "ai-ml",
     "name": "llm-structured-output",
-    "description": "Get reliable JSON, enums, and typed objects from LLMs using response_format, tool_use, and schema-constrained decoding across OpenAI, Anthropic, and Google APIs.\n",
+    "description": "Get reliable JSON, enums, and typed objects from LLMs using response_format, tool_use, and schema-constrained decoding across OpenAI, Anthropic, and Google APIs.",
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-12",
@@ -18104,7 +18818,7 @@
     "path": "skills/makepad-animation",
     "category": "development",
     "name": "makepad-animation",
-    "description": "CRITICAL: Use for Makepad animation system. Triggers on:\nmakepad animation, makepad animator, makepad hover, makepad state,\nmakepad transition, \"from: { all: Forward\", makepad pressed,\nmakepad \u52a8\u753b, makepad \u72b6\u6001, makepad \u8fc7\u6e21, makepad \u60ac\u505c\u6548\u679c\n",
+    "description": "CRITICAL: Use for Makepad animation system. Triggers on: makepad animation, makepad animator, makepad hover, makepad state, makepad transition, \"from: { all: Forward\", makepad pressed, makepad \u52a8\u753b, makepad \u72b6\u6001, makepad \u8fc7\u6e21, makepad \u60ac\u505c\u6548\u679c",
     "risk": "safe",
     "source": "community",
     "date_added": null,
@@ -18126,7 +18840,7 @@
     "path": "skills/makepad-basics",
     "category": "development",
     "name": "makepad-basics",
-    "description": "CRITICAL: Use for Makepad getting started and app structure. Triggers on:\nmakepad, makepad getting started, makepad tutorial, live_design!, app_main!,\nmakepad project setup, makepad hello world, \"how to create makepad app\",\nmakepad \u5165\u95e8, \u521b\u5efa makepad \u5e94\u7528, makepad \u6559\u7a0b, makepad \u9879\u76ee\u7ed3\u6784\n",
+    "description": "CRITICAL: Use for Makepad getting started and app structure. Triggers on: makepad, makepad getting started, makepad tutorial, live_design!, app_main!, makepad project setup, makepad hello world, \"how to create makepad app\", makepad \u5165\u95e8, \u521b\u5efa makepad \u5e94\u7528, makepad \u6559\u7a0b, makepad \u9879\u76ee\u7ed3\u6784",
     "risk": "unknown",
     "source": "https://github.com/makepad/makepad",
     "date_added": null,
@@ -18148,7 +18862,7 @@
     "path": "skills/makepad-deployment",
     "category": "development",
     "name": "makepad-deployment",
-    "description": "CRITICAL: Use for Makepad packaging and deployment. Triggers on:\ndeploy, package, APK, IPA, \u6253\u5305, \u90e8\u7f72,\ncargo-packager, cargo-makepad, WASM, Android, iOS,\ndistribution, installer, .deb, .dmg, .nsis,\nGitHub Actions, CI, action, marketplace\n",
+    "description": "CRITICAL: Use for Makepad packaging and deployment. Triggers on: deploy, package, APK, IPA, \u6253\u5305, \u90e8\u7f72, cargo-packager, cargo-makepad, WASM, Android, iOS, distribution, installer, .deb, .dmg, .nsis, GitHub Actions, CI, action, marketplace",
     "risk": "critical",
     "source": "community",
     "date_added": null,
@@ -18170,7 +18884,7 @@
     "path": "skills/makepad-dsl",
     "category": "development",
     "name": "makepad-dsl",
-    "description": "CRITICAL: Use for Makepad DSL syntax and inheritance. Triggers on:\nmakepad dsl, live_design, makepad inheritance, makepad prototype,\n\"<Widget>\", \"Foo = { }\", makepad object, makepad property,\nmakepad DSL \u8bed\u6cd5, makepad \u7ee7\u627f, makepad \u539f\u578b, \u5982\u4f55\u5b9a\u4e49 makepad \u7ec4\u4ef6\n",
+    "description": "CRITICAL: Use for Makepad DSL syntax and inheritance. Triggers on: makepad dsl, live_design, makepad inheritance, makepad prototype, \"<Widget>\", \"Foo = { }\", makepad object, makepad property, makepad DSL \u8bed\u6cd5, makepad \u7ee7\u627f, makepad \u539f\u578b, \u5982\u4f55\u5b9a\u4e49 makepad \u7ec4\u4ef6",
     "risk": "safe",
     "source": "community",
     "date_added": null,
@@ -18192,7 +18906,7 @@
     "path": "skills/makepad-event-action",
     "category": "development",
     "name": "makepad-event-action",
-    "description": "CRITICAL: Use for Makepad event and action handling. Triggers on:\nmakepad event, makepad action, Event enum, ActionTrait, handle_event,\nMouseDown, KeyDown, TouchUpdate, Hit, FingerDown, post_action,\nmakepad \u4e8b\u4ef6, makepad action, \u4e8b\u4ef6\u5904\u7406\n",
+    "description": "CRITICAL: Use for Makepad event and action handling. Triggers on: makepad event, makepad action, Event enum, ActionTrait, handle_event, MouseDown, KeyDown, TouchUpdate, Hit, FingerDown, post_action, makepad \u4e8b\u4ef6, makepad action, \u4e8b\u4ef6\u5904\u7406",
     "risk": "safe",
     "source": "community",
     "date_added": null,
@@ -18214,7 +18928,7 @@
     "path": "skills/makepad-font",
     "category": "development",
     "name": "makepad-font",
-    "description": "CRITICAL: Use for Makepad font and text rendering. Triggers on:\nmakepad font, makepad text, makepad glyph, makepad typography,\nfont atlas, text layout, font family, font size, text shaping,\nmakepad \u5b57\u4f53, makepad \u6587\u5b57, makepad \u6392\u7248, makepad \u5b57\u5f62\n",
+    "description": "CRITICAL: Use for Makepad font and text rendering. Triggers on: makepad font, makepad text, makepad glyph, makepad typography, font atlas, text layout, font family, font size, text shaping, makepad \u5b57\u4f53, makepad \u6587\u5b57, makepad \u6392\u7248, makepad \u5b57\u5f62",
     "risk": "safe",
     "source": "community",
     "date_added": null,
@@ -18236,7 +18950,7 @@
     "path": "skills/makepad-layout",
     "category": "development",
     "name": "makepad-layout",
-    "description": "CRITICAL: Use for Makepad layout system. Triggers on:\nmakepad layout, makepad width, makepad height, makepad flex,\nmakepad padding, makepad margin, makepad flow, makepad align,\nFit, Fill, Size, Walk, \"how to center in makepad\",\nmakepad \u5e03\u5c40, makepad \u5bbd\u5ea6, makepad \u5bf9\u9f50, makepad \u5c45\u4e2d\n",
+    "description": "CRITICAL: Use for Makepad layout system. Triggers on: makepad layout, makepad width, makepad height, makepad flex, makepad padding, makepad margin, makepad flow, makepad align, Fit, Fill, Size, Walk, \"how to center in makepad\", makepad \u5e03\u5c40, makepad \u5bbd\u5ea6, makepad \u5bf9\u9f50, makepad \u5c45\u4e2d",
     "risk": "safe",
     "source": "community",
     "date_added": null,
@@ -18258,7 +18972,7 @@
     "path": "skills/makepad-platform",
     "category": "development",
     "name": "makepad-platform",
-    "description": "CRITICAL: Use for Makepad cross-platform support. Triggers on:\nmakepad platform, makepad os, makepad macos, makepad windows, makepad linux,\nmakepad android, makepad ios, makepad web, makepad wasm, makepad metal,\nmakepad d3d11, makepad opengl, makepad webgl, OsType, CxOs,\nmakepad \u8de8\u5e73\u53f0, makepad \u5e73\u53f0\u652f\u6301\n",
+    "description": "CRITICAL: Use for Makepad cross-platform support. Triggers on: makepad platform, makepad os, makepad macos, makepad windows, makepad linux, makepad android, makepad ios, makepad web, makepad wasm, makepad metal, makepad d3d11, makepad opengl, makepad webgl, OsType, CxOs, ...",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -18302,7 +19016,7 @@
     "path": "skills/makepad-shaders",
     "category": "development",
     "name": "makepad-shaders",
-    "description": "CRITICAL: Use for Makepad shader system. Triggers on:\nmakepad shader, makepad draw_bg, Sdf2d, makepad pixel,\nmakepad glsl, makepad sdf, draw_quad, makepad gpu,\nmakepad \u7740\u8272\u5668, makepad shader \u8bed\u6cd5, makepad \u7ed8\u5236\n",
+    "description": "CRITICAL: Use for Makepad shader system. Triggers on: makepad shader, makepad draw_bg, Sdf2d, makepad pixel, makepad glsl, makepad sdf, draw_quad, makepad gpu, makepad \u7740\u8272\u5668, makepad shader \u8bed\u6cd5, makepad \u7ed8\u5236",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -18346,7 +19060,7 @@
     "path": "skills/makepad-splash",
     "category": "development",
     "name": "makepad-splash",
-    "description": "CRITICAL: Use for Makepad Splash scripting language. Triggers on:\nsplash language, makepad script, makepad scripting, script!, cx.eval,\nmakepad dynamic, makepad AI, splash \u8bed\u8a00, makepad \u811a\u672c\n",
+    "description": "CRITICAL: Use for Makepad Splash scripting language. Triggers on: splash language, makepad script, makepad scripting, script!, cx.eval, makepad dynamic, makepad AI, splash \u8bed\u8a00, makepad \u811a\u672c",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -18526,7 +19240,7 @@
     "path": "skills/matematico-tao",
     "category": "uncategorized",
     "name": "matematico-tao",
-    "description": "Matem\u00e1tico ultra-avan\u00e7ado inspirado em Terence Tao. An\u00e1lise rigorosa de c\u00f3digo e arquitetura com teoria matem\u00e1tica profunda: teoria da informa\u00e7\u00e3o, teoria dos grafos, complexidade computacional, \u00e1lgebra linear, an\u00e1lise estoc\u00e1stica, teoria das categorias, probabilidade bayesiana e l\u00f3gica formal.",
+    "description": "Matem\u00e1tico ultra-avan\u00e7ado inspirado em Terence Tao. An\u00e1lise rigorosa de c\u00f3digo e arquitetura com teoria matem\u00e1tica profunda: teoria da informa\u00e7\u00e3o, teoria dos grafos, complexidade computacional, \u00e1lgebra linear, an\u00e1lise estoc\u00e1stica, teoria das categorias, probabilidade baye...",
     "risk": "none",
     "source": "community",
     "date_added": "2026-03-06",
@@ -18592,10 +19306,10 @@
     "path": "skills/mcp-builder",
     "category": "ai-agents",
     "name": "mcp-builder",
-    "description": "Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP ...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -19164,7 +19878,7 @@
     "path": "skills/molykit",
     "category": "ai-ml",
     "name": "molykit",
-    "description": "CRITICAL: Use for MolyKit AI chat toolkit. Triggers on:\nBotClient, OpenAI, SSE streaming, AI chat, molykit,\nPlatformSend, spawn(), ThreadToken, cross-platform async,\nChat widget, Messages, PromptInput, Avatar, LLM\n",
+    "description": "CRITICAL: Use for MolyKit AI chat toolkit. Triggers on: BotClient, OpenAI, SSE streaming, AI chat, molykit, PlatformSend, spawn(), ThreadToken, cross-platform async, Chat widget, Messages, PromptInput, Avatar, LLM",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -19386,7 +20100,7 @@
     "path": "skills/moyu",
     "category": "ai-ml",
     "name": "moyu",
-    "description": "Anti-over-engineering guardrail that activates when an AI coding agent expands scope, adds abstractions, or changes files the user did not request.\n",
+    "description": "Anti-over-engineering guardrail that activates when an AI coding agent expands scope, adds abstractions, or changes files the user did not request.",
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-23",
@@ -19474,7 +20188,7 @@
     "path": "skills/multi-agent-patterns",
     "category": "ai-agents",
     "name": "multi-agent-patterns",
-    "description": "This skill should be used when the user asks to \"design multi-agent system\", \"implement supervisor pattern\", \"create swarm architecture\", \"coordinate multiple agents\", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or parallel agent execution.",
+    "description": "This skill should be used when the user asks to \"design multi-agent system\", \"implement supervisor pattern\", \"create swarm architecture\", \"coordinate multiple agents\", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or parallel agent execu...",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -19719,6 +20433,28 @@
     "description": "Proven architectural patterns for building n8n workflows.",
     "risk": "unknown",
     "source": "community",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "nano-banana-2",
+    "path": "skills/exclusive/nano-banana-2",
+    "category": "exclusive",
+    "name": "nano-banana-2",
+    "description": "Generate images with Google Nano Banana 2 (Gemini-family flash-tier text-to-image) on RunComfy \u2014 bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Nano Banana 2's strengths (rapid...",
+    "risk": "safe",
+    "source": "unknown",
     "date_added": null,
     "plugin": {
       "targets": {
@@ -20313,7 +21049,7 @@
     "path": "skills/observability-monitoring-slo-implement",
     "category": "devops",
     "name": "observability-monitoring-slo-implement",
-    "description": "You are an SLO (Service Level Objective) expert specializing in implementing reliability standards and error budget-based engineering practices. Design comprehensive SLO frameworks, establish meaningful SLIs, and create monitoring systems that balance reliability with feature velocity.",
+    "description": "You are an SLO (Service Level Objective) expert specializing in implementing reliability standards and error budget-based engineering practices. Design comprehensive SLO frameworks, establish meaningful SLIs, and create monitoring systems that balance reliability with fea...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -21013,14 +21749,36 @@
     }
   },
   {
+    "id": "onboard",
+    "path": "skills/exclusive/onboard",
+    "category": "exclusive",
+    "name": "onboard",
+    "description": "> **Additional context needed**: the \"aha moment\" you want users to reach, and users' experience level.",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "onboarding-cro",
     "path": "skills/onboarding-cro",
     "category": "marketing",
     "name": "onboarding-cro",
-    "description": "You are an expert in user onboarding and activation. Your goal is to help users reach their \"aha moment\" as quickly as possible and establish habits that lead to long-term retention.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Skill for onboarding-cro",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -21435,10 +22193,10 @@
     "path": "skills/paywall-upgrade-cro",
     "category": "marketing",
     "name": "paywall-upgrade-cro",
-    "description": "You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the commitment.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expir...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -21501,10 +22259,10 @@
     "path": "skills/pdf-official",
     "category": "document-processing",
     "name": "pdf-official",
-    "description": "This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see reference.md. If you need to fill out a PDF form, read forms.md and follow its instructions.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Skill for pdf-official",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -21721,7 +22479,7 @@
     "path": "skills/php-pro",
     "category": "code",
     "name": "php-pro",
-    "description": "Write idiomatic PHP code with generators, iterators, SPL data\nstructures, and modern OOP features. Use PROACTIVELY for high-performance PHP\napplications.\n",
+    "description": "Write idiomatic PHP code with generators, iterators, SPL data structures, and modern OOP features. Use PROACTIVELY for high-performance PHP applications.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -21897,7 +22655,7 @@
     "path": "skills/playwright-skill",
     "category": "test-automation",
     "name": "playwright-skill",
-    "description": "IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, and use that path in all commands below.",
+    "description": "IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, and use that path ...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -21963,7 +22721,7 @@
     "path": "skills/polars",
     "category": "data-science",
     "name": "polars",
-    "description": "Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than-RAM data use dask or vaex.",
+    "description": "Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than-RAM da...",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -21985,10 +22743,10 @@
     "path": "skills/popup-cro",
     "category": "marketing",
     "name": "popup-cro",
-    "description": "Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overla...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -22183,10 +22941,10 @@
     "path": "skills/pptx-official",
     "category": "presentation-processing",
     "name": "pptx-official",
-    "description": "A user may ask you to create, edit, or analyze the contents of a .pptx file. A .pptx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Use this skill any time a .pptx file is involved in any way \u2014 as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, lik...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -22513,7 +23271,7 @@
     "path": "skills/professional-proofreader",
     "category": "content",
     "name": "professional-proofreader",
-    "description": "Use when a user asks to \"proofread\", \"review and correct\", \"fix grammar\", \"improve readability while keeping my voice\", and to proofread a document file and save an updated version.\n",
+    "description": "Use when a user asks to \"proofread\", \"review and correct\", \"fix grammar\", \"improve readability while keeping my voice\", and to proofread a document file and save an updated version.",
     "risk": "safe",
     "source": "original",
     "date_added": "2026-03-04",
@@ -23131,7 +23889,7 @@
     "path": "skills/qiskit",
     "category": "science",
     "name": "qiskit",
-    "description": "Qiskit is the world's most popular open-source quantum computing framework with 13M+ downloads. Build quantum circuits, optimize for hardware, execute on simulators or real quantum computers, and analyze results. Supports IBM Quantum (100+ qubit systems), IonQ, Amazon Braket, and other providers.",
+    "description": "Qiskit is the world's most popular open-source quantum computing framework with 13M+ downloads. Build quantum circuits, optimize for hardware, execute on simulators or real quantum computers, and analyze results. Supports IBM Quantum (100+ qubit systems), IonQ, Amazon Bra...",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -23725,10 +24483,10 @@
     "path": "skills/referral-program",
     "category": "marketing",
     "name": "referral-program",
-    "description": "You are an expert in viral growth and referral marketing with access to referral program data and third-party tools. Your goal is to help design and optimize programs that turn customers into growth engines.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incen...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -23967,7 +24725,7 @@
     "path": "skills/robius-app-architecture",
     "category": "development",
     "name": "robius-app-architecture",
-    "description": "CRITICAL: Use for Robius app architecture patterns. Triggers on:\nTokio, async, submit_async_request, \u5f02\u6b65, \u67b6\u6784,\nSignalToUI, Cx::post_action, worker task,\napp structure, MatchEvent, handle_startup\n",
+    "description": "CRITICAL: Use for Robius app architecture patterns. Triggers on: Tokio, async, submit_async_request, \u5f02\u6b65, \u67b6\u6784, SignalToUI, Cx::post_action, worker task, app structure, MatchEvent, handle_startup",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -23989,7 +24747,7 @@
     "path": "skills/robius-event-action",
     "category": "development",
     "name": "robius-event-action",
-    "description": "CRITICAL: Use for Robius event and action patterns. Triggers on:\ncustom action, MatchEvent, post_action, cx.widget_action,\nhandle_actions, DefaultNone, widget action, event handling,\n\u4e8b\u4ef6\u5904\u7406, \u81ea\u5b9a\u4e49\u52a8\u4f5c\n",
+    "description": "CRITICAL: Use for Robius event and action patterns. Triggers on: custom action, MatchEvent, post_action, cx.widget_action, handle_actions, DefaultNone, widget action, event handling, \u4e8b\u4ef6\u5904\u7406, \u81ea\u5b9a\u4e49\u52a8\u4f5c",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -24011,7 +24769,7 @@
     "path": "skills/robius-matrix-integration",
     "category": "development",
     "name": "robius-matrix-integration",
-    "description": "CRITICAL: Use for Matrix SDK integration with Makepad. Triggers on:\nMatrix SDK, sliding sync, MatrixRequest, timeline,\nmatrix-sdk, matrix client, robrix, matrix room,\nMatrix \u96c6\u6210, \u804a\u5929\u5ba2\u6237\u7aef\n",
+    "description": "CRITICAL: Use for Matrix SDK integration with Makepad. Triggers on: Matrix SDK, sliding sync, MatrixRequest, timeline, matrix-sdk, matrix client, robrix, matrix room, Matrix \u96c6\u6210, \u804a\u5929\u5ba2\u6237\u7aef",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -24033,7 +24791,7 @@
     "path": "skills/robius-state-management",
     "category": "development",
     "name": "robius-state-management",
-    "description": "CRITICAL: Use for Robius state management patterns. Triggers on:\nAppState, persistence, theme switch, \u72b6\u6001\u7ba1\u7406,\nScope::with_data, save state, load state, serde,\n\u72b6\u6001\u6301\u4e45\u5316, \u4e3b\u9898\u5207\u6362\n",
+    "description": "CRITICAL: Use for Robius state management patterns. Triggers on: AppState, persistence, theme switch, \u72b6\u6001\u7ba1\u7406, Scope::with_data, save state, load state, serde, \u72b6\u6001\u6301\u4e45\u5316, \u4e3b\u9898\u5207\u6362",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -24055,7 +24813,7 @@
     "path": "skills/robius-widget-patterns",
     "category": "development",
     "name": "robius-widget-patterns",
-    "description": "CRITICAL: Use for Robius widget patterns. Triggers on:\napply_over, TextOrImage, modal, \u53ef\u590d\u7528, \u6a21\u6001,\ncollapsible, drag drop, reusable widget, widget design,\npageflip, \u7ec4\u4ef6\u8bbe\u8ba1, \u7ec4\u4ef6\u6a21\u5f0f\n",
+    "description": "CRITICAL: Use for Robius widget patterns. Triggers on: apply_over, TextOrImage, modal, \u53ef\u590d\u7528, \u6a21\u6001, collapsible, drag drop, reusable widget, widget design, pageflip, \u7ec4\u4ef6\u8bbe\u8ba1, \u7ec4\u4ef6\u6a21\u5f0f",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -24209,7 +24967,7 @@
     "path": "skills/sales-automator",
     "category": "business",
     "name": "sales-automator",
-    "description": "Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales outreach or lead nurturing. ",
+    "description": "Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales outreach or lead nurturing.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -24429,7 +25187,7 @@
     "path": "skills/scanpy",
     "category": "science",
     "name": "scanpy",
-    "description": "Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for complete single-cell workflows including quality control, normalization, dimensionality reduction, clustering, marker gene identification, visualization, and trajectory analysis.",
+    "description": "Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for complete single-cell workflows including quality control, normalization, dimensionality reduction, clustering, marker gene identification, visualization, and...",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -24825,10 +25583,32 @@
     "path": "skills/security-scanning-security-sast",
     "category": "security",
     "name": "security-scanning-security-sast",
-    "description": "Static Application Security Testing (SAST) for code vulnerability\nanalysis across multiple languages and frameworks\n",
+    "description": "Static Application Security Testing (SAST) for code vulnerability analysis across multiple languages and frameworks",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "seedance-v2",
+    "path": "skills/exclusive/seedance-v2",
+    "category": "exclusive",
+    "name": "seedance-v2",
+    "description": "Generate cinematic short-form video with ByteDance Seedance 2.0 Pro on RunComfy. Documents Seedance 2.0 Pro's strengths (multi-modal references \u00e2\u20ac\u201d up to 9 images, 3 videos, 3 audio \u00e2\u20ac\u201d synchronized in-pass audio with natural lip-sync, cinematic motion refinement), the 4\u00e2...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -25001,7 +25781,7 @@
     "path": "skills/senior-frontend",
     "category": "web-development",
     "name": "senior-frontend",
-    "description": "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.",
+    "description": "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code qual...",
     "risk": "safe",
     "source": "https://github.com/alirezarezvani/claude-skills",
     "date_added": "2026-03-07",
@@ -25287,7 +26067,7 @@
     "path": "skills/seo-authority-builder",
     "category": "content",
     "name": "seo-authority-builder",
-    "description": "Analyzes content for E-E-A-T signals and suggests improvements to\nbuild authority and trust. Identifies missing credibility elements. Use\nPROACTIVELY for YMYL topics.\n",
+    "description": "Analyzes content for E-E-A-T signals and suggests improvements to build authority and trust. Identifies missing credibility elements. Use PROACTIVELY for YMYL topics.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -25331,7 +26111,7 @@
     "path": "skills/seo-competitor-pages",
     "category": "uncategorized",
     "name": "seo-competitor-pages",
-    "description": "Generate SEO-optimized competitor comparison and alternatives pages. Covers \"X vs Y\" layouts, \"alternatives to X\" pages, feature matrices, schema markup, and conversion optimization. Use when user says \"comparison page\", \"vs page\", \"alternatives page\", \"competitor comparison\", or \"X vs Y\".\n",
+    "description": "Generate SEO-optimized competitor comparison and alternatives pages. Covers \"X vs Y\" layouts, \"alternatives to X\" pages, feature matrices, schema markup, and conversion optimization. Use when user says \"comparison page\", \"vs page\", \"alternatives page\", \"competitor compari...",
     "risk": "unknown",
     "source": "https://github.com/AgriciDaniel/claude-seo",
     "date_added": "2026-03-21",
@@ -25353,7 +26133,7 @@
     "path": "skills/seo-content",
     "category": "content",
     "name": "seo-content",
-    "description": "Content quality and E-E-A-T analysis with AI citation readiness assessment. Use when user says \"content quality\", \"E-E-A-T\", \"content analysis\", \"readability check\", \"thin content\", or \"content audit\".\n",
+    "description": "Content quality and E-E-A-T analysis with AI citation readiness assessment. Use when user says \"content quality\", \"E-E-A-T\", \"content analysis\", \"readability check\", \"thin content\", or \"content audit\".",
     "risk": "unknown",
     "source": "https://github.com/AgriciDaniel/claude-seo",
     "date_added": "2026-03-21",
@@ -25397,7 +26177,7 @@
     "path": "skills/seo-content-planner",
     "category": "content",
     "name": "seo-content-planner",
-    "description": "Creates comprehensive content outlines and topic clusters for SEO.\nPlans content calendars and identifies topic gaps. Use PROACTIVELY for content\nstrategy and planning.\n",
+    "description": "Creates comprehensive content outlines and topic clusters for SEO. Plans content calendars and identifies topic gaps. Use PROACTIVELY for content strategy and planning.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -25551,7 +26331,7 @@
     "path": "skills/seo-hreflang",
     "category": "uncategorized",
     "name": "seo-hreflang",
-    "description": "Hreflang and international SEO audit, validation, and generation. Detects common mistakes, validates language/region codes, and generates correct hreflang implementations. Use when user says \"hreflang\", \"i18n SEO\", \"international SEO\", \"multi-language\", \"multi-region\", or \"language tags\".\n",
+    "description": "Hreflang and international SEO audit, validation, and generation. Detects common mistakes, validates language/region codes, and generates correct hreflang implementations. Use when user says \"hreflang\", \"i18n SEO\", \"international SEO\", \"multi-language\", \"multi-region\", or...",
     "risk": "unknown",
     "source": "https://github.com/AgriciDaniel/claude-seo",
     "date_added": "2026-03-21",
@@ -25597,7 +26377,7 @@
     "path": "skills/seo-images",
     "category": "uncategorized",
     "name": "seo-images",
-    "description": "Image optimization analysis for SEO and performance. Checks alt text, file sizes, formats, responsive images, lazy loading, and CLS prevention. Use when user says \"image optimization\", \"alt text\", \"image SEO\", \"image size\", or \"image audit\".\n",
+    "description": "Image optimization analysis for SEO and performance. Checks alt text, file sizes, formats, responsive images, lazy loading, and CLS prevention. Use when user says \"image optimization\", \"alt text\", \"image SEO\", \"image size\", or \"image audit\".",
     "risk": "safe",
     "source": "https://github.com/AgriciDaniel/claude-seo",
     "date_added": "2026-03-21",
@@ -25663,7 +26443,7 @@
     "path": "skills/seo-page",
     "category": "uncategorized",
     "name": "seo-page",
-    "description": "Deep single-page SEO analysis covering on-page elements, content quality, technical meta tags, schema, images, and performance. Use when user says \"analyze this page\", \"check page SEO\", or provides a single URL for review.\n",
+    "description": "Deep single-page SEO analysis covering on-page elements, content quality, technical meta tags, schema, images, and performance. Use when user says \"analyze this page\", \"check page SEO\", or provides a single URL for review.",
     "risk": "safe",
     "source": "https://github.com/AgriciDaniel/claude-seo",
     "date_added": "2026-03-21",
@@ -25685,7 +26465,7 @@
     "path": "skills/seo-plan",
     "category": "content",
     "name": "seo-plan",
-    "description": "Strategic SEO planning for new or existing websites. Industry-specific templates, competitive analysis, content strategy, and implementation roadmap. Use when user says \"SEO plan\", \"SEO strategy\", \"content strategy\", \"site architecture\", or \"SEO roadmap\".\n",
+    "description": "Strategic SEO planning for new or existing websites. Industry-specific templates, competitive analysis, content strategy, and implementation roadmap. Use when user says \"SEO plan\", \"SEO strategy\", \"content strategy\", \"site architecture\", or \"SEO roadmap\".",
     "risk": "unknown",
     "source": "https://github.com/AgriciDaniel/claude-seo",
     "date_added": "2026-03-21",
@@ -25729,7 +26509,7 @@
     "path": "skills/seo-schema",
     "category": "uncategorized",
     "name": "seo-schema",
-    "description": "Detect, validate, and generate Schema.org structured data. JSON-LD format preferred. Use when user says \"schema\", \"structured data\", \"rich results\", \"JSON-LD\", or \"markup\".\n",
+    "description": "Detect, validate, and generate Schema.org structured data. JSON-LD format preferred. Use when user says \"schema\", \"structured data\", \"rich results\", \"JSON-LD\", or \"markup\".",
     "risk": "unknown",
     "source": "https://github.com/AgriciDaniel/claude-seo",
     "date_added": "2026-03-21",
@@ -25751,7 +26531,7 @@
     "path": "skills/seo-sitemap",
     "category": "uncategorized",
     "name": "seo-sitemap",
-    "description": "Analyze existing XML sitemaps or generate new ones with industry templates. Validates format, URLs, and structure. Use when user says \"sitemap\", \"generate sitemap\", \"sitemap issues\", or \"XML sitemap\".\n",
+    "description": "Analyze existing XML sitemaps or generate new ones with industry templates. Validates format, URLs, and structure. Use when user says \"sitemap\", \"generate sitemap\", \"sitemap issues\", or \"XML sitemap\".",
     "risk": "unknown",
     "source": "https://github.com/AgriciDaniel/claude-seo",
     "date_added": "2026-03-21",
@@ -26125,10 +26905,10 @@
     "path": "skills/signup-flow-cro",
     "category": "marketing",
     "name": "signup-flow-cro",
-    "description": "You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Skill for signup-flow-cro",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -26259,23 +27039,21 @@
     "path": "skills/skill-creator",
     "category": "meta",
     "name": "skill-creator",
-    "description": "To create new CLI skills following Anthropic's official best practices with zero manual configuration. This skill automates brainstorming, template application, validation, and installation processes while maintaining progressive disclosure patterns and writing style standards.",
+    "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skil...",
     "risk": "safe",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
-        "codex": "blocked",
-        "claude": "blocked"
+        "codex": "supported",
+        "claude": "supported"
       },
       "setup": {
         "type": "none",
         "summary": "",
         "docs": null
       },
-      "reasons": [
-        "target_specific_home_path"
-      ]
+      "reasons": []
     }
   },
   {
@@ -26615,12 +27393,12 @@
   {
     "id": "slack-gif-creator",
     "path": "skills/slack-gif-creator",
-    "category": "uncategorized",
+    "category": "automation",
     "name": "slack-gif-creator",
-    "description": "A toolkit providing utilities and knowledge for creating animated GIFs optimized for Slack.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "blocked",
@@ -26751,7 +27529,7 @@
     "path": "skills/social-orchestrator",
     "category": "marketing",
     "name": "social-orchestrator",
-    "description": "Orquestrador unificado de canais sociais \u2014 coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por formato, agendamento sincronizado e gestao centralizada de campanhas em todos os canais simultaneamente.",
+    "description": "Orquestrador unificado de canais sociais \u2014 coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por formato, agendamento sincronizado e gestao centralizada de campanhas em todos os c...",
     "risk": "critical",
     "source": "community",
     "date_added": "2026-03-06",
@@ -27215,7 +27993,7 @@
     "path": "skills/startup-business-analyst-business-case",
     "category": "business",
     "name": "startup-business-analyst-business-case",
-    "description": "Generate comprehensive investor-ready business case document with\nmarket, solution, financials, and strategy\n",
+    "description": "Generate comprehensive investor-ready business case document with market, solution, financials, and strategy",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -27237,7 +28015,7 @@
     "path": "skills/startup-business-analyst-financial-projections",
     "category": "business",
     "name": "startup-business-analyst-financial-projections",
-    "description": "Create detailed 3-5 year financial model with revenue, costs, cash\nflow, and scenarios\n",
+    "description": "Create detailed 3-5 year financial model with revenue, costs, cash flow, and scenarios",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -27259,7 +28037,7 @@
     "path": "skills/startup-business-analyst-market-opportunity",
     "category": "business",
     "name": "startup-business-analyst-market-opportunity",
-    "description": "Generate comprehensive market opportunity analysis with TAM/SAM/SOM\ncalculations\n",
+    "description": "Generate comprehensive market opportunity analysis with TAM/SAM/SOM calculations",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -27563,6 +28341,28 @@
     }
   },
   {
+    "id": "supabase-postgres-best-practices",
+    "path": "skills/exclusive/supabase-postgres-best-practices",
+    "category": "exclusive",
+    "name": "supabase-postgres-best-practices",
+    "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "superpowers-lab",
     "path": "skills/superpowers-lab",
     "category": "uncategorized",
@@ -27655,7 +28455,7 @@
     "path": "skills/swiftui-expert-skill",
     "category": "mobile",
     "name": "swiftui-expert-skill",
-    "description": "Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, and iOS 26+ Liquid Glass adoption. Use when building new SwiftUI features, refactoring existing views, reviewing code quality, or adopting modern SwiftUI patterns.",
+    "description": "Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, and iOS 26+ Liquid Glass adoption. Use when building new SwiftUI features, refactoring existing views, reviewing code quality, or adopting modern SwiftUI p...",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -27787,10 +28587,10 @@
     "path": "skills/systematic-debugging",
     "category": "development-and-testing",
     "name": "systematic-debugging",
-    "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "DEBUG: Processo cient\u00edfico de 4 fases para identificar a causa raiz, evitando adivinha\u00e7\u00e3o.",
+    "risk": "safe",
+    "source": "obra/superpowers",
+    "date_added": "2026-05-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -28077,6 +28877,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "teach-impeccable",
+    "path": "skills/exclusive/teach-impeccable",
+    "category": "exclusive",
+    "name": "teach-impeccable",
+    "description": "Gathers design context for a project and writes two complementary files at the project root:",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -28491,10 +29313,10 @@
     "path": "skills/test-driven-development",
     "category": "testing",
     "name": "test-driven-development",
-    "description": "Use when implementing any feature or bugfix, before writing implementation code",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "EXECU\u00c7\u00c3O: Imp\u00f5e o ciclo Red-Green-Refactor. Pro\u00edbe a escrita de c\u00f3digo de produ\u00e7\u00e3o antes do teste falho.",
+    "risk": "safe",
+    "source": "obra/superpowers",
+    "date_added": "2026-05-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -28513,7 +29335,7 @@
     "path": "skills/test-fixing",
     "category": "development-and-testing",
     "name": "test-fixing",
-    "description": "Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix tests (\"fix these tests\", \"make tests pass\"), reports test failures (\"tests are failing\", \"test suite is broken\"), or completes implementation and wants tests passing.",
+    "description": "Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix tests (\"fix these tests\", \"make tests pass\"), reports test failures (\"tests are failing\", \"test suite is broken\"), or completes implementation and wants test...",
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
@@ -28579,10 +29401,10 @@
     "path": "skills/theme-factory",
     "category": "design",
     "name": "theme-factory",
-    "description": "This skill provides a curated collection of professional font and color themes themes, each with carefully selected color palettes and font pairings. Once a theme is chosen, it can be applied to any artifact.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -28623,7 +29445,7 @@
     "path": "skills/threat-modeling-expert",
     "category": "security",
     "name": "threat-modeling-expert",
-    "description": "Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use PROACTIVELY for security architecture reviews, threat identification, or building secure-by-design systems.",
+    "description": "Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use PROACTIVELY for security architecture reviews, threat identification, or building secure-by-design sys...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -28995,9 +29817,9 @@
   {
     "id": "top-web-vulnerabilities",
     "path": "skills/top-web-vulnerabilities",
-    "category": "security",
+    "category": "uncategorized",
     "name": "top-web-vulnerabilities",
-    "description": "Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category. This skill enables systematic vulnerability identification, impact assessment, and remediation guidance across the full spectrum of web security threats.",
+    "description": "Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category. This skill enables systematic vulnerability identification, impact assessment, and remediation guidance across the full spectrum of web security ...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -29835,10 +30657,10 @@
     "path": "skills/using-superpowers",
     "category": "meta",
     "name": "using-superpowers",
-    "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governan\u00e7a de skills, exigindo a verifica\u00e7\u00e3o de habilidades antes de qualquer a\u00e7\u00e3o (Doutrina Antigravity).",
+    "risk": "safe",
+    "source": "obra/superpowers",
+    "date_added": "2026-05-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -30185,14 +31007,36 @@
     }
   },
   {
+    "id": "vercel-react-best-practices",
+    "path": "skills/exclusive/vercel-react-best-practices",
+    "category": "exclusive",
+    "name": "vercel-react-best-practices",
+    "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component archit...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "verification-before-completion",
     "path": "skills/verification-before-completion",
     "category": "workflow",
     "name": "verification-before-completion",
-    "description": "Claiming work is complete without verification is dishonesty, not efficiency. Use when ANY variation of success/completion claims, ANY expression of satisfaction, or ANY positive statement about work state.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "FINALIZA\u00c7\u00c3O: Gatekeeper final. Verifica integridade, linting, testes e documenta\u00e7\u00e3o antes do handoff ao humano.",
+    "risk": "safe",
+    "source": "obra/superpowers",
+    "date_added": "2026-05-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -30303,6 +31147,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-29",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "video-edit",
+    "path": "skills/exclusive/video-edit",
+    "category": "exclusive",
+    "name": "video-edit",
+    "description": "Edit existing video on RunComfy \u2014 this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Moti...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -30559,6 +31425,28 @@
     }
   },
   {
+    "id": "wan-2-7",
+    "path": "skills/exclusive/wan-2-7",
+    "category": "exclusive",
+    "name": "wan-2-7",
+    "description": "Generate text-to-video with Wan 2.7 (Wan-AI's flagship motion model) on RunComfy. Documents Wan 2.7's strengths (multi-reference conditioning, audio-driven lip-sync via `audio_url`, smoother transitions, prompt expansion), the duration / resolution / aspect-ratio schema, ...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "warren-buffett",
     "path": "skills/warren-buffett",
     "category": "uncategorized",
@@ -30607,10 +31495,10 @@
     "path": "skills/web-artifacts-builder",
     "category": "web-development",
     "name": "web-artifacts-builder",
-    "description": "To build powerful frontend claude.ai artifacts, follow these steps:",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTM...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -30761,10 +31649,10 @@
     "path": "skills/webapp-testing",
     "category": "test-automation",
     "name": "webapp-testing",
-    "description": "To test local web applications, write native Python Playwright scripts.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -30937,7 +31825,7 @@
     "path": "skills/wiki-onboarding",
     "category": "content",
     "name": "wiki-onboarding",
-    "description": "Generate two complementary onboarding documents that together give any engineer \u2014 from newcomer to principal \u2014 a complete understanding of a codebase. Use when user asks for onboarding docs or getting-started guides, user runs /deep-wiki, or user wants to help new team members understand a codebase.",
+    "description": "Generate two complementary onboarding documents that together give any engineer \u2014 from newcomer to principal \u2014 a complete understanding of a codebase. Use when user asks for onboarding docs or getting-started guides, user runs /deep-wiki, or user wants to help new team me...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -31025,7 +31913,7 @@
     "path": "skills/wiki-vitepress",
     "category": "content",
     "name": "wiki-vitepress",
-    "description": "Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams. Use when user asks to \"build a site\" or \"package as VitePress\", user runs the /deep-wiki, or user wants a browsable HTML output from generated wiki pages.",
+    "description": "Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams. Use when user asks to \"build a site\" or \"package as VitePress\", user runs the /deep-wiki, or user wants a browsable HTML output from generated w...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -31113,7 +32001,7 @@
     "path": "skills/wordpress",
     "category": "workflow-bundle",
     "name": "wordpress",
-    "description": "Complete WordPress development workflow covering theme development, plugin creation, WooCommerce integration, performance optimization, and security hardening. Includes WordPress 7.0 features: Real-Time Collaboration, AI Connectors, Abilities API, DataViews, and PHP-only blocks.",
+    "description": "Complete WordPress development workflow covering theme development, plugin creation, WooCommerce integration, performance optimization, and security hardening. Includes WordPress 7.0 features: Real-Time Collaboration, AI Connectors, Abilities API, DataViews, and PHP-only ...",
     "risk": "safe",
     "source": "personal",
     "date_added": "2026-02-27",
@@ -31355,10 +32243,10 @@
     "path": "skills/writing-plans",
     "category": "planning",
     "name": "writing-plans",
-    "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
-    "risk": "critical",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "P\u00f3s-Brainstorm: Transforma o design em um plano de execu\u00e7\u00e3o de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos.",
+    "risk": "safe",
+    "source": "obra/superpowers",
+    "date_added": "2026-05-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -31465,10 +32353,10 @@
     "path": "skills/xlsx-official",
     "category": "spreadsheet-processing",
     "name": "xlsx-official",
-    "description": "Unless otherwise stated by the user or existing template",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27",
+    "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy da...",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -31553,7 +32441,7 @@
     "path": "skills/yann-lecun-debate",
     "category": "ai-ml",
     "name": "yann-lecun-debate",
-    "description": "Sub-skill de debates e posi\u00e7\u00f5es de Yann LeCun. Cobre cr\u00edticas t\u00e9cnicas detalhadas aos LLMs, rivalidades intelectuais (LeCun vs Hinton, Sutskever, Russell, Yudkowsky, Bostrom), lista completa de rejei\u00e7\u00f5es a afirma\u00e7\u00f5es mainstream, posi\u00e7\u00e3o sobre risco existencial de IA, e t\u00e9cnicas de debate ao vivo.",
+    "description": "Sub-skill de debates e posi\u00e7\u00f5es de Yann LeCun. Cobre cr\u00edticas t\u00e9cnicas detalhadas aos LLMs, rivalidades intelectuais (LeCun vs Hinton, Sutskever, Russell, Yudkowsky, Bostrom), lista completa de rejei\u00e7\u00f5es a afirma\u00e7\u00f5es mainstream, posi\u00e7\u00e3o sobre risco existencial de IA, e t\u00e9...",
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-06",
@@ -31729,7 +32617,7 @@
     "path": "skills/zeroize-audit",
     "category": "security",
     "name": "zeroize-audit",
-    "description": "Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys, passwords, or other sensitive data.",
+    "description": "Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys, passwords, or other sensitive d...",
     "risk": "unknown",
     "source": "community",
     "date_added": null,

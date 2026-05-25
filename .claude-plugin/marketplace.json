@@ -748,6 +748,26 @@
         "marketplace"
       ],
       "source": "./plugins/antigravity-bundle-oss-maintainer"
+    },
+    {
+      "name": "antigravity-bundle-skill-author",
+      "version": "10.10.0",
+      "description": "Install the \"Skill Author\" editorial skill bundle for Claude Code.",
+      "author": {
+        "name": "sickn33 and contributors",
+        "url": "https://github.com/sickn33/antigravity-awesome-skills"
+      },
+      "homepage": "https://github.com/sickn33/antigravity-awesome-skills",
+      "repository": "https://github.com/sickn33/antigravity-awesome-skills",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "skills",
+        "bundle",
+        "skill-author",
+        "marketplace"
+      ],
+      "source": "./plugins/antigravity-bundle-skill-author"
     }
   ]
 }

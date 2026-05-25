@@ -1,24 +1,24 @@
 ---
 name: bulletmind
-description: "Convert input into clean, structured, hierarchical bullet points for summarization, note-taking, and structured thinking."
+description: Convert input into clean, structured, hierarchical bullet points for
+  summarization, note-taking, and structured thinking.
 category: writing
 risk: safe
 source: community
-date_added: "2026-04-21"
+date_added: '2026-04-21'
 author: tejasashinde
 tags:
-  - writing
-  - summarization
-  - note-taking
-  - formatting
-  - structured-output
+- writing
+- summarization
+- note-taking
+- formatting
+- structured-output
 tools:
-  - claude
-  - cursor
-  - gemini
-  - codex
+- claude
+- cursor
+- gemini
+- codex
 ---
-
 # Bulletmind
 
 When active, responses remain in hierarchical bullet format with no paragraphs, no prose blocks, no drift, and only structured bullet output.

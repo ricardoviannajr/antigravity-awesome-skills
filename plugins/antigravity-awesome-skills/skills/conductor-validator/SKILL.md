@@ -1,17 +1,12 @@
 ---
 name: conductor-validator
-description: 'Validates Conductor project artifacts for completeness,
-
-  consistency, and correctness. Use after setup, when diagnosing issues, or
-
-  before implementation to verify project context.
-
-  '
+description: Validates Conductor project artifacts for completeness, consistency,
+  and correctness. Use after setup, when diagnosing issues, or before implementation
+  to verify project context.
 risk: safe
 source: community
 date_added: '2026-02-27'
 ---
-
 # Check if conductor directory exists
 ls -la conductor/
 

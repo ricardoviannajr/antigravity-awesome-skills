@@ -5,7 +5,6 @@ allowed-tools: Read, Grep, Glob, Write
 risk: unknown
 source: community
 ---
-
 # 营养分析器技能
 
 分析饮食和营养数据，识别营养模式，评估营养状况，并提供个性化营养改善建议。

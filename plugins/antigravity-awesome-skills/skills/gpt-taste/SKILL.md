@@ -1,15 +1,24 @@
 ---
 name: gpt-taste
-description: "Use when generating elite GSAP-heavy frontend pages with strict AIDA structure, wide hero typography, and gapless bento grids."
+description: Use when generating elite GSAP-heavy frontend pages with strict AIDA
+  structure, wide hero typography, and gapless bento grids.
 category: frontend
 risk: safe
 source: community
 source_repo: Leonxlnx/taste-skill
 source_type: community
-date_added: "2026-04-17"
+date_added: '2026-04-17'
 author: Leonxlnx
-tags: [frontend, design, gsap, motion]
-tools: [claude, cursor, codex, antigravity]
+tags:
+- frontend
+- design
+- gsap
+- motion
+tools:
+- claude
+- cursor
+- codex
+- antigravity
 ---
 # CORE DIRECTIVE: AWWWARDS-LEVEL DESIGN ENGINEERING
 

@@ -1,11 +1,11 @@
 ---
 name: saga-orchestration
-description: "Patterns for managing distributed transactions and long-running business processes."
+description: Patterns for managing distributed transactions and long-running business
+  processes.
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
-
 # Saga Orchestration
 
 Patterns for managing distributed transactions and long-running business processes.
