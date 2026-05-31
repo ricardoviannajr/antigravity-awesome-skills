@@ -1,7 +1,5 @@
-﻿# DEPRECADO (stub temporário)
-# Novo caminho oficial: antigravity/.antigravityignore
-# Remover este arquivo após a migração completa dos consumidores.
-
+# Padrões de arquivos ignorados pelo Antigravity IDE
+SKILLS.md
 .antigravity/
 .antigravity/skills/
 .temp_skills_fetch/
