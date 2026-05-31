@@ -1,0 +1,14 @@
+{
+  "id": "antigravity-skill-cookie-cutter-pro",
+  "name": "Cookie Cutter Pro (Premium Version)",
+  "version": "2.0.0",
+  "description": "Transforma imagens, logotipos e mandalas em modelos STL 3D de cortadores de biscoito de alta fidelidade prontos para impressão FDM.",
+  "category": "3D Modeling & Manufacturing",
+  "author": "Premium Engineering Pack",
+  "dependencies": [
+    "opencv-python",
+    "numpy",
+    "trimesh",
+    "shapely"
+  ]
+}
