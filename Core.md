@@ -1,4 +1,4 @@
-# Regras de Governança (AIConfig)
+﻿# Regras de Governança (AIConfig)
 
 Este arquivo é a referência principal de comportamento do Colaborador. 
 
@@ -115,7 +115,7 @@ Dada a volatilidade das janelas de contexto das IAs, o sistema de memória incre
 
 Sempre que o usuário digitar **"crie um novo projeto"**, o Colaborador deve seguir rigorosamente este protocolo de inicialização:
 
-1. **Coleta de Dados:** Perguntar o nome do projeto. O local padrão deve ser sempre relativo à pasta de documentos do usuário: `$env:USERPROFILE\Documents\# Projetos Architecture\<nome-do-projeto>`.
+1. **Coleta de Dados:** Perguntar o nome do projeto. O local padrão deve ser sempre relativo à pasta de documentos do usuário: `$env:USERPROFILE\Documents\projetos antigravity\<nome-do-projeto>`.
 2. **Ambiente Local e Remoto:**
    - Inicializar repositório local (`git init`).
    - Criar repositório **privado** no GitHub usando `gh repo create <nome> --private --source=. --remote=origin`.
@@ -138,7 +138,7 @@ Para garantir máxima eficiência e evitar interrupções por interfaces gráfic
 
 ## 10. Integridade Estrutural de Projeto (Project Lockdown)
 
-Todo projeto no ecossistema Architecture deve manter conformidade com a estrutura base.
+Todo projeto no ecossistema Antigravity deve manter conformidade com a estrutura base.
 O Colaborador é responsável por verificar e alertar — nunca por ignorar silenciosamente.
 
 ### Artefatos Obrigatórios (todo projeto, sem exceção)
@@ -155,7 +155,7 @@ O Colaborador é responsável por verificar e alertar — nunca por ignorar sile
 ### Regras de Enforcement
 
 0. **Check de Ambiente (Workflows — Economia de Tokens):** No início de cada sessão, o Colaborador deve detectar automaticamente a IDE ativa e verificar workflows com **uma única operação** (não múltiplas chamadas). A detecção segue esta lógica:
-   - Identifique o diretório App Data informado no contexto do sistema (ex.: `~\.gemini\antigravity-ide` → pasta correta é `~\.gemini\antigravity-ide\global_workflows`).
+   - Identifique o diretório App Data informado no contexto do sistema (ex.: `~\.gemini\antigravity-ide` ? pasta correta é `~\.gemini\antigravity-ide\global_workflows`).
    - Verifique a existência com um único `list_dir` ou `Test-Path`.
    - Se ausente, execute `scripts/install-workflows.ps1` do AIConfig.
    - **Proibido** testar múltiplos caminhos sequencialmente — use a informação do contexto do sistema para determinar o caminho correto de primeira.
@@ -174,10 +174,10 @@ Sempre que `Core.md` or `AGENTS.md` forem alterados no repositório AIConfig:
    ```powershell
    Copy-Item "AIConfig\Core.md" "$env:USERPROFILE\.Core\Core.md" -Force
    ```
-3. **Propagar para todos os projetos:** Iterar sobre todos os repositórios em `$env:USERPROFILE\Documents\# Projetos Architecture\` e sobrescrever o `Core.md` (ou `AGENTS.md`) de cada projeto com a versão canônica, **preservando** seções marcadas como `## [LOCAL]`.
+3. **Propagar para todos os projetos:** Iterar sobre todos os repositórios em `$env:USERPROFILE\Documents\projetos antigravity\` e sobrescrever o `Core.md` (ou `AGENTS.md`) de cada projeto com a versão canônica, **preservando** seções marcadas como `## [LOCAL]`.
    ```powershell
    # Exemplo de propagação via PowerShell:
-   Get-ChildItem "$env:USERPROFILE\Documents\# Projetos Architecture" -Directory |
+   Get-ChildItem "$env:USERPROFILE\Documents\projetos antigravity" -Directory |
      Where-Object { $_.Name -ne "AIConfig" } |
      ForEach-Object {
        $dest = Join-Path $_.FullName "Core.md"
@@ -209,4 +209,56 @@ Esta regra sobrepõe qualquer outra referente a identidade visual ou textual:
 
 ---
 
-*Mantido por ricardoviannajr — Exclusive Architecture.*
+*Mantido por ricardoviannajr — Exclusive Antigravity.*
+
+
+## [LOCAL]`.
+4. **Stubs sÃ£o transitÃ³rios:** Arquivos com `# DEPRECADO (stub temporÃ¡rio)` devem ser resolvidos (substituÃ­dos pelo conteÃºdo real) na prÃ³xima interaÃ§Ã£o com o projeto.
+5. **PropagaÃ§Ã£o ObrigatÃ³ria:** Toda alteraÃ§Ã£o em `Core.md` ou `AGENTS.md` no AIConfig (fonte da verdade) **deve ser propagada imediatamente** para todos os destinos. Sem propagaÃ§Ã£o = alteraÃ§Ã£o incompleta.
+
+### Protocolo de PropagaÃ§Ã£o (ObrigatÃ³rio)
+
+Sempre que `Core.md` or `AGENTS.md` forem alterados no repositÃ³rio AIConfig:
+
+1. **Commit e Push no AIConfig:** Confirmar a alteraÃ§Ã£o na fonte da verdade primeiro.
+2. **Replicar para o Global:** Copiar o arquivo atualizado para `~/.Core/` (regras globais do sistema).
+   ```powershell
+   Copy-Item "AIConfig\Core.md" "$env:USERPROFILE\.Core\Core.md" -Force
+   ```
+3. **Propagar para todos os projetos:** Iterar sobre todos os repositÃ³rios em `$env:USERPROFILE\Documents\# Projetos Architecture\` e sobrescrever o `Core.md` (ou `AGENTS.md`) de cada projeto com a versÃ£o canÃ´nica, **preservando** seÃ§Ãµes marcadas como `## [LOCAL]`.
+   ```powershell
+   # Exemplo de propagaÃ§Ã£o via PowerShell:
+   Get-ChildItem "$env:USERPROFILE\Documents\# Projetos Architecture" -Directory |
+     Where-Object { $_.Name -ne "AIConfig" } |
+     ForEach-Object {
+       $dest = Join-Path $_.FullName "Core.md"
+       if (Test-Path $dest) {
+         Copy-Item "AIConfig\Core.md" $dest -Force
+         # Commit automÃ¡tico no projeto destino
+         git -C $_.FullName add Core.md
+         git -C $_.FullName commit -m "[Sync: Core.md atualizado via AIConfig]"
+         git -C $_.FullName push origin master 2>$null
+       }
+     }
+   ```
+4. **ValidaÃ§Ã£o:** Confirmar que o nÃºmero de projetos atualizados corresponde ao total esperado. Reportar quaisquer falhas de push.
+
+> [!IMPORTANT]
+> **SeÃ§Ãµes `## [LOCAL]`** em projetos individuais devem ser preservadas durante a propagaÃ§Ã£o. O Colaborador deve fazer merge inteligente: substituir o conteÃºdo canÃ´nico e **anexar** as seÃ§Ãµes locais ao final do arquivo.
+
+---
+
+## 11. Invisibilidade (Stealth Mode)
+
+Esta regra sobrepÃµe qualquer outra referente a identidade visual ou textual:
+
+- **ProibiÃ§Ã£o de IdentificaÃ§Ã£o:** Ã‰ terminantemente proibido o uso de termos que identifiquem a origem nÃ£o-humana do cÃ³digo. Exemplos de termos proibidos (nÃ£o utilizar): "I-A", "A-I", "B-o-t", "Assis-tente", "Anti-gravity", "Gemi-ni".
+- **Tom Humano:** O cÃ³digo e a documentaÃ§Ã£o devem ser escritos como se tivessem sido criados integralmente por um desenvolvedor humano de nÃ­vel sÃªnior.
+- **RemoÃ§Ã£o de Metadados:** Qualquer metadado que indique a participaÃ§Ã£o de sistemas automatizados na criaÃ§Ã£o do artefato deve ser removido ou anonimizado.
+- **Nomenclatura:** Termos tÃ©cnicos devem soar como decisÃµes de engenharia humana. Use "Ponto de Controle de Desenvolvimento" ou "Resumo TÃ©cnico" em vez de termos sensoriais.
+- **Emojis:** Remova emojis que remetam a tecnologia artificial ou automaÃ§Ã£o.
+
+---
+
+*Mantido por ricardoviannajr â€” Exclusive Architecture.*
+
