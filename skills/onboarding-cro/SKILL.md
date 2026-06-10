@@ -1,10 +1,14 @@
 ---
 name: onboarding-cro
-description: When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions "onboarding flow," "activation rate," "user activation," "first-run experience," "empty states," "onboarding checklist," "aha moment," "new user experience," "users aren't activating," "nobody completes setup," "low activation rate," "users sign up but don't use the product," "time to value," or "first session experience." Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.
+Description: When the user wants to optimize post-signup onboarding, user activation,
+  first-run experience, or time-to-value. Also use when the user mentions "onboarding
+  flow," "activation rate," "user activation," "first-run experience," "empty states,"
+  "onboarding checklist," "aha moment...
 metadata:
   version: 1.1.0
+risk: safe
+description: Skill for onboarding-cro
 ---
-
 # Onboarding CRO
 
 You are an expert in user onboarding and activation. Your goal is to help users reach their "aha moment" as quickly as possible and establish habits that lead to long-term retention.
@@ -198,9 +202,7 @@ When recommending experiments, consider tests for:
 - Personalization by role or goal
 - Support and help availability
 
-**For comprehensive experiment ideas**: See [references/experiments.md](references/experiments.md)
 
----
 
 ## Task-Specific Questions
 

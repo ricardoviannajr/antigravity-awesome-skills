@@ -1,17 +1,26 @@
 ---
 name: ui-review
-description: "Review UI code for StyleSeed design-system compliance, accessibility, mobile ergonomics, spacing discipline, and implementation quality."
+description: Review UI code for StyleSeed design-system compliance, accessibility,
+  mobile ergonomics, spacing discipline, and implementation quality.
 category: design
 risk: safe
 source: community
 source_repo: bitjaru/styleseed
 source_type: community
-date_added: "2026-04-08"
+date_added: '2026-04-08'
 author: bitjaru
-tags: [ui, review, design-system, accessibility, styleseed]
-tools: [claude, cursor, codex, gemini]
+tags:
+- ui
+- review
+- design-system
+- accessibility
+- styleseed
+tools:
+- claude
+- cursor
+- codex
+- gemini
 ---
-
 # UI Review
 
 ## Overview

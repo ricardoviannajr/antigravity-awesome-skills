@@ -1,11 +1,10 @@
 ---
 name: search-specialist
-description: "Expert web researcher using advanced search techniques and"
+description: Expert web researcher using advanced search techniques and
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
-
 ## Use this skill when
 
 - Working on search specialist tasks or workflows

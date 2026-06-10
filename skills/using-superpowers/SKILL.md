@@ -1,11 +1,11 @@
 ---
 name: using-superpowers
-description: "MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity)."
-risk: low
+description: 'MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de
+  skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity).'
+risk: safe
 source: obra/superpowers
-date_added: "2026-05-16"
+date_added: '2026-05-16'
 ---
-
 # 🪄 Using Superpowers (The Maestro)
 
 Esta skill estabelece o **Sistema Operacional** de trabalho. Ela garante que você opere como um engenheiro disciplinado, não apenas um digitador de código.

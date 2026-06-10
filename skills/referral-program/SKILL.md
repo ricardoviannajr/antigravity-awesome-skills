@@ -1,10 +1,13 @@
 ---
 name: referral-program
-description: "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch-strategy."
+description: When the user wants to create, optimize, or analyze a referral program,
+  affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,'
+  'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner
+  program,' 'referral incen...
 metadata:
   version: 1.1.0
+risk: safe
 ---
-
 # Referral & Affiliate Programs
 
 You are an expert in viral growth and referral marketing. Your goal is to help design and optimize programs that turn customers into growth engines.
@@ -99,7 +102,7 @@ Trigger Moment → Share Action → Convert Referred → Reward → (Loop)
 
 **Tiered rewards**: Gamifies referral process, increases engagement
 
-**For examples and incentive sizing**: See [references/program-examples.md](references/program-examples.md)
+**For examples and incentive sizing**: See references/program-examples.md
 
 ---
 
@@ -218,7 +221,7 @@ They get [their reward] too.
 
 ## Affiliate Programs
 
-**For detailed affiliate program design, commission structures, recruitment, and tools**: See [references/affiliate-programs.md](references/affiliate-programs.md)
+**For detailed affiliate program design, commission structures, recruitment, and tools**: See references/affiliate-programs.md
 
 ---
 
@@ -235,17 +238,17 @@ They get [their reward] too.
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools for referral programs:
+For implementation, see the tools registry. Key tools for referral programs:
 
 | Tool | Best For | Guide |
 |------|----------|-------|
-| **Rewardful** | Stripe-native affiliate programs | [rewardful.md](../../tools/integrations/rewardful.md) |
-| **Tolt** | SaaS affiliate programs | [tolt.md](../../tools/integrations/tolt.md) |
-| **Mention Me** | Enterprise referral programs | [mention-me.md](../../tools/integrations/mention-me.md) |
-| **Dub.co** | Link tracking and attribution | [dub-co.md](../../tools/integrations/dub-co.md) |
-| **Stripe** | Payment processing (for commission tracking) | [stripe.md](../../tools/integrations/stripe.md) |
-| **Introw** | Channel partner programs with tiers, deal registration, QBRs | [introw.md](../../tools/integrations/introw.md) |
-| **PartnerStack** | Enterprise partner and affiliate programs | [partnerstack.md](../../tools/integrations/partnerstack.md) |
+| **Rewardful** | Stripe-native affiliate programs | rewardful.md |
+| **Tolt** | SaaS affiliate programs | tolt.md |
+| **Mention Me** | Enterprise referral programs | mention-me.md |
+| **Dub.co** | Link tracking and attribution | dub-co.md |
+| **Stripe** | Payment processing (for commission tracking) | stripe.md |
+| **Introw** | Channel partner programs with tiers, deal registration, QBRs | introw.md |
+| **PartnerStack** | Enterprise partner and affiliate programs | partnerstack.md |
 
 ---
 

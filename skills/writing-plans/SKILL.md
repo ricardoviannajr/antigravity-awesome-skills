@@ -1,11 +1,11 @@
 ---
 name: writing-plans
-description: "Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos."
-risk: low
+description: 'Pós-Brainstorm: Transforma o design em um plano de execução de tarefas
+  ''bite-sized'' (2-5 min) com caminhos de arquivos exatos.'
+risk: safe
 source: obra/superpowers
-date_added: "2026-05-16"
+date_added: '2026-05-16'
 ---
-
 # 📝 Writing Plans (Planejamento de Execução)
 
 Esta skill é ativada após o design ser aprovado. Ela quebra o trabalho em tarefas pequenas o suficiente para que um engenheiro júnior entusiasta possa seguir sem errar.

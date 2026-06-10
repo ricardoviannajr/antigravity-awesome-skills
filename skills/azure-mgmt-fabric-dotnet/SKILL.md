@@ -5,7 +5,6 @@ risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
-
 # Azure.ResourceManager.Fabric (.NET)
 
 Management plane SDK for provisioning and managing Microsoft Fabric capacity resources via Azure Resource Manager.

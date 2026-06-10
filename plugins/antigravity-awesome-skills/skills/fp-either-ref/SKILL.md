@@ -1,12 +1,17 @@
 ---
 name: fp-either-ref
-description: Quick reference for Either type. Use when user needs error handling, validation, or operations that can fail with typed errors.
+description: Quick reference for Either type. Use when user needs error handling,
+  validation, or operations that can fail with typed errors.
 risk: unknown
 source: community
 version: 1.0.0
-tags: [fp-ts, either, error-handling, validation, quick-reference]
+tags:
+- fp-ts
+- either
+- error-handling
+- validation
+- quick-reference
 ---
-
 # Either Quick Reference
 
 Either = success or failure. `Right(value)` or `Left(error)`.

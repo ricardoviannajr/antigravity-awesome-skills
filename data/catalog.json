@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1445,
+  "generatedAt": "2026-06-10T09:50:24.757Z",
+  "total": 1485,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -140,7 +140,7 @@
     {
       "id": "ab-test-setup",
       "name": "ab-test-setup",
-      "description": "Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness.",
+      "description": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I...",
       "category": "testing",
       "tags": [
         "ab",
@@ -150,15 +150,15 @@
         "ab",
         "setup",
         "test",
-        "structured",
-        "setting",
-        "up",
-        "tests",
-        "mandatory",
-        "gates",
-        "hypothesis",
-        "metrics",
-        "execution"
+        "user",
+        "wants",
+        "plan",
+        "experiment",
+        "growth",
+        "experimentation",
+        "program",
+        "mentions",
+        "split"
       ],
       "path": "skills/ab-test-setup/SKILL.md"
     },
@@ -720,7 +720,7 @@
     {
       "id": "agentic-actions-auditor",
       "name": "agentic-actions-auditor",
-      "description": "Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations  including Claude Code Action,  Gemini CLI, OpenAI Codex, and GitHub AI  Inference.  Detects attack vectors where attacker-controlled  input reaches. AI agents running in CI/CD pipelines.",
+      "description": "Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHub AI Inference. Detects attack vectors where attacker-controlled input reaches. AI agents running in CI/CD pipelines.",
       "category": "security",
       "tags": [
         "agentic",
@@ -1093,7 +1093,7 @@
     {
       "id": "ai-seo",
       "name": "ai-seo",
-      "description": "Optimize content for AI search and LLM citations across AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and similar systems. Use when improving AI visibility, answer engine optimization, or citation readiness.",
+      "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Ove...",
       "category": "data-ai",
       "tags": [
         "ai",
@@ -1102,16 +1102,16 @@
       "triggers": [
         "ai",
         "seo",
+        "user",
+        "wants",
         "optimize",
         "content",
         "search",
-        "llm",
-        "citations",
-        "overviews",
-        "chatgpt",
-        "perplexity",
-        "claude",
-        "gemini"
+        "engines",
+        "get",
+        "cited",
+        "llms",
+        "appear"
       ],
       "path": "skills/ai-seo/SKILL.md"
     },
@@ -1269,7 +1269,7 @@
     {
       "id": "algorithmic-art",
       "name": "algorithmic-art",
-      "description": "Algorithmic philosophies are computational aesthetic movements that are then expressed through code. Output .md files (philosophy), .html files (interactive viewer), and .js files (generative algorithms).",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying e...",
       "category": "general",
       "tags": [
         "algorithmic",
@@ -1278,16 +1278,16 @@
       "triggers": [
         "algorithmic",
         "art",
-        "philosophies",
-        "computational",
-        "aesthetic",
-        "movements",
-        "then",
-        "expressed",
-        "through",
-        "code",
-        "output",
-        "md"
+        "creating",
+        "p5",
+        "js",
+        "seeded",
+        "randomness",
+        "interactive",
+        "parameter",
+        "exploration",
+        "users",
+        "request"
       ],
       "path": "skills/algorithmic-art/SKILL.md"
     },
@@ -2023,7 +2023,7 @@
     {
       "id": "apify-actor-development",
       "name": "apify-actor-development",
-      "description": "Important: Before you begin, fill in the generatedBy property in the meta section of .actor/actor.json. Replace it with the tool and model you're currently using, such as \"Claude Code with Claude Sonnet 4.5\". This helps Apify monitor and improve AGENTS.md for specific AI tools and models.",
+      "description": "Important: Before you begin, fill in the generatedBy property in the meta section of .actor/actor.json. Replace it with the tool and model you're currently using, such as \"Claude Code with Claude Sonnet 4.5\". This helps Apify monitor and improve AGENTS.md for specific AI ...",
       "category": "data-ai",
       "tags": [
         "apify",
@@ -6504,7 +6504,7 @@
     {
       "id": "bash-pro",
       "name": "bash-pro",
-      "description": "Master of defensive Bash scripting for production automation, CI/CD\npipelines, and system utilities. Expert in safe, portable, and testable shell\nscripts.",
+      "description": "Master of defensive Bash scripting for production automation, CI/CD pipelines, and system utilities. Expert in safe, portable, and testable shell scripts.",
       "category": "infrastructure",
       "tags": [
         "bash"
@@ -6600,8 +6600,8 @@
     {
       "id": "bdi-mental-states",
       "name": "bdi-mental-states",
-      "description": "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.",
-      "category": "data-ai",
+      "description": "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or ne...",
+      "category": "architecture",
       "tags": [
         "bdi",
         "mental",
@@ -6995,32 +6995,32 @@
     {
       "id": "brainstorming",
       "name": "brainstorming",
-      "description": "Use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration.",
-      "category": "architecture",
+      "description": "Use antes de qualquer trabalho criativo (features, arquitetura, comportamento). Transforma ideias vagas em designs validados via diálogo socrático.",
+      "category": "general",
       "tags": [
         "brainstorming"
       ],
       "triggers": [
         "brainstorming",
-        "before",
-        "creative",
-        "constructive",
-        "work",
+        "antes",
+        "de",
+        "qualquer",
+        "trabalho",
+        "criativo",
         "features",
-        "architecture",
-        "behavior",
-        "transforms",
-        "vague",
-        "ideas",
-        "validated"
+        "arquitetura",
+        "comportamento",
+        "transforma",
+        "ideias",
+        "vagas"
       ],
       "path": "skills/brainstorming/SKILL.md"
     },
     {
       "id": "brand-guidelines",
       "name": "brand-guidelines",
-      "description": "Write copy following Sentry brand guidelines. Use when writing UI text, error messages, empty states, onboarding flows, 404 pages, documentation, marketing copy, or any user-facing content. Covers both Plain Speech (default) and Sentry Voice tones.",
-      "category": "business",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "category": "general",
       "tags": [
         "brand",
         "guidelines"
@@ -7028,16 +7028,16 @@
       "triggers": [
         "brand",
         "guidelines",
-        "write",
-        "copy",
-        "following",
-        "sentry",
-        "writing",
-        "ui",
-        "text",
-        "error",
-        "messages",
-        "empty"
+        "applies",
+        "anthropic",
+        "official",
+        "colors",
+        "typography",
+        "any",
+        "sort",
+        "artifact",
+        "may",
+        "benefit"
       ],
       "path": "skills/brand-guidelines/SKILL.md"
     },
@@ -7717,24 +7717,24 @@
     {
       "id": "canvas-design",
       "name": "canvas-design",
-      "description": "These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copy...",
       "category": "general",
       "tags": [
         "canvas"
       ],
       "triggers": [
         "canvas",
-        "these",
-        "instructions",
-        "creating",
-        "philosophies",
-        "aesthetic",
-        "movements",
-        "then",
-        "expressed",
-        "visually",
-        "output",
-        "md"
+        "beautiful",
+        "visual",
+        "art",
+        "png",
+        "pdf",
+        "documents",
+        "philosophy",
+        "should",
+        "skill",
+        "user",
+        "asks"
       ],
       "path": "skills/canvas-design/SKILL.md"
     },
@@ -8084,8 +8084,8 @@
     {
       "id": "cicd-automation-workflow-automate",
       "name": "cicd-automation-workflow-automate",
-      "description": "You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design and implement automation that reduces manual work, improves consistency, and accelerates delivery while maintaining quality and security.",
-      "category": "security",
+      "description": "You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design and implement automation that reduces manual work, improves consistency, and accelerates delivery while maintaini...",
+      "category": "infrastructure",
       "tags": [
         "cicd",
         "automate"
@@ -8281,8 +8281,8 @@
     {
       "id": "claude-api",
       "name": "claude-api",
-      "description": "Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.",
-      "category": "data-ai",
+      "description": "Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built with this skill should include prompt caching. Also handles migrating existing Claude API code between Claude model versions (4.5 → 4.6, 4.6 → 4.7, retired-model replacements). TRIGGER when: code impor...",
+      "category": "development",
       "tags": [
         "claude",
         "api"
@@ -8290,16 +8290,16 @@
       "triggers": [
         "claude",
         "api",
-        "apps",
+        "debug",
+        "optimize",
         "anthropic",
         "sdk",
-        "trigger",
-        "code",
-        "imports",
-        "ai",
-        "agent",
-        "user",
-        "asks"
+        "apps",
+        "built",
+        "skill",
+        "should",
+        "include",
+        "prompt"
       ],
       "path": "skills/claude-api/SKILL.md"
     },
@@ -9017,7 +9017,7 @@
     {
       "id": "code-simplifier",
       "name": "code-simplifier",
-      "description": "Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to \"simplify code\", \"clean up code\", \"refactor for clarity\", \"improve readability\", or review recently modified code for elegance. Focuses on project-specific best practices.",
+      "description": "Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to \"simplify code\", \"clean up code\", \"refactor for clarity\", \"improve readability\", or review recently modified code for elegance. Focuses on proje...",
       "category": "general",
       "tags": [
         "code",
@@ -9302,7 +9302,7 @@
     {
       "id": "competitor-alternatives",
       "name": "competitor-alternatives",
-      "description": "You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively.",
+      "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitiv...",
       "category": "business",
       "tags": [
         "competitor",
@@ -9311,16 +9311,16 @@
       "triggers": [
         "competitor",
         "alternatives",
-        "creating",
+        "user",
+        "wants",
         "comparison",
         "alternative",
         "pages",
-        "goal",
-        "rank",
-        "competitive",
-        "search",
-        "terms",
-        "provide"
+        "seo",
+        "sales",
+        "enablement",
+        "mentions",
+        "page"
       ],
       "path": "skills/competitor-alternatives/SKILL.md"
     },
@@ -9344,7 +9344,7 @@
     {
       "id": "comprehensive-review-pr-enhance",
       "name": "comprehensive-review-pr-enhance",
-      "description": "Generate structured PR descriptions from diffs, add review checklists, risk assessments, and test coverage summaries. Use when the user says \"write a PR description\", \"improve this PR\", \"summarize my changes\", \"PR review\", \"pull request\", or asks to document a diff for reviewers.",
+      "description": "Generate structured PR descriptions from diffs, add review checklists, risk assessments, and test coverage summaries. Use when the user says \"write a PR description\", \"improve this PR\", \"summarize my changes\", \"PR review\", \"pull request\", or asks to document a diff for re...",
       "category": "security",
       "tags": [
         "comprehensive",
@@ -9574,7 +9574,7 @@
     {
       "id": "conductor-validator",
       "name": "conductor-validator",
-      "description": "Validates Conductor project artifacts for completeness,\nconsistency, and correctness. Use after setup, when diagnosing issues, or\nbefore implementation to verify project context.",
+      "description": "Validates Conductor project artifacts for completeness, consistency, and correctness. Use after setup, when diagnosing issues, or before implementation to verify project context.",
       "category": "workflow",
       "tags": [
         "conductor",
@@ -11203,7 +11203,7 @@
     {
       "id": "debugger",
       "name": "debugger",
-      "description": "Debugging specialist for errors, test failures, and unexpected\nbehavior. Use proactively when encountering any issues.",
+      "description": "Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering any issues.",
       "category": "testing",
       "tags": [
         "debugger"
@@ -11547,27 +11547,25 @@
     {
       "id": "design-taste-frontend",
       "name": "design-taste-frontend",
-      "description": "Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules.",
-      "category": "development",
+      "description": "Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict component architecture, CSS hardware acceleration, and balanced design engineering.",
+      "category": "data-ai",
       "tags": [
-        "frontend",
-        "design",
-        "ui",
-        "react"
+        "taste",
+        "frontend"
       ],
       "triggers": [
-        "frontend",
-        "design",
-        "ui",
-        "react",
         "taste",
-        "building",
-        "high",
-        "agency",
+        "frontend",
+        "senior",
+        "ui",
+        "ux",
+        "engineer",
+        "architect",
+        "digital",
         "interfaces",
-        "strict",
-        "calibrated",
-        "color"
+        "overriding",
+        "default",
+        "llm"
       ],
       "path": "skills/design-taste-frontend/SKILL.md"
     },
@@ -11784,7 +11782,7 @@
     {
       "id": "distributed-debugging-debug-trace",
       "name": "distributed-debugging-debug-trace",
-      "description": "You are a debugging expert specializing in setting up comprehensive debugging environments, distributed tracing, and diagnostic tools. Configure debugging workflows, implement tracing solutions, and establish troubleshooting practices for development and production environments.",
+      "description": "You are a debugging expert specializing in setting up comprehensive debugging environments, distributed tracing, and diagnostic tools. Configure debugging workflows, implement tracing solutions, and establish troubleshooting practices for development and production enviro...",
       "category": "infrastructure",
       "tags": [
         "distributed",
@@ -11897,8 +11895,8 @@
     {
       "id": "doc-coauthoring",
       "name": "doc-coauthoring",
-      "description": "This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement & Structure, and Reader Testing.",
-      "category": "testing",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through i...",
+      "category": "architecture",
       "tags": [
         "doc",
         "coauthoring"
@@ -11906,16 +11904,16 @@
       "triggers": [
         "doc",
         "coauthoring",
-        "skill",
-        "provides",
-        "structured",
-        "guiding",
         "users",
         "through",
-        "collaborative",
-        "document",
-        "creation",
-        "act"
+        "structured",
+        "co",
+        "authoring",
+        "documentation",
+        "user",
+        "wants",
+        "write",
+        "proposals"
       ],
       "path": "skills/doc-coauthoring/SKILL.md"
     },
@@ -12067,7 +12065,7 @@
     {
       "id": "docx-official",
       "name": "docx-official",
-      "description": "A user may ask you to create, edit, or analyze the contents of a .docx file. A .docx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.",
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of contents, headings...",
       "category": "general",
       "tags": [
         "docx",
@@ -12076,16 +12074,16 @@
       "triggers": [
         "docx",
         "official",
+        "skill",
+        "whenever",
         "user",
-        "may",
-        "ask",
+        "wants",
+        "read",
         "edit",
-        "analyze",
-        "contents",
-        "file",
-        "essentially",
-        "zip",
-        "archive"
+        "manipulate",
+        "word",
+        "documents",
+        "files"
       ],
       "path": "skills/docx-official/SKILL.md"
     },
@@ -12914,7 +12912,7 @@
     {
       "id": "event-sourcing-architect",
       "name": "event-sourcing-architect",
-      "description": "Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection building, saga orchestration, and eventual consistency patterns. Use PROACTIVELY for event-sourced systems, audit trail requirements, or complex domain modeling with temporal queries.",
+      "description": "Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection building, saga orchestration, and eventual consistency patterns. Use PROACTIVELY for event-sourced systems, audit trail requirements, or complex domain modeling ...",
       "category": "architecture",
       "tags": [
         "event",
@@ -13006,6 +13004,988 @@
         "searching"
       ],
       "path": "skills/exa-search/SKILL.md"
+    },
+    {
+      "id": "exclusive/agent-browser",
+      "name": "agent-browser",
+      "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web apps, or automating any browser task. Triggers include requests to \"open ...",
+      "category": "data-ai",
+      "tags": [
+        "exclusive/agent",
+        "browser"
+      ],
+      "triggers": [
+        "exclusive/agent",
+        "browser",
+        "agent",
+        "automation",
+        "cli",
+        "ai",
+        "agents",
+        "user",
+        "interact",
+        "websites",
+        "including",
+        "navigating"
+      ],
+      "path": "skills/exclusive/agent-browser/SKILL.md"
+    },
+    {
+      "id": "exclusive/agent-tools",
+      "name": "agent-tools",
+      "description": "Run 250+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, callin...",
+      "category": "data-ai",
+      "tags": [
+        "exclusive/agent"
+      ],
+      "triggers": [
+        "exclusive/agent",
+        "agent",
+        "run",
+        "250",
+        "ai",
+        "apps",
+        "via",
+        "inference",
+        "sh",
+        "cli",
+        "image",
+        "generation"
+      ],
+      "path": "skills/exclusive/agent-tools/SKILL.md"
+    },
+    {
+      "id": "exclusive/agentspace",
+      "name": "agentspace",
+      "description": "See what your AI agent is doing, from anywhere. The agent keeps writing — logs, code, generated outputs, screenshots, artifacts. One command turns the folder into a live URL you (or a teammate) open in any browser to watch files evolve, edit in place, or comment — no sync...",
+      "category": "data-ai",
+      "tags": [
+        "exclusive/agentspace"
+      ],
+      "triggers": [
+        "exclusive/agentspace",
+        "agentspace",
+        "see",
+        "what",
+        "ai",
+        "agent",
+        "doing",
+        "anywhere",
+        "keeps",
+        "writing",
+        "logs",
+        "code"
+      ],
+      "path": "skills/exclusive/agentspace/SKILL.md"
+    },
+    {
+      "id": "exclusive/ai-avatar-video",
+      "name": "ai-avatar-video",
+      "description": "Skill for ai-avatar-video",
+      "category": "data-ai",
+      "tags": [
+        "exclusive/ai",
+        "avatar",
+        "video"
+      ],
+      "triggers": [
+        "exclusive/ai",
+        "avatar",
+        "video",
+        "ai",
+        "skill"
+      ],
+      "path": "skills/exclusive/ai-avatar-video/SKILL.md"
+    },
+    {
+      "id": "exclusive/ai-image-generation",
+      "name": "ai-image-generation",
+      "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-imag...",
+      "category": "data-ai",
+      "tags": [
+        "exclusive/ai",
+        "image",
+        "generation"
+      ],
+      "triggers": [
+        "exclusive/ai",
+        "image",
+        "generation",
+        "ai",
+        "generate",
+        "images",
+        "gpt",
+        "flux",
+        "gemini",
+        "grok",
+        "seedream",
+        "reve"
+      ],
+      "path": "skills/exclusive/ai-image-generation/SKILL.md"
+    },
+    {
+      "id": "exclusive/ai-video-generation",
+      "name": "ai-video-generation",
+      "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, re...",
+      "category": "data-ai",
+      "tags": [
+        "exclusive/ai",
+        "video",
+        "generation"
+      ],
+      "triggers": [
+        "exclusive/ai",
+        "video",
+        "generation",
+        "ai",
+        "generate",
+        "videos",
+        "google",
+        "veo",
+        "seedance",
+        "happyhorse",
+        "wan",
+        "grok"
+      ],
+      "path": "skills/exclusive/ai-video-generation/SKILL.md"
+    },
+    {
+      "id": "exclusive/audit-website",
+      "name": "audit-website",
+      "description": "Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 230+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover a...",
+      "category": "security",
+      "tags": [
+        "exclusive/audit",
+        "website"
+      ],
+      "triggers": [
+        "exclusive/audit",
+        "website",
+        "audit",
+        "websites",
+        "seo",
+        "performance",
+        "security",
+        "technical",
+        "content",
+        "15",
+        "other",
+        "issue"
+      ],
+      "path": "skills/exclusive/audit-website/SKILL.md"
+    },
+    {
+      "id": "exclusive/cavecrew",
+      "name": "cavecrew",
+      "description": "Decision guide for delegating to caveman-style subagents. Tells the main thread WHEN to spawn `cavecrew-investigator` (locate code), `cavecrew-builder` (1-2 file edit), or `cavecrew-reviewer` (diff review) instead of doing the work inline or using vanilla `Explore`. Subag...",
+      "category": "architecture",
+      "tags": [
+        "exclusive/cavecrew"
+      ],
+      "triggers": [
+        "exclusive/cavecrew",
+        "cavecrew",
+        "decision",
+        "delegating",
+        "caveman",
+        "style",
+        "subagents",
+        "tells",
+        "main",
+        "thread",
+        "spawn",
+        "investigator"
+      ],
+      "path": "skills/exclusive/cavecrew/SKILL.md"
+    },
+    {
+      "id": "exclusive/caveman",
+      "name": "caveman",
+      "description": "Ultra-compressed communication mode. Cuts token usage ~75% by speaking like caveman while keeping full technical accuracy. Supports intensity levels: lite, full (default), ultra, wenyan-lite, wenyan-full, wenyan-ultra. Use when user says \"caveman mode\", \"talk like caveman...",
+      "category": "general",
+      "tags": [
+        "exclusive/caveman"
+      ],
+      "triggers": [
+        "exclusive/caveman",
+        "caveman",
+        "ultra",
+        "compressed",
+        "communication",
+        "mode",
+        "cuts",
+        "token",
+        "usage",
+        "75",
+        "speaking",
+        "like"
+      ],
+      "path": "skills/exclusive/caveman/SKILL.md"
+    },
+    {
+      "id": "exclusive/caveman-commit",
+      "name": "caveman-commit",
+      "description": "Ultra-compressed commit message generator. Cuts noise from commit messages while preserving intent and reasoning. Conventional Commits format. Subject â‰¤50 chars, body only when \"why\" isn't obvious. Use when user says \"write a commit\", \"commit message\", \"generate commit\"...",
+      "category": "general",
+      "tags": [
+        "exclusive/caveman",
+        "commit"
+      ],
+      "triggers": [
+        "exclusive/caveman",
+        "commit",
+        "caveman",
+        "ultra",
+        "compressed",
+        "message",
+        "generator",
+        "cuts",
+        "noise",
+        "messages",
+        "while",
+        "preserving"
+      ],
+      "path": "skills/exclusive/caveman-commit/SKILL.md"
+    },
+    {
+      "id": "exclusive/caveman-compress",
+      "name": "caveman-compress",
+      "description": "Compress natural language memory files (CLAUDE.md, todos, preferences) into caveman format to save input tokens. Preserves all technical substance, code, URLs, and structure. Compressed version overwrites the original file. Human-readable backup saved as FILE.original.md....",
+      "category": "general",
+      "tags": [
+        "exclusive/caveman",
+        "compress"
+      ],
+      "triggers": [
+        "exclusive/caveman",
+        "compress",
+        "caveman",
+        "natural",
+        "language",
+        "memory",
+        "files",
+        "claude",
+        "md",
+        "todos",
+        "preferences",
+        "format"
+      ],
+      "path": "skills/exclusive/caveman-compress/SKILL.md"
+    },
+    {
+      "id": "exclusive/caveman-help",
+      "name": "caveman-help",
+      "description": "Quick-reference card for all caveman modes, skills, and commands. One-shot display, not a persistent mode. Trigger: /caveman-help, \"caveman help\", \"what caveman commands\", \"how do I use caveman\".",
+      "category": "general",
+      "tags": [
+        "exclusive/caveman",
+        "help"
+      ],
+      "triggers": [
+        "exclusive/caveman",
+        "help",
+        "caveman",
+        "quick",
+        "reference",
+        "card",
+        "all",
+        "modes",
+        "skills",
+        "commands",
+        "one",
+        "shot"
+      ],
+      "path": "skills/exclusive/caveman-help/SKILL.md"
+    },
+    {
+      "id": "exclusive/caveman-review",
+      "name": "caveman-review",
+      "description": "Ultra-compressed code review comments. Cuts noise from PR feedback while preserving the actionable signal. Each comment is one line: location, problem, fix. Use when user says \"review this PR\", \"code review\", \"review the diff\", \"/review\", or invokes /caveman-review. Auto-...",
+      "category": "general",
+      "tags": [
+        "exclusive/caveman"
+      ],
+      "triggers": [
+        "exclusive/caveman",
+        "caveman",
+        "review",
+        "ultra",
+        "compressed",
+        "code",
+        "comments",
+        "cuts",
+        "noise",
+        "pr",
+        "feedback",
+        "while"
+      ],
+      "path": "skills/exclusive/caveman-review/SKILL.md"
+    },
+    {
+      "id": "exclusive/caveman-stats",
+      "name": "caveman-stats",
+      "description": "Show real token usage and estimated savings for the current session. Reads directly from the Claude Code session log — no AI estimation. Triggers on /caveman-stats. Output is injected by the mode-tracker hook; the model itself does not compute the numbers.",
+      "category": "data-ai",
+      "tags": [
+        "exclusive/caveman",
+        "stats"
+      ],
+      "triggers": [
+        "exclusive/caveman",
+        "stats",
+        "caveman",
+        "show",
+        "real",
+        "token",
+        "usage",
+        "estimated",
+        "savings",
+        "current",
+        "session",
+        "reads"
+      ],
+      "path": "skills/exclusive/caveman-stats/SKILL.md"
+    },
+    {
+      "id": "exclusive/codex-pet",
+      "name": "codex-pet",
+      "description": "Codex Pet generator on RunComfy. Build a Codex-compatible Codex Pet spritesheet.webp + pet.json from a single reference image, drop it into `${CODEX_HOME:-$HOME/.codex}/pets/<name>/` and Codex picks it up as a custom Codex Pet next to the 8 built-ins. This skill produces ...",
+      "category": "general",
+      "tags": [
+        "exclusive/codex",
+        "pet"
+      ],
+      "triggers": [
+        "exclusive/codex",
+        "pet",
+        "codex",
+        "generator",
+        "runcomfy",
+        "compatible",
+        "spritesheet",
+        "webp",
+        "json",
+        "single",
+        "reference",
+        "image"
+      ],
+      "path": "skills/exclusive/codex-pet/SKILL.md"
+    },
+    {
+      "id": "exclusive/find-skills",
+      "name": "find-skills",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might...",
+      "category": "general",
+      "tags": [
+        "exclusive/find",
+        "skills"
+      ],
+      "triggers": [
+        "exclusive/find",
+        "skills",
+        "find",
+        "helps",
+        "users",
+        "discover",
+        "install",
+        "agent",
+        "ask",
+        "questions",
+        "like",
+        "how"
+      ],
+      "path": "skills/exclusive/find-skills/SKILL.md"
+    },
+    {
+      "id": "exclusive/firebase-auth-basics",
+      "name": "firebase-auth-basics",
+      "description": "Guide for setting up and using Firebase Authentication. Use this skill when the user's app requires user sign-in, user management, or secure data access using auth rules.",
+      "category": "security",
+      "tags": [
+        "exclusive/firebase",
+        "auth",
+        "basics"
+      ],
+      "triggers": [
+        "exclusive/firebase",
+        "auth",
+        "basics",
+        "firebase",
+        "setting",
+        "up",
+        "authentication",
+        "skill",
+        "user",
+        "app",
+        "requires",
+        "sign"
+      ],
+      "path": "skills/exclusive/firebase-auth-basics/SKILL.md"
+    },
+    {
+      "id": "exclusive/firebase-basics",
+      "name": "firebase-basics",
+      "description": "Provides foundational setup, authentication, and project management workflows for Firebase using the Firebase CLI. Use when checking Firebase CLI version (must use 'npx -y firebase-tools@latest --version'), initializing a Firebase environment, authenticating, setting acti...",
+      "category": "general",
+      "tags": [
+        "exclusive/firebase",
+        "basics"
+      ],
+      "triggers": [
+        "exclusive/firebase",
+        "basics",
+        "firebase",
+        "provides",
+        "foundational",
+        "setup",
+        "authentication",
+        "cli",
+        "checking",
+        "version",
+        "must",
+        "npx"
+      ],
+      "path": "skills/exclusive/firebase-basics/SKILL.md"
+    },
+    {
+      "id": "exclusive/firecrawl-crawl",
+      "name": "firecrawl-crawl",
+      "description": "---",
+      "category": "general",
+      "tags": [
+        "exclusive/firecrawl",
+        "crawl"
+      ],
+      "triggers": [
+        "exclusive/firecrawl",
+        "crawl",
+        "firecrawl"
+      ],
+      "path": "skills/exclusive/firecrawl-crawl/SKILL.md"
+    },
+    {
+      "id": "exclusive/firecrawl-parse",
+      "name": "firecrawl-parse",
+      "description": "Efficiently extract and convert the contents of any local file—such as PDF, DOCX, DOC, ODT, RTF, XLSX, XLS, or HTML—into clean, well-formatted markdown saved to disk. Use this skill whenever the user requests to parse, read, or extract information from a file on their com...",
+      "category": "general",
+      "tags": [
+        "exclusive/firecrawl",
+        "parse"
+      ],
+      "triggers": [
+        "exclusive/firecrawl",
+        "parse",
+        "firecrawl",
+        "efficiently",
+        "extract",
+        "convert",
+        "contents",
+        "any",
+        "local",
+        "file",
+        "such",
+        "pdf"
+      ],
+      "path": "skills/exclusive/firecrawl-parse/SKILL.md"
+    },
+    {
+      "id": "exclusive/firecrawl-scrape",
+      "name": "firecrawl-scrape",
+      "description": "---",
+      "category": "general",
+      "tags": [
+        "exclusive/firecrawl",
+        "scrape"
+      ],
+      "triggers": [
+        "exclusive/firecrawl",
+        "scrape",
+        "firecrawl"
+      ],
+      "path": "skills/exclusive/firecrawl-scrape/SKILL.md"
+    },
+    {
+      "id": "exclusive/firecrawl-search",
+      "name": "firecrawl-search",
+      "description": "Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, research a topic, look something up, find recent news, discover sources, or says \"search for\", \"find me\", \"look up\", \"what are people saying about\", or \"f...",
+      "category": "general",
+      "tags": [
+        "exclusive/firecrawl",
+        "search"
+      ],
+      "triggers": [
+        "exclusive/firecrawl",
+        "search",
+        "firecrawl",
+        "web",
+        "full",
+        "page",
+        "content",
+        "extraction",
+        "skill",
+        "whenever",
+        "user",
+        "asks"
+      ],
+      "path": "skills/exclusive/firecrawl-search/SKILL.md"
+    },
+    {
+      "id": "exclusive/flux-2-klein",
+      "name": "flux-2-klein",
+      "description": "Generate images with Flux 2 Klein (Black Forest Labs' distilled fast variant of Flux 2) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux 2 Klein's strengths (s...",
+      "category": "architecture",
+      "tags": [
+        "exclusive/flux",
+        "2",
+        "klein"
+      ],
+      "triggers": [
+        "exclusive/flux",
+        "2",
+        "klein",
+        "flux",
+        "generate",
+        "images",
+        "black",
+        "forest",
+        "labs",
+        "distilled",
+        "fast",
+        "variant"
+      ],
+      "path": "skills/exclusive/flux-2-klein/SKILL.md"
+    },
+    {
+      "id": "exclusive/flux-kontext",
+      "name": "flux-kontext",
+      "description": "Edit images with Flux 1 Kontext Pro (Black Forest Labs' precise local image-edit model) on RunComfy â€” bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux Kontext's strengths ...",
+      "category": "architecture",
+      "tags": [
+        "exclusive/flux",
+        "kontext"
+      ],
+      "triggers": [
+        "exclusive/flux",
+        "kontext",
+        "flux",
+        "edit",
+        "images",
+        "pro",
+        "black",
+        "forest",
+        "labs",
+        "precise",
+        "local",
+        "image"
+      ],
+      "path": "skills/exclusive/flux-kontext/SKILL.md"
+    },
+    {
+      "id": "exclusive/gpt-image-2",
+      "name": "gpt-image-2",
+      "description": "Generate and edit images with OpenAI GPT Image 2 (ChatGPT Images 2.0) on RunComfy. Documents GPT Image 2's strengths (embedded text, logos, multilingual typography, instruction precision), its 3 fixed sizes, edit-with-preservation language, and when to route to a sibling ...",
+      "category": "general",
+      "tags": [
+        "exclusive/gpt",
+        "image",
+        "2"
+      ],
+      "triggers": [
+        "exclusive/gpt",
+        "image",
+        "2",
+        "gpt",
+        "generate",
+        "edit",
+        "images",
+        "openai",
+        "chatgpt",
+        "runcomfy",
+        "documents",
+        "strengths"
+      ],
+      "path": "skills/exclusive/gpt-image-2/SKILL.md"
+    },
+    {
+      "id": "exclusive/gpt-image-edit",
+      "name": "gpt-image-edit",
+      "description": "Edit images with OpenAI GPT Image 2 (the `/edit` endpoint of ChatGPT Images 2.0) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents GPT Image Edit's strengths (preser...",
+      "category": "architecture",
+      "tags": [
+        "exclusive/gpt",
+        "image",
+        "edit"
+      ],
+      "triggers": [
+        "exclusive/gpt",
+        "image",
+        "edit",
+        "gpt",
+        "images",
+        "openai",
+        "endpoint",
+        "chatgpt",
+        "runcomfy",
+        "bundled",
+        "model",
+        "documented"
+      ],
+      "path": "skills/exclusive/gpt-image-edit/SKILL.md"
+    },
+    {
+      "id": "exclusive/happyhorse-1-0",
+      "name": "happyhorse-1-0",
+      "description": "Generate text-to-video with HappyHorse 1.0 on RunComfy. Documents HappyHorse 1.0's strengths (#1 on Artificial Analysis Video Arena, native 1080p with in-pass synchronized audio, multi-shot character consistency, 6-language prompt support), the duration / aspect-ratio / r...",
+      "category": "general",
+      "tags": [
+        "exclusive/happyhorse",
+        "1",
+        "0"
+      ],
+      "triggers": [
+        "exclusive/happyhorse",
+        "1",
+        "0",
+        "happyhorse",
+        "generate",
+        "text",
+        "video",
+        "runcomfy",
+        "documents",
+        "strengths",
+        "artificial",
+        "analysis"
+      ],
+      "path": "skills/exclusive/happyhorse-1-0/SKILL.md"
+    },
+    {
+      "id": "exclusive/harden",
+      "name": "harden",
+      "description": "Designs that only work with perfect data aren't production-ready. Harden the interface against the inputs, errors, languages, and network conditions that real users will throw at it.",
+      "category": "infrastructure",
+      "tags": [
+        "exclusive/harden"
+      ],
+      "triggers": [
+        "exclusive/harden",
+        "harden",
+        "designs",
+        "work",
+        "perfect",
+        "data",
+        "aren",
+        "interface",
+        "against",
+        "inputs",
+        "errors",
+        "languages"
+      ],
+      "path": "skills/exclusive/harden/SKILL.md"
+    },
+    {
+      "id": "exclusive/image-edit",
+      "name": "image-edit",
+      "description": "Edit images on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Nano Banana Edit (batch up to 20, identity-preserving default), OpenAI GPT Image 2 Edit (multilingual in-image text rewrite, multi-...",
+      "category": "general",
+      "tags": [
+        "exclusive/image",
+        "edit"
+      ],
+      "triggers": [
+        "exclusive/image",
+        "edit",
+        "image",
+        "images",
+        "runcomfy",
+        "skill",
+        "smart",
+        "router",
+        "matches",
+        "user",
+        "intent",
+        "right"
+      ],
+      "path": "skills/exclusive/image-edit/SKILL.md"
+    },
+    {
+      "id": "exclusive/image-to-video",
+      "name": "image-to-video",
+      "description": "Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for ...",
+      "category": "general",
+      "tags": [
+        "exclusive/image",
+        "to",
+        "video"
+      ],
+      "triggers": [
+        "exclusive/image",
+        "to",
+        "video",
+        "image",
+        "animate",
+        "any",
+        "still",
+        "runcomfy",
+        "skill",
+        "smart",
+        "router",
+        "matches"
+      ],
+      "path": "skills/exclusive/image-to-video/SKILL.md"
+    },
+    {
+      "id": "exclusive/infsh-cli",
+      "name": "infsh-cli",
+      "description": "Run 250+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, callin...",
+      "category": "data-ai",
+      "tags": [
+        "exclusive/infsh",
+        "cli"
+      ],
+      "triggers": [
+        "exclusive/infsh",
+        "cli",
+        "infsh",
+        "run",
+        "250",
+        "ai",
+        "apps",
+        "via",
+        "inference",
+        "sh",
+        "image",
+        "generation"
+      ],
+      "path": "skills/exclusive/infsh-cli/SKILL.md"
+    },
+    {
+      "id": "exclusive/kling-3-0",
+      "name": "kling-3-0",
+      "description": "Kling 3.0 video generation on RunComfy. Kling 3.0 (also called Kling V3.0) is Kuaishou Technology's third-generation multi-shot video model with native synchronized audio and consistent character identity across shots. This skill covers all six Kling 3.0 endpoints, spanni...",
+      "category": "general",
+      "tags": [
+        "exclusive/kling",
+        "3",
+        "0"
+      ],
+      "triggers": [
+        "exclusive/kling",
+        "3",
+        "0",
+        "kling",
+        "video",
+        "generation",
+        "runcomfy",
+        "called",
+        "v3",
+        "kuaishou",
+        "technology",
+        "third"
+      ],
+      "path": "skills/exclusive/kling-3-0/SKILL.md"
+    },
+    {
+      "id": "exclusive/nano-banana-2",
+      "name": "nano-banana-2",
+      "description": "Generate images with Google Nano Banana 2 (Gemini-family flash-tier text-to-image) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Nano Banana 2's strengths (rapid...",
+      "category": "architecture",
+      "tags": [
+        "exclusive/nano",
+        "banana",
+        "2"
+      ],
+      "triggers": [
+        "exclusive/nano",
+        "banana",
+        "2",
+        "nano",
+        "generate",
+        "images",
+        "google",
+        "gemini",
+        "family",
+        "flash",
+        "tier",
+        "text"
+      ],
+      "path": "skills/exclusive/nano-banana-2/SKILL.md"
+    },
+    {
+      "id": "exclusive/onboard",
+      "name": "onboard",
+      "description": "> **Additional context needed**: the \"aha moment\" you want users to reach, and users' experience level.",
+      "category": "general",
+      "tags": [
+        "exclusive/onboard"
+      ],
+      "triggers": [
+        "exclusive/onboard",
+        "onboard",
+        "additional",
+        "context",
+        "needed",
+        "aha",
+        "moment",
+        "want",
+        "users",
+        "reach",
+        "experience",
+        "level"
+      ],
+      "path": "skills/exclusive/onboard/SKILL.md"
+    },
+    {
+      "id": "exclusive/seedance-v2",
+      "name": "seedance-v2",
+      "description": "Generate cinematic short-form video with ByteDance Seedance 2.0 Pro on RunComfy. Documents Seedance 2.0 Pro's strengths (multi-modal references â€” up to 9 images, 3 videos, 3 audio â€” synchronized in-pass audio with natural lip-sync, cinematic motion refinement), the 4â...",
+      "category": "general",
+      "tags": [
+        "exclusive/seedance",
+        "v2"
+      ],
+      "triggers": [
+        "exclusive/seedance",
+        "v2",
+        "seedance",
+        "generate",
+        "cinematic",
+        "short",
+        "form",
+        "video",
+        "bytedance",
+        "pro",
+        "runcomfy",
+        "documents"
+      ],
+      "path": "skills/exclusive/seedance-v2/SKILL.md"
+    },
+    {
+      "id": "exclusive/supabase-postgres-best-practices",
+      "name": "supabase-postgres-best-practices",
+      "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.",
+      "category": "data-ai",
+      "tags": [
+        "exclusive/supabase",
+        "postgres",
+        "best",
+        "practices"
+      ],
+      "triggers": [
+        "exclusive/supabase",
+        "postgres",
+        "best",
+        "practices",
+        "supabase",
+        "performance",
+        "optimization",
+        "skill",
+        "writing",
+        "reviewing",
+        "optimizing",
+        "queries"
+      ],
+      "path": "skills/exclusive/supabase-postgres-best-practices/SKILL.md"
+    },
+    {
+      "id": "exclusive/teach-impeccable",
+      "name": "teach-impeccable",
+      "description": "Gathers design context for a project and writes two complementary files at the project root:",
+      "category": "general",
+      "tags": [
+        "exclusive/teach",
+        "impeccable"
+      ],
+      "triggers": [
+        "exclusive/teach",
+        "impeccable",
+        "teach",
+        "gathers",
+        "context",
+        "writes",
+        "two",
+        "complementary",
+        "files",
+        "root"
+      ],
+      "path": "skills/exclusive/teach-impeccable/SKILL.md"
+    },
+    {
+      "id": "exclusive/vercel-react-best-practices",
+      "name": "vercel-react-best-practices",
+      "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component archit...",
+      "category": "development",
+      "tags": [
+        "exclusive/vercel",
+        "react",
+        "best",
+        "practices"
+      ],
+      "triggers": [
+        "exclusive/vercel",
+        "react",
+        "best",
+        "practices",
+        "vercel",
+        "composition",
+        "scale",
+        "refactoring",
+        "components",
+        "boolean",
+        "prop",
+        "proliferation"
+      ],
+      "path": "skills/exclusive/vercel-react-best-practices/SKILL.md"
+    },
+    {
+      "id": "exclusive/video-edit",
+      "name": "video-edit",
+      "description": "Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Moti...",
+      "category": "general",
+      "tags": [
+        "exclusive/video",
+        "edit"
+      ],
+      "triggers": [
+        "exclusive/video",
+        "edit",
+        "video",
+        "existing",
+        "runcomfy",
+        "skill",
+        "smart",
+        "router",
+        "matches",
+        "user",
+        "intent",
+        "right"
+      ],
+      "path": "skills/exclusive/video-edit/SKILL.md"
+    },
+    {
+      "id": "exclusive/wan-2-7",
+      "name": "wan-2-7",
+      "description": "Generate text-to-video with Wan 2.7 (Wan-AI's flagship motion model) on RunComfy. Documents Wan 2.7's strengths (multi-reference conditioning, audio-driven lip-sync via `audio_url`, smoother transitions, prompt expansion), the duration / resolution / aspect-ratio schema, ...",
+      "category": "data-ai",
+      "tags": [
+        "exclusive/wan",
+        "2",
+        "7"
+      ],
+      "triggers": [
+        "exclusive/wan",
+        "2",
+        "7",
+        "wan",
+        "generate",
+        "text",
+        "video",
+        "ai",
+        "flagship",
+        "motion",
+        "model",
+        "runcomfy"
+      ],
+      "path": "skills/exclusive/wan-2-7/SKILL.md"
     },
     {
       "id": "executing-plans",
@@ -13984,7 +14964,7 @@
     {
       "id": "form-cro",
       "name": "form-cro",
-      "description": "Optimize any form that is NOT signup or account registration — including lead capture, contact, demo request, application, survey, quote, and checkout forms.",
+      "description": "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"f...",
       "category": "general",
       "tags": [
         "form",
@@ -13993,16 +14973,16 @@
       "triggers": [
         "form",
         "cro",
+        "user",
+        "wants",
         "optimize",
         "any",
         "signup",
-        "account",
         "registration",
         "including",
         "lead",
         "capture",
-        "contact",
-        "demo"
+        "forms"
       ],
       "path": "skills/form-cro/SKILL.md"
     },
@@ -14528,24 +15508,24 @@
     {
       "id": "free-tool-strategy",
       "name": "free-tool-strategy",
-      "description": "You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.",
+      "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes (lead generation, SEO, or brand awareness). Use this for calculators, generators, and interactive tools.",
       "category": "business",
       "tags": [
         "free"
       ],
       "triggers": [
         "free",
-        "engineering",
-        "marketing",
-        "goal",
+        "user",
+        "wants",
         "plan",
         "evaluate",
-        "generate",
-        "leads",
-        "attract",
-        "organic",
-        "traffic",
-        "brand"
+        "marketing",
+        "purposes",
+        "lead",
+        "generation",
+        "seo",
+        "brand",
+        "awareness"
       ],
       "path": "skills/free-tool-strategy/SKILL.md"
     },
@@ -14628,17 +15608,24 @@
     {
       "id": "frontend-design",
       "name": "frontend-design",
-      "description": "You are a frontend designer-engineer, not a layout generator.",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layou...",
       "category": "development",
       "tags": [
         "frontend"
       ],
       "triggers": [
         "frontend",
-        "designer",
-        "engineer",
-        "layout",
-        "generator"
+        "distinctive",
+        "grade",
+        "interfaces",
+        "high",
+        "quality",
+        "skill",
+        "user",
+        "asks",
+        "web",
+        "components",
+        "pages"
       ],
       "path": "skills/frontend-design/SKILL.md"
     },
@@ -15309,7 +16296,7 @@
     {
       "id": "gh-review-requests",
       "name": "gh-review-requests",
-      "description": "Fetch unread GitHub notifications for open PRs where review is requested from a specified team or opened by a team member. Use when asked to \"find PRs I need to review\", \"show my review requests\", \"what needs my review\", \"fetch GitHub review requests\", or \"check team review queue\".",
+      "description": "Fetch unread GitHub notifications for open PRs where review is requested from a specified team or opened by a team member. Use when asked to \"find PRs I need to review\", \"show my review requests\", \"what needs my review\", \"fetch GitHub review requests\", or \"check team revi...",
       "category": "general",
       "tags": [
         "gh",
@@ -17280,7 +18267,7 @@
     {
       "id": "humanize-chinese",
       "name": "humanize-chinese",
-      "description": "Detect and rewrite AI-like Chinese text with a practical workflow for scoring, humanization, academic AIGC reduction, and style conversion. Use when the user asks to 去AI味, 降AIGC, 去除AI痕迹, 论文降重, 知网检测, 维普检测, humanize chinese, detect AI text, or make Chinese text sound more natural.",
+      "description": "Detect and rewrite AI-like Chinese text with a practical workflow for scoring, humanization, academic AIGC reduction, and style conversion. Use when the user asks to 去AI味, 降AIGC, 去除AI痕迹, 论文降重, 知网检测, 维普检测, humanize chinese, detect AI text, or make Chinese text sound more n...",
       "category": "data-ai",
       "tags": [
         "chinese",
@@ -17905,8 +18892,8 @@
     {
       "id": "internal-comms",
       "name": "internal-comms",
-      "description": "Write internal communications such as status reports, leadership updates, 3P updates, newsletters, FAQs, incident reports, and project updates using repeatable internal formats.",
-      "category": "security",
+      "description": "Skill for internal-comms",
+      "category": "general",
       "tags": [
         "internal",
         "comms"
@@ -17914,16 +18901,7 @@
       "triggers": [
         "internal",
         "comms",
-        "write",
-        "communications",
-        "such",
-        "status",
-        "reports",
-        "leadership",
-        "updates",
-        "3p",
-        "newsletters",
-        "faqs"
+        "skill"
       ],
       "path": "skills/internal-comms/SKILL.md"
     },
@@ -20388,7 +21366,7 @@
     {
       "id": "makepad-animation",
       "name": "makepad-animation",
-      "description": "CRITICAL: Use for Makepad animation system. Triggers on:\nmakepad animation, makepad animator, makepad hover, makepad state,\nmakepad transition, \"from: { all: Forward\", makepad pressed,\nmakepad 动画, makepad 状态, makepad 过渡, makepad 悬停效果",
+      "description": "CRITICAL: Use for Makepad animation system. Triggers on: makepad animation, makepad animator, makepad hover, makepad state, makepad transition, \"from: { all: Forward\", makepad pressed, makepad 动画, makepad 状态, makepad 过渡, makepad 悬停效果",
       "category": "general",
       "tags": [
         "makepad",
@@ -20412,7 +21390,7 @@
     {
       "id": "makepad-basics",
       "name": "makepad-basics",
-      "description": "CRITICAL: Use for Makepad getting started and app structure. Triggers on:\nmakepad, makepad getting started, makepad tutorial, live_design!, app_main!,\nmakepad project setup, makepad hello world, \"how to create makepad app\",\nmakepad 入门, 创建 makepad 应用, makepad 教程, makepad 项目结构",
+      "description": "CRITICAL: Use for Makepad getting started and app structure. Triggers on: makepad, makepad getting started, makepad tutorial, live_design!, app_main!, makepad project setup, makepad hello world, \"how to create makepad app\", makepad 入门, 创建 makepad 应用, makepad 教程, makepad 项目结构",
       "category": "general",
       "tags": [
         "makepad",
@@ -20437,7 +21415,7 @@
     {
       "id": "makepad-deployment",
       "name": "makepad-deployment",
-      "description": "CRITICAL: Use for Makepad packaging and deployment. Triggers on:\ndeploy, package, APK, IPA, 打包, 部署,\ncargo-packager, cargo-makepad, WASM, Android, iOS,\ndistribution, installer, .deb, .dmg, .nsis,\nGitHub Actions, CI, action, marketplace",
+      "description": "CRITICAL: Use for Makepad packaging and deployment. Triggers on: deploy, package, APK, IPA, 打包, 部署, cargo-packager, cargo-makepad, WASM, Android, iOS, distribution, installer, .deb, .dmg, .nsis, GitHub Actions, CI, action, marketplace",
       "category": "infrastructure",
       "tags": [
         "makepad",
@@ -20462,7 +21440,7 @@
     {
       "id": "makepad-dsl",
       "name": "makepad-dsl",
-      "description": "CRITICAL: Use for Makepad DSL syntax and inheritance. Triggers on:\nmakepad dsl, live_design, makepad inheritance, makepad prototype,\n\"<Widget>\", \"Foo = { }\", makepad object, makepad property,\nmakepad DSL 语法, makepad 继承, makepad 原型, 如何定义 makepad 组件",
+      "description": "CRITICAL: Use for Makepad DSL syntax and inheritance. Triggers on: makepad dsl, live_design, makepad inheritance, makepad prototype, \"<Widget>\", \"Foo = { }\", makepad object, makepad property, makepad DSL 语法, makepad 继承, makepad 原型, 如何定义 makepad 组件",
       "category": "general",
       "tags": [
         "makepad",
@@ -20487,7 +21465,7 @@
     {
       "id": "makepad-event-action",
       "name": "makepad-event-action",
-      "description": "CRITICAL: Use for Makepad event and action handling. Triggers on:\nmakepad event, makepad action, Event enum, ActionTrait, handle_event,\nMouseDown, KeyDown, TouchUpdate, Hit, FingerDown, post_action,\nmakepad 事件, makepad action, 事件处理",
+      "description": "CRITICAL: Use for Makepad event and action handling. Triggers on: makepad event, makepad action, Event enum, ActionTrait, handle_event, MouseDown, KeyDown, TouchUpdate, Hit, FingerDown, post_action, makepad 事件, makepad action, 事件处理",
       "category": "architecture",
       "tags": [
         "makepad",
@@ -20513,7 +21491,7 @@
     {
       "id": "makepad-font",
       "name": "makepad-font",
-      "description": "CRITICAL: Use for Makepad font and text rendering. Triggers on:\nmakepad font, makepad text, makepad glyph, makepad typography,\nfont atlas, text layout, font family, font size, text shaping,\nmakepad 字体, makepad 文字, makepad 排版, makepad 字形",
+      "description": "CRITICAL: Use for Makepad font and text rendering. Triggers on: makepad font, makepad text, makepad glyph, makepad typography, font atlas, text layout, font family, font size, text shaping, makepad 字体, makepad 文字, makepad 排版, makepad 字形",
       "category": "general",
       "tags": [
         "makepad",
@@ -20538,7 +21516,7 @@
     {
       "id": "makepad-layout",
       "name": "makepad-layout",
-      "description": "CRITICAL: Use for Makepad layout system. Triggers on:\nmakepad layout, makepad width, makepad height, makepad flex,\nmakepad padding, makepad margin, makepad flow, makepad align,\nFit, Fill, Size, Walk, \"how to center in makepad\",\nmakepad 布局, makepad 宽度, makepad 对齐, makepad 居中",
+      "description": "CRITICAL: Use for Makepad layout system. Triggers on: makepad layout, makepad width, makepad height, makepad flex, makepad padding, makepad margin, makepad flow, makepad align, Fit, Fill, Size, Walk, \"how to center in makepad\", makepad 布局, makepad 宽度, makepad 对齐, makepad 居中",
       "category": "general",
       "tags": [
         "makepad",
@@ -20563,7 +21541,7 @@
     {
       "id": "makepad-platform",
       "name": "makepad-platform",
-      "description": "CRITICAL: Use for Makepad cross-platform support. Triggers on:\nmakepad platform, makepad os, makepad macos, makepad windows, makepad linux,\nmakepad android, makepad ios, makepad web, makepad wasm, makepad metal,\nmakepad d3d11, makepad opengl, makepad webgl, OsType, CxOs,\nmakepad 跨平台, makepad 平台支持",
+      "description": "CRITICAL: Use for Makepad cross-platform support. Triggers on: makepad platform, makepad os, makepad macos, makepad windows, makepad linux, makepad android, makepad ios, makepad web, makepad wasm, makepad metal, makepad d3d11, makepad opengl, makepad webgl, OsType, CxOs, ...",
       "category": "development",
       "tags": [
         "makepad",
@@ -20610,7 +21588,7 @@
     {
       "id": "makepad-shaders",
       "name": "makepad-shaders",
-      "description": "CRITICAL: Use for Makepad shader system. Triggers on:\nmakepad shader, makepad draw_bg, Sdf2d, makepad pixel,\nmakepad glsl, makepad sdf, draw_quad, makepad gpu,\nmakepad 着色器, makepad shader 语法, makepad 绘制",
+      "description": "CRITICAL: Use for Makepad shader system. Triggers on: makepad shader, makepad draw_bg, Sdf2d, makepad pixel, makepad glsl, makepad sdf, draw_quad, makepad gpu, makepad 着色器, makepad shader 语法, makepad 绘制",
       "category": "general",
       "tags": [
         "makepad",
@@ -20658,7 +21636,7 @@
     {
       "id": "makepad-splash",
       "name": "makepad-splash",
-      "description": "CRITICAL: Use for Makepad Splash scripting language. Triggers on:\nsplash language, makepad script, makepad scripting, script!, cx.eval,\nmakepad dynamic, makepad AI, splash 语言, makepad 脚本",
+      "description": "CRITICAL: Use for Makepad Splash scripting language. Triggers on: splash language, makepad script, makepad scripting, script!, cx.eval, makepad dynamic, makepad AI, splash 语言, makepad 脚本",
       "category": "data-ai",
       "tags": [
         "makepad",
@@ -20855,7 +21833,7 @@
     {
       "id": "matematico-tao",
       "name": "matematico-tao",
-      "description": "Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática profunda: teoria da informação, teoria dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria das categorias, probabilidade bayesiana e lógica formal.",
+      "description": "Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática profunda: teoria da informação, teoria dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria das categorias, probabilidade baye...",
       "category": "general",
       "tags": [
         "mathematics",
@@ -20936,8 +21914,8 @@
     {
       "id": "mcp-builder",
       "name": "mcp-builder",
-      "description": "Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.",
-      "category": "general",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP ...",
+      "category": "development",
       "tags": [
         "mcp",
         "builder"
@@ -20945,16 +21923,16 @@
       "triggers": [
         "mcp",
         "builder",
+        "creating",
+        "high",
+        "quality",
         "model",
         "context",
         "protocol",
         "servers",
         "enable",
         "llms",
-        "interact",
-        "external",
-        "through",
-        "well"
+        "interact"
       ],
       "path": "skills/mcp-builder/SKILL.md"
     },
@@ -21540,7 +22518,7 @@
     {
       "id": "molykit",
       "name": "molykit",
-      "description": "CRITICAL: Use for MolyKit AI chat toolkit. Triggers on:\nBotClient, OpenAI, SSE streaming, AI chat, molykit,\nPlatformSend, spawn(), ThreadToken, cross-platform async,\nChat widget, Messages, PromptInput, Avatar, LLM",
+      "description": "CRITICAL: Use for MolyKit AI chat toolkit. Triggers on: BotClient, OpenAI, SSE streaming, AI chat, molykit, PlatformSend, spawn(), ThreadToken, cross-platform async, Chat widget, Messages, PromptInput, Avatar, LLM",
       "category": "data-ai",
       "tags": [
         "molykit"
@@ -21903,7 +22881,7 @@
     {
       "id": "multi-agent-patterns",
       "name": "multi-agent-patterns",
-      "description": "This skill should be used when the user asks to \"design multi-agent system\", \"implement supervisor pattern\", \"create swarm architecture\", \"coordinate multiple agents\", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or parallel agent execution.",
+      "description": "This skill should be used when the user asks to \"design multi-agent system\", \"implement supervisor pattern\", \"create swarm architecture\", \"coordinate multiple agents\", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or parallel agent execu...",
       "category": "architecture",
       "tags": [
         "multi",
@@ -22779,7 +23757,7 @@
     {
       "id": "observability-monitoring-slo-implement",
       "name": "observability-monitoring-slo-implement",
-      "description": "You are an SLO (Service Level Objective) expert specializing in implementing reliability standards and error budget-based engineering practices. Design comprehensive SLO frameworks, establish meaningful SLIs, and create monitoring systems that balance reliability with feature velocity.",
+      "description": "You are an SLO (Service Level Objective) expert specializing in implementing reliability standards and error budget-based engineering practices. Design comprehensive SLO frameworks, establish meaningful SLIs, and create monitoring systems that balance reliability with fea...",
       "category": "infrastructure",
       "tags": [
         "observability",
@@ -23594,7 +24572,7 @@
     {
       "id": "onboarding-cro",
       "name": "onboarding-cro",
-      "description": "You are an expert in user onboarding and activation. Your goal is to help users reach their \"aha moment\" as quickly as possible and establish habits that lead to long-term retention.",
+      "description": "Skill for onboarding-cro",
       "category": "general",
       "tags": [
         "onboarding",
@@ -23603,16 +24581,7 @@
       "triggers": [
         "onboarding",
         "cro",
-        "user",
-        "activation",
-        "goal",
-        "users",
-        "reach",
-        "aha",
-        "moment",
-        "quickly",
-        "possible",
-        "establish"
+        "skill"
       ],
       "path": "skills/onboarding-cro/SKILL.md"
     },
@@ -24065,7 +25034,7 @@
     {
       "id": "paywall-upgrade-cro",
       "name": "paywall-upgrade-cro",
-      "description": "You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the commitment.",
+      "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expir...",
       "category": "general",
       "tags": [
         "paywall",
@@ -24076,15 +25045,15 @@
         "paywall",
         "upgrade",
         "cro",
+        "user",
+        "wants",
+        "optimize",
         "app",
         "paywalls",
-        "flows",
-        "goal",
-        "convert",
-        "free",
-        "users",
-        "paid",
-        "higher"
+        "screens",
+        "upsell",
+        "modals",
+        "feature"
       ],
       "path": "skills/paywall-upgrade-cro/SKILL.md"
     },
@@ -24116,8 +25085,8 @@
     {
       "id": "pdf-official",
       "name": "pdf-official",
-      "description": "This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see reference.md. If you need to fill out a PDF form, read forms.md and follow its instructions.",
-      "category": "development",
+      "description": "Skill for pdf-official",
+      "category": "general",
       "tags": [
         "pdf",
         "official"
@@ -24125,16 +25094,7 @@
       "triggers": [
         "pdf",
         "official",
-        "covers",
-        "essential",
-        "processing",
-        "operations",
-        "python",
-        "libraries",
-        "command",
-        "line",
-        "features",
-        "javascript"
+        "skill"
       ],
       "path": "skills/pdf-official/SKILL.md"
     },
@@ -24348,7 +25308,7 @@
     {
       "id": "php-pro",
       "name": "php-pro",
-      "description": "Write idiomatic PHP code with generators, iterators, SPL data\nstructures, and modern OOP features. Use PROACTIVELY for high-performance PHP\napplications.",
+      "description": "Write idiomatic PHP code with generators, iterators, SPL data structures, and modern OOP features. Use PROACTIVELY for high-performance PHP applications.",
       "category": "data-ai",
       "tags": [
         "php"
@@ -24550,7 +25510,7 @@
     {
       "id": "playwright-skill",
       "name": "playwright-skill",
-      "description": "IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, and use that path in all commands below.",
+      "description": "IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, and use that path ...",
       "category": "general",
       "tags": [
         "playwright",
@@ -24624,7 +25584,7 @@
     {
       "id": "polars",
       "name": "polars",
-      "description": "Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than-RAM data use dask or vaex.",
+      "description": "Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than-RAM da...",
       "category": "data-ai",
       "tags": [
         "polars"
@@ -24648,8 +25608,8 @@
     {
       "id": "popup-cro",
       "name": "popup-cro",
-      "description": "Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust.",
-      "category": "security",
+      "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overla...",
+      "category": "general",
       "tags": [
         "popup",
         "cro"
@@ -24657,6 +25617,8 @@
       "triggers": [
         "popup",
         "cro",
+        "user",
+        "wants",
         "optimize",
         "popups",
         "modals",
@@ -24664,9 +25626,7 @@
         "slide",
         "ins",
         "banners",
-        "increase",
-        "conversions",
-        "without"
+        "conversion"
       ],
       "path": "skills/popup-cro/SKILL.md"
     },
@@ -24860,7 +25820,7 @@
     {
       "id": "pptx-official",
       "name": "pptx-official",
-      "description": "A user may ask you to create, edit, or analyze the contents of a .pptx file. A .pptx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.",
+      "description": "Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, lik...",
       "category": "general",
       "tags": [
         "pptx",
@@ -24869,16 +25829,16 @@
       "triggers": [
         "pptx",
         "official",
-        "user",
-        "may",
-        "ask",
-        "edit",
-        "analyze",
-        "contents",
+        "skill",
+        "any",
+        "time",
         "file",
-        "essentially",
-        "zip",
-        "archive"
+        "involved",
+        "way",
+        "input",
+        "output",
+        "both",
+        "includes"
       ],
       "path": "skills/pptx-official/SKILL.md"
     },
@@ -25923,7 +26883,7 @@
     {
       "id": "qiskit",
       "name": "qiskit",
-      "description": "Qiskit is the world's most popular open-source quantum computing framework with 13M+ downloads. Build quantum circuits, optimize for hardware, execute on simulators or real quantum computers, and analyze results. Supports IBM Quantum (100+ qubit systems), IonQ, Amazon Braket, and other providers.",
+      "description": "Qiskit is the world's most popular open-source quantum computing framework with 13M+ downloads. Build quantum circuits, optimize for hardware, execute on simulators or real quantum computers, and analyze results. Supports IBM Quantum (100+ qubit systems), IonQ, Amazon Bra...",
       "category": "general",
       "tags": [
         "qiskit"
@@ -26602,8 +27562,8 @@
     {
       "id": "referral-program",
       "name": "referral-program",
-      "description": "You are an expert in viral growth and referral marketing with access to referral program data and third-party tools. Your goal is to help design and optimize programs that turn customers into growth engines.",
-      "category": "data-ai",
+      "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incen...",
+      "category": "general",
       "tags": [
         "referral",
         "program"
@@ -26611,16 +27571,16 @@
       "triggers": [
         "referral",
         "program",
-        "viral",
-        "growth",
-        "marketing",
-        "access",
-        "data",
-        "third",
-        "party",
-        "goal",
+        "user",
+        "wants",
         "optimize",
-        "programs"
+        "analyze",
+        "affiliate",
+        "word",
+        "mouth",
+        "mentions",
+        "ambassador",
+        "viral"
       ],
       "path": "skills/referral-program/SKILL.md"
     },
@@ -26860,7 +27820,7 @@
     {
       "id": "robius-app-architecture",
       "name": "robius-app-architecture",
-      "description": "CRITICAL: Use for Robius app architecture patterns. Triggers on:\nTokio, async, submit_async_request, 异步, 架构,\nSignalToUI, Cx::post_action, worker task,\napp structure, MatchEvent, handle_startup",
+      "description": "CRITICAL: Use for Robius app architecture patterns. Triggers on: Tokio, async, submit_async_request, 异步, 架构, SignalToUI, Cx::post_action, worker task, app structure, MatchEvent, handle_startup",
       "category": "architecture",
       "tags": [
         "robius",
@@ -26886,7 +27846,7 @@
     {
       "id": "robius-event-action",
       "name": "robius-event-action",
-      "description": "CRITICAL: Use for Robius event and action patterns. Triggers on:\ncustom action, MatchEvent, post_action, cx.widget_action,\nhandle_actions, DefaultNone, widget action, event handling,\n事件处理, 自定义动作",
+      "description": "CRITICAL: Use for Robius event and action patterns. Triggers on: custom action, MatchEvent, post_action, cx.widget_action, handle_actions, DefaultNone, widget action, event handling, 事件处理, 自定义动作",
       "category": "architecture",
       "tags": [
         "robius",
@@ -26912,7 +27872,7 @@
     {
       "id": "robius-matrix-integration",
       "name": "robius-matrix-integration",
-      "description": "CRITICAL: Use for Matrix SDK integration with Makepad. Triggers on:\nMatrix SDK, sliding sync, MatrixRequest, timeline,\nmatrix-sdk, matrix client, robrix, matrix room,\nMatrix 集成, 聊天客户端",
+      "description": "CRITICAL: Use for Matrix SDK integration with Makepad. Triggers on: Matrix SDK, sliding sync, MatrixRequest, timeline, matrix-sdk, matrix client, robrix, matrix room, Matrix 集成, 聊天客户端",
       "category": "general",
       "tags": [
         "robius",
@@ -26938,7 +27898,7 @@
     {
       "id": "robius-state-management",
       "name": "robius-state-management",
-      "description": "CRITICAL: Use for Robius state management patterns. Triggers on:\nAppState, persistence, theme switch, 状态管理,\nScope::with_data, save state, load state, serde,\n状态持久化, 主题切换",
+      "description": "CRITICAL: Use for Robius state management patterns. Triggers on: AppState, persistence, theme switch, 状态管理, Scope::with_data, save state, load state, serde, 状态持久化, 主题切换",
       "category": "data-ai",
       "tags": [
         "robius",
@@ -26963,7 +27923,7 @@
     {
       "id": "robius-widget-patterns",
       "name": "robius-widget-patterns",
-      "description": "CRITICAL: Use for Robius widget patterns. Triggers on:\napply_over, TextOrImage, modal, 可复用, 模态,\ncollapsible, drag drop, reusable widget, widget design,\npageflip, 组件设计, 组件模式",
+      "description": "CRITICAL: Use for Robius widget patterns. Triggers on: apply_over, TextOrImage, modal, 可复用, 模态, collapsible, drag drop, reusable widget, widget design, pageflip, 组件设计, 组件模式",
       "category": "architecture",
       "tags": [
         "robius",
@@ -27390,7 +28350,7 @@
     {
       "id": "scanpy",
       "name": "scanpy",
-      "description": "Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for complete single-cell workflows including quality control, normalization, dimensionality reduction, clustering, marker gene identification, visualization, and trajectory analysis.",
+      "description": "Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for complete single-cell workflows including quality control, normalization, dimensionality reduction, clustering, marker gene identification, visualization, and...",
       "category": "data-ai",
       "tags": [
         "scanpy"
@@ -27817,7 +28777,7 @@
     {
       "id": "security-scanning-security-sast",
       "name": "security-scanning-security-sast",
-      "description": "Static Application Security Testing (SAST) for code vulnerability\nanalysis across multiple languages and frameworks",
+      "description": "Static Application Security Testing (SAST) for code vulnerability analysis across multiple languages and frameworks",
       "category": "security",
       "tags": [
         "security",
@@ -28128,7 +29088,7 @@
     {
       "id": "senior-frontend",
       "name": "senior-frontend",
-      "description": "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.",
+      "description": "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code qual...",
       "category": "development",
       "tags": [
         "senior",
@@ -28460,7 +29420,7 @@
     {
       "id": "seo-authority-builder",
       "name": "seo-authority-builder",
-      "description": "Analyzes content for E-E-A-T signals and suggests improvements to\nbuild authority and trust. Identifies missing credibility elements. Use\nPROACTIVELY for YMYL topics.",
+      "description": "Analyzes content for E-E-A-T signals and suggests improvements to build authority and trust. Identifies missing credibility elements. Use PROACTIVELY for YMYL topics.",
       "category": "security",
       "tags": [
         "seo",
@@ -28512,7 +29472,7 @@
     {
       "id": "seo-competitor-pages",
       "name": "seo-competitor-pages",
-      "description": "Generate SEO-optimized competitor comparison and alternatives pages. Covers \"X vs Y\" layouts, \"alternatives to X\" pages, feature matrices, schema markup, and conversion optimization. Use when user says \"comparison page\", \"vs page\", \"alternatives page\", \"competitor comparison\", or \"X vs Y\".",
+      "description": "Generate SEO-optimized competitor comparison and alternatives pages. Covers \"X vs Y\" layouts, \"alternatives to X\" pages, feature matrices, schema markup, and conversion optimization. Use when user says \"comparison page\", \"vs page\", \"alternatives page\", \"competitor compari...",
       "category": "business",
       "tags": [
         "seo",
@@ -28589,7 +29549,7 @@
     {
       "id": "seo-content-planner",
       "name": "seo-content-planner",
-      "description": "Creates comprehensive content outlines and topic clusters for SEO.\nPlans content calendars and identifies topic gaps. Use PROACTIVELY for content\nstrategy and planning.",
+      "description": "Creates comprehensive content outlines and topic clusters for SEO. Plans content calendars and identifies topic gaps. Use PROACTIVELY for content strategy and planning.",
       "category": "business",
       "tags": [
         "seo",
@@ -28769,7 +29729,7 @@
     {
       "id": "seo-hreflang",
       "name": "seo-hreflang",
-      "description": "Hreflang and international SEO audit, validation, and generation. Detects common mistakes, validates language/region codes, and generates correct hreflang implementations. Use when user says \"hreflang\", \"i18n SEO\", \"international SEO\", \"multi-language\", \"multi-region\", or \"language tags\".",
+      "description": "Hreflang and international SEO audit, validation, and generation. Detects common mistakes, validates language/region codes, and generates correct hreflang implementations. Use when user says \"hreflang\", \"i18n SEO\", \"international SEO\", \"multi-language\", \"multi-region\", or...",
       "category": "business",
       "tags": [
         "seo",
@@ -29388,7 +30348,7 @@
     {
       "id": "signup-flow-cro",
       "name": "signup-flow-cro",
-      "description": "You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation.",
+      "description": "Skill for signup-flow-cro",
       "category": "general",
       "tags": [
         "signup",
@@ -29399,15 +30359,7 @@
         "signup",
         "flow",
         "cro",
-        "optimizing",
-        "registration",
-        "flows",
-        "goal",
-        "reduce",
-        "friction",
-        "increase",
-        "completion",
-        "rates"
+        "skill"
       ],
       "path": "skills/signup-flow-cro/SKILL.md"
     },
@@ -29545,27 +30497,25 @@
     {
       "id": "skill-creator",
       "name": "skill-creator",
-      "description": "To create new CLI skills following Anthropic's official best practices with zero manual configuration. This skill automates brainstorming, template application, validation, and installation processes while maintaining progressive disclosure patterns and writing style standards.",
-      "category": "security",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skil...",
+      "category": "testing",
       "tags": [
-        "automation",
-        "scaffolding",
-        "skill-creation",
-        "meta-skill"
+        "skill",
+        "creator"
       ],
       "triggers": [
-        "automation",
-        "scaffolding",
-        "skill-creation",
-        "meta-skill",
         "skill",
         "creator",
         "new",
-        "cli",
         "skills",
-        "following",
-        "anthropic",
-        "official"
+        "modify",
+        "improve",
+        "existing",
+        "measure",
+        "performance",
+        "users",
+        "want",
+        "scratch"
       ],
       "path": "skills/skill-creator/SKILL.md"
     },
@@ -29950,7 +30900,7 @@
     {
       "id": "slack-gif-creator",
       "name": "slack-gif-creator",
-      "description": "A toolkit providing utilities and knowledge for creating animated GIFs optimized for Slack.",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
       "category": "general",
       "tags": [
         "slack",
@@ -29961,14 +30911,15 @@
         "slack",
         "gif",
         "creator",
-        "toolkit",
-        "providing",
-        "utilities",
         "knowledge",
+        "utilities",
         "creating",
         "animated",
         "gifs",
-        "optimized"
+        "optimized",
+        "provides",
+        "constraints",
+        "validation"
       ],
       "path": "skills/slack-gif-creator/SKILL.md"
     },
@@ -30087,7 +31038,7 @@
     {
       "id": "social-orchestrator",
       "name": "social-orchestrator",
-      "description": "Orquestrador unificado de canais sociais — coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por formato, agendamento sincronizado e gestao centralizada de campanhas em todos os canais simultaneamente.",
+      "description": "Orquestrador unificado de canais sociais — coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por formato, agendamento sincronizado e gestao centralizada de campanhas em todos os c...",
       "category": "general",
       "tags": [
         "social-media",
@@ -30600,7 +31551,7 @@
     {
       "id": "startup-business-analyst-business-case",
       "name": "startup-business-analyst-business-case",
-      "description": "Generate comprehensive investor-ready business case document with\nmarket, solution, financials, and strategy",
+      "description": "Generate comprehensive investor-ready business case document with market, solution, financials, and strategy",
       "category": "business",
       "tags": [
         "startup",
@@ -30625,7 +31576,7 @@
     {
       "id": "startup-business-analyst-financial-projections",
       "name": "startup-business-analyst-financial-projections",
-      "description": "Create detailed 3-5 year financial model with revenue, costs, cash\nflow, and scenarios",
+      "description": "Create detailed 3-5 year financial model with revenue, costs, cash flow, and scenarios",
       "category": "business",
       "tags": [
         "startup",
@@ -30653,7 +31604,7 @@
     {
       "id": "startup-business-analyst-market-opportunity",
       "name": "startup-business-analyst-market-opportunity",
-      "description": "Generate comprehensive market opportunity analysis with TAM/SAM/SOM\ncalculations",
+      "description": "Generate comprehensive market opportunity analysis with TAM/SAM/SOM calculations",
       "category": "business",
       "tags": [
         "startup",
@@ -31095,7 +32046,7 @@
     {
       "id": "swiftui-expert-skill",
       "name": "swiftui-expert-skill",
-      "description": "Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, and iOS 26+ Liquid Glass adoption. Use when building new SwiftUI features, refactoring existing views, reviewing code quality, or adopting modern SwiftUI patterns.",
+      "description": "Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, and iOS 26+ Liquid Glass adoption. Use when building new SwiftUI features, refactoring existing views, reviewing code quality, or adopting modern SwiftUI p...",
       "category": "development",
       "tags": [
         "swiftui",
@@ -31236,8 +32187,8 @@
     {
       "id": "systematic-debugging",
       "name": "systematic-debugging",
-      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
-      "category": "testing",
+      "description": "DEBUG: Processo científico de 4 fases para identificar a causa raiz, evitando adivinhação.",
+      "category": "general",
       "tags": [
         "systematic",
         "debugging"
@@ -31245,16 +32196,16 @@
       "triggers": [
         "systematic",
         "debugging",
-        "encountering",
-        "any",
-        "bug",
-        "test",
-        "failure",
-        "unexpected",
-        "behavior",
-        "before",
-        "proposing",
-        "fixes"
+        "debug",
+        "processo",
+        "cient",
+        "fico",
+        "de",
+        "fases",
+        "para",
+        "identificar",
+        "causa",
+        "raiz"
       ],
       "path": "skills/systematic-debugging/SKILL.md"
     },
@@ -31959,7 +32910,7 @@
     {
       "id": "test-driven-development",
       "name": "test-driven-development",
-      "description": "Use when implementing any feature or bugfix, before writing implementation code",
+      "description": "EXECUÇÃO: Impõe o ciclo Red-Green-Refactor. Proíbe a escrita de código de produção antes do teste falho.",
       "category": "testing",
       "tags": [
         "driven"
@@ -31968,20 +32919,22 @@
         "driven",
         "test",
         "development",
-        "implementing",
-        "any",
-        "feature",
-        "bugfix",
-        "before",
-        "writing",
-        "code"
+        "execu",
+        "imp",
+        "ciclo",
+        "red",
+        "green",
+        "refactor",
+        "pro",
+        "escrita",
+        "de"
       ],
       "path": "skills/test-driven-development/SKILL.md"
     },
     {
       "id": "test-fixing",
       "name": "test-fixing",
-      "description": "Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix tests (\"fix these tests\", \"make tests pass\"), reports test failures (\"tests are failing\", \"test suite is broken\"), or completes implementation and wants tests passing.",
+      "description": "Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix tests (\"fix these tests\", \"make tests pass\"), reports test failures (\"tests are failing\", \"test suite is broken\"), or completes implementation and wants test...",
       "category": "testing",
       "tags": [
         "fixing"
@@ -32049,7 +33002,7 @@
     {
       "id": "theme-factory",
       "name": "theme-factory",
-      "description": "This skill provides a curated collection of professional font and color themes themes, each with carefully selected color palettes and font pairings. Once a theme is chosen, it can be applied to any artifact.",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
       "category": "general",
       "tags": [
         "theme",
@@ -32058,16 +33011,16 @@
       "triggers": [
         "theme",
         "factory",
-        "skill",
-        "provides",
-        "curated",
-        "collection",
-        "professional",
-        "font",
-        "color",
-        "themes",
-        "each",
-        "carefully"
+        "toolkit",
+        "styling",
+        "artifacts",
+        "these",
+        "slides",
+        "docs",
+        "reportings",
+        "html",
+        "landing",
+        "pages"
       ],
       "path": "skills/theme-factory/SKILL.md"
     },
@@ -32100,7 +33053,7 @@
     {
       "id": "threat-modeling-expert",
       "name": "threat-modeling-expert",
-      "description": "Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use PROACTIVELY for security architecture reviews, threat identification, or building secure-by-design systems.",
+      "description": "Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use PROACTIVELY for security architecture reviews, threat identification, or building secure-by-design sys...",
       "category": "security",
       "tags": [
         "threat",
@@ -32529,7 +33482,7 @@
     {
       "id": "top-web-vulnerabilities",
       "name": "top-web-vulnerabilities",
-      "description": "Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category. This skill enables systematic vulnerability identification, impact assessment, and remediation guidance across the full spectrum of web security threats.",
+      "description": "Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category. This skill enables systematic vulnerability identification, impact assessment, and remediation guidance across the full spectrum of web security ...",
       "category": "security",
       "tags": [
         "top",
@@ -33480,7 +34433,7 @@
     {
       "id": "using-superpowers",
       "name": "using-superpowers",
-      "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+      "description": "MAESTRO: Use ao iniciar qualquer tarefa - estabelece a governança de skills, exigindo a verificação de habilidades antes de qualquer ação (Doutrina Antigravity).",
       "category": "general",
       "tags": [
         "using",
@@ -33489,16 +34442,16 @@
       "triggers": [
         "using",
         "superpowers",
-        "starting",
-        "any",
-        "conversation",
-        "establishes",
-        "how",
-        "find",
+        "maestro",
+        "ao",
+        "iniciar",
+        "qualquer",
+        "tarefa",
+        "estabelece",
+        "governan",
+        "de",
         "skills",
-        "requiring",
-        "skill",
-        "invocation"
+        "exigindo"
       ],
       "path": "skills/using-superpowers/SKILL.md"
     },
@@ -33884,7 +34837,7 @@
     {
       "id": "verification-before-completion",
       "name": "verification-before-completion",
-      "description": "Claiming work is complete without verification is dishonesty, not efficiency. Use when ANY variation of success/completion claims, ANY expression of satisfaction, or ANY positive statement about work state.",
+      "description": "FINALIZAÇÃO: Gatekeeper final. Verifica integridade, linting, testes e documentação antes do handoff ao humano.",
       "category": "general",
       "tags": [
         "verification",
@@ -33895,15 +34848,15 @@
         "verification",
         "before",
         "completion",
-        "claiming",
-        "work",
-        "complete",
-        "without",
-        "dishonesty",
-        "efficiency",
-        "any",
-        "variation",
-        "success"
+        "finaliza",
+        "gatekeeper",
+        "final",
+        "verifica",
+        "integridade",
+        "linting",
+        "testes",
+        "documenta",
+        "antes"
       ],
       "path": "skills/verification-before-completion/SKILL.md"
     },
@@ -34344,7 +35297,7 @@
     {
       "id": "web-artifacts-builder",
       "name": "web-artifacts-builder",
-      "description": "To build powerful frontend claude.ai artifacts, follow these steps:",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTM...",
       "category": "data-ai",
       "tags": [
         "web",
@@ -34355,13 +35308,15 @@
         "web",
         "artifacts",
         "builder",
-        "powerful",
-        "frontend",
+        "suite",
+        "creating",
+        "elaborate",
+        "multi",
+        "component",
         "claude",
         "ai",
-        "follow",
-        "these",
-        "steps"
+        "html",
+        "frontend"
       ],
       "path": "skills/web-artifacts-builder/SKILL.md"
     },
@@ -34483,7 +35438,7 @@
     {
       "id": "webapp-testing",
       "name": "webapp-testing",
-      "description": "To test local web applications, write native Python Playwright scripts.",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
       "category": "development",
       "tags": [
         "webapp"
@@ -34491,15 +35446,16 @@
       "triggers": [
         "webapp",
         "testing",
-        "test",
+        "toolkit",
+        "interacting",
         "local",
         "web",
         "applications",
-        "write",
-        "native",
-        "python",
         "playwright",
-        "scripts"
+        "supports",
+        "verifying",
+        "frontend",
+        "functionality"
       ],
       "path": "skills/webapp-testing/SKILL.md"
     },
@@ -34667,7 +35623,7 @@
     {
       "id": "wiki-onboarding",
       "name": "wiki-onboarding",
-      "description": "Generate two complementary onboarding documents that together give any engineer — from newcomer to principal — a complete understanding of a codebase. Use when user asks for onboarding docs or getting-started guides, user runs /deep-wiki, or user wants to help new team members understand a codebase.",
+      "description": "Generate two complementary onboarding documents that together give any engineer — from newcomer to principal — a complete understanding of a codebase. Use when user asks for onboarding docs or getting-started guides, user runs /deep-wiki, or user wants to help new team me...",
       "category": "general",
       "tags": [
         "wiki",
@@ -34767,7 +35723,7 @@
     {
       "id": "wiki-vitepress",
       "name": "wiki-vitepress",
-      "description": "Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams. Use when user asks to \"build a site\" or \"package as VitePress\", user runs the /deep-wiki, or user wants a browsable HTML output from generated wiki pages.",
+      "description": "Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams. Use when user asks to \"build a site\" or \"package as VitePress\", user runs the /deep-wiki, or user wants a browsable HTML output from generated w...",
       "category": "general",
       "tags": [
         "wiki",
@@ -34867,7 +35823,7 @@
     {
       "id": "wordpress",
       "name": "wordpress",
-      "description": "Complete WordPress development workflow covering theme development, plugin creation, WooCommerce integration, performance optimization, and security hardening. Includes WordPress 7.0 features: Real-Time Collaboration, AI Connectors, Abilities API, DataViews, and PHP-only blocks.",
+      "description": "Complete WordPress development workflow covering theme development, plugin creation, WooCommerce integration, performance optimization, and security hardening. Includes WordPress 7.0 features: Real-Time Collaboration, AI Connectors, Abilities API, DataViews, and PHP-only ...",
       "category": "security",
       "tags": [
         "wordpress"
@@ -35104,7 +36060,7 @@
     {
       "id": "writing-plans",
       "name": "writing-plans",
-      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "description": "Pós-Brainstorm: Transforma o design em um plano de execução de tarefas 'bite-sized' (2-5 min) com caminhos de arquivos exatos.",
       "category": "general",
       "tags": [
         "writing",
@@ -35113,14 +36069,16 @@
       "triggers": [
         "writing",
         "plans",
-        "spec",
-        "requirements",
-        "multi",
-        "step",
-        "task",
-        "before",
-        "touching",
-        "code"
+        "brainstorm",
+        "transforma",
+        "em",
+        "um",
+        "plano",
+        "de",
+        "execu",
+        "tarefas",
+        "bite",
+        "sized"
       ],
       "path": "skills/writing-plans/SKILL.md"
     },
@@ -35228,7 +36186,7 @@
     {
       "id": "xlsx-official",
       "name": "xlsx-official",
-      "description": "Unless otherwise stated by the user or existing template",
+      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy da...",
       "category": "general",
       "tags": [
         "xlsx",
@@ -35237,11 +36195,16 @@
       "triggers": [
         "xlsx",
         "official",
-        "unless",
-        "otherwise",
-        "stated",
-        "user",
-        "existing"
+        "skill",
+        "any",
+        "time",
+        "spreadsheet",
+        "file",
+        "primary",
+        "input",
+        "output",
+        "means",
+        "task"
       ],
       "path": "skills/xlsx-official/SKILL.md"
     },
@@ -35328,7 +36291,7 @@
     {
       "id": "yann-lecun-debate",
       "name": "yann-lecun-debate",
-      "description": "Sub-skill de debates e posições de Yann LeCun. Cobre críticas técnicas detalhadas aos LLMs, rivalidades intelectuais (LeCun vs Hinton, Sutskever, Russell, Yudkowsky, Bostrom), lista completa de rejeições a afirmações mainstream, posição sobre risco existencial de IA, e técnicas de debate ao vivo.",
+      "description": "Sub-skill de debates e posições de Yann LeCun. Cobre críticas técnicas detalhadas aos LLMs, rivalidades intelectuais (LeCun vs Hinton, Sutskever, Russell, Yudkowsky, Bostrom), lista completa de rejeições a afirmações mainstream, posição sobre risco existencial de IA, e té...",
       "category": "general",
       "tags": [
         "persona",
@@ -35536,7 +36499,7 @@
     {
       "id": "zeroize-audit",
       "name": "zeroize-audit",
-      "description": "Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys, passwords, or other sensitive data.",
+      "description": "Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys, passwords, or other sensitive d...",
       "category": "security",
       "tags": [
         "zeroize",

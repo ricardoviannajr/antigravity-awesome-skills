@@ -1,15 +1,11 @@
 ---
 name: debugger
-description: 'Debugging specialist for errors, test failures, and unexpected
-
-  behavior. Use proactively when encountering any issues.
-
-  '
+description: Debugging specialist for errors, test failures, and unexpected behavior.
+  Use proactively when encountering any issues.
 risk: safe
 source: community
 date_added: '2026-02-27'
 ---
-
 ## Use this skill when
 
 - Working on debugger tasks or workflows

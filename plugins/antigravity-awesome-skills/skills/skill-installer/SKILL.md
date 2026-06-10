@@ -1,6 +1,7 @@
 ---
 name: skill-installer
-description: Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, registro no orchestrator e verificacao pos-instalacao.
+description: Instala, valida, registra e verifica novas skills no ecossistema. 10
+  checks de seguranca, copia, registro no orchestrator e verificacao pos-instalacao.
 risk: safe
 source: community
 date_added: '2026-03-06'
@@ -17,7 +18,6 @@ tools:
 - gemini-cli
 - codex-cli
 ---
-
 # Skill Installer v3.0
 
 ## Overview

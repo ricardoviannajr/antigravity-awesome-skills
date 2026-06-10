@@ -5,7 +5,6 @@ risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
-
 # Apple HIG: Interaction Patterns
 
 Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.

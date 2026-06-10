@@ -1,17 +1,12 @@
 ---
 name: seo-authority-builder
-description: 'Analyzes content for E-E-A-T signals and suggests improvements to
-
-  build authority and trust. Identifies missing credibility elements. Use
-
-  PROACTIVELY for YMYL topics.
-
-  '
+description: Analyzes content for E-E-A-T signals and suggests improvements to build
+  authority and trust. Identifies missing credibility elements. Use PROACTIVELY for
+  YMYL topics.
 risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
-
 ## Use this skill when
 
 - Working on seo authority builder tasks or workflows

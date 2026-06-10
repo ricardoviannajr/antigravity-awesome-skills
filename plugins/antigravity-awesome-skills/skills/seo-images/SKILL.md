@@ -1,23 +1,21 @@
 ---
 name: seo-images
-description: >
-  Image optimization analysis for SEO and performance. Checks alt text, file
-  sizes, formats, responsive images, lazy loading, and CLS prevention. Use when
-  user says "image optimization", "alt text", "image SEO", "image size",
-  or "image audit".
+description: Image optimization analysis for SEO and performance. Checks alt text,
+  file sizes, formats, responsive images, lazy loading, and CLS prevention. Use when
+  user says "image optimization", "alt text", "image SEO", "image size", or "image
+  audit".
 risk: safe
-source: "https://github.com/AgriciDaniel/claude-seo"
-date_added: "2026-03-21"
+source: https://github.com/AgriciDaniel/claude-seo
+date_added: '2026-03-21'
 user-invokable: true
-argument-hint: "[url]"
+argument-hint: '[url]'
 allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - WebFetch
+- Read
+- Grep
+- Glob
+- Bash
+- WebFetch
 ---
-
 # Image Optimization Analysis
 
 ## When to Use

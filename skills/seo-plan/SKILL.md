@@ -1,24 +1,22 @@
 ---
 name: seo-plan
-description: >
-  Strategic SEO planning for new or existing websites. Industry-specific
-  templates, competitive analysis, content strategy, and implementation
-  roadmap. Use when user says "SEO plan", "SEO strategy", "content strategy",
-  "site architecture", or "SEO roadmap".
+description: Strategic SEO planning for new or existing websites. Industry-specific
+  templates, competitive analysis, content strategy, and implementation roadmap. Use
+  when user says "SEO plan", "SEO strategy", "content strategy", "site architecture",
+  or "SEO roadmap".
 risk: unknown
-source: "https://github.com/AgriciDaniel/claude-seo"
-date_added: "2026-03-21"
+source: https://github.com/AgriciDaniel/claude-seo
+date_added: '2026-03-21'
 user-invokable: true
-argument-hint: "[business-type]"
+argument-hint: '[business-type]'
 allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - WebFetch
-  - Write
+- Read
+- Grep
+- Glob
+- Bash
+- WebFetch
+- Write
 ---
-
 # Strategic SEO Planning
 
 ## When to Use

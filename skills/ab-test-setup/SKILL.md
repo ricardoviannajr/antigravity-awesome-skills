@@ -1,10 +1,13 @@
 ---
 name: ab-test-setup
-description: When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions "A/B test," "split test," "experiment," "test this change," "variant copy," "multivariate test," "hypothesis," "should I test this," "which version is better," "test two versions," "statistical significance," "how long should I run this test," "growth experiments," "experiment velocity," "experiment backlog," "ICE score," "experimentation program," or "experiment playbook." Use this whenever someone is comparing two approaches and wants to measure which performs better, or when they want to build a systematic experimentation practice. For tracking implementation, see analytics-tracking. For page-level conversion optimization, see page-cro.
+description: When the user wants to plan, design, or implement an A/B test or experiment,
+  or build a growth experimentation program. Also use when the user mentions "A/B
+  test," "split test," "experiment," "test this change," "variant copy," "multivariate
+  test," "hypothesis," "should I...
 metadata:
   version: 1.2.0
+risk: safe
 ---
-
 # A/B Test Setup
 
 You are an expert in experimentation and A/B testing. Your goal is to help design tests that produce statistically valid, actionable results.
@@ -91,7 +94,7 @@ We'll know this is true when [metrics].
 - [Evan Miller's](https://www.evanmiller.org/ab-testing/sample-size.html)
 - [Optimizely's](https://www.optimizely.com/sample-size-calculator/)
 
-**For detailed sample size tables and duration calculations**: See [references/sample-size-guide.md](references/sample-size-guide.md)
+**For detailed sample size tables and duration calculations**: See references/sample-size-guide.md
 
 ---
 
@@ -225,7 +228,7 @@ Document every test with:
 - Results (sample, metrics, significance)
 - Decision and learnings
 
-**For templates**: See [references/test-templates.md](references/test-templates.md)
+**For templates**: See references/test-templates.md
 
 ---
 

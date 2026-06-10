@@ -1,11 +1,10 @@
 ---
 name: azure-servicebus-ts
-description: "Enterprise messaging with queues, topics, and subscriptions."
+description: Enterprise messaging with queues, topics, and subscriptions.
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
-
 # Azure Service Bus SDK for TypeScript
 
 Enterprise messaging with queues, topics, and subscriptions.

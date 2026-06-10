@@ -1,20 +1,20 @@
 ---
 name: fp-errors
-description: Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more predictable code
+description: Stop throwing everywhere - handle errors as values using Either and TaskEither
+  for cleaner, more predictable code
 risk: unknown
 source: community
 version: 1.0.0
 author: kadu
 tags:
-  - fp-ts
-  - error-handling
-  - either
-  - task-either
-  - typescript
-  - validation
-  - practical
+- fp-ts
+- error-handling
+- either
+- task-either
+- typescript
+- validation
+- practical
 ---
-
 # Practical Error Handling with fp-ts
 
 This skill teaches you how to handle errors without try/catch spaghetti. No academic jargon - just practical patterns for real problems.

@@ -1,15 +1,23 @@
 ---
 name: full-output-enforcement
-description: "Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code."
+description: Use when a task requires exhaustive unabridged output, complete files,
+  or strict prevention of placeholders and skipped code.
 category: frontend
 risk: safe
 source: community
 source_repo: Leonxlnx/taste-skill
 source_type: community
-date_added: "2026-04-17"
+date_added: '2026-04-17'
 author: Leonxlnx
-tags: [output, code-generation, quality]
-tools: [claude, cursor, codex, antigravity]
+tags:
+- output
+- code-generation
+- quality
+tools:
+- claude
+- cursor
+- codex
+- antigravity
 ---
 # Full-Output Enforcement
 

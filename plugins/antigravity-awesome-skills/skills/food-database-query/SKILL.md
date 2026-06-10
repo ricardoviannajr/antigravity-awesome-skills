@@ -4,7 +4,6 @@ description: Food Database Query
 risk: unknown
 source: community
 ---
-
 # 食物数据库查询技能
 
 **技能名称**: Food Database Query

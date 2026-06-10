@@ -1,13 +1,12 @@
 ---
 name: citation-management
-description: "Manage citations systematically throughout the research and writing process."
+description: Manage citations systematically throughout the research and writing process.
 license: MIT License
 metadata:
-    skill-author: K-Dense Inc.
+  skill-author: K-Dense Inc.
 risk: unknown
 source: community
 ---
-
 # Citation Management
 
 ## Overview
