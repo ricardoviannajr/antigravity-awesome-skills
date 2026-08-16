@@ -7,11 +7,11 @@
 
 # Define o caminho raiz onde todos os projetos estão localizados
 # O script usa a variável de ambiente USERPROFILE para encontrar a pasta Documentos do usuário atual.
-$rootPath = Join-Path $env:USERPROFILE "Documents\# Projetos Antigravity"
+$rootPath = Join-Path $env:USERPROFILE "Documents\Projetos Antigravity"
 
 # Define o caminho onde este repositório de configuração está localizado
 # Este é o "Mestre" de onde os arquivos serão copiados.
-$configPath = "c:\Users\User\Documents\# projetos antigravity\Antigravity-Config"
+$configPath = "c:\Users\User\Documents\Projetos Antigravity\Antigravity-Config"
 
 # Obtém a lista de todas as pastas (diretórios) dentro do caminho raiz dos projetos
 # Cada pasta é tratada como um projeto individual.

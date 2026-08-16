@@ -5,7 +5,7 @@
 #   Remove stubs e move os arquivos reais de antigravity/ para a raiz de cada projeto.
 #   Garante que não existam arquivos repetidos e que a raiz seja limpa e funcional.
 
-$ProjectsRoot = "C:\Users\ricar\Documents\# Projetos Antigravity"
+$ProjectsRoot = "C:\Users\ricar\Documents\Projetos Antigravity"
 $AIConfigRoot = Join-Path $ProjectsRoot "AIConfig"
 
 Write-Host "Iniciando HigienizaÃ§Ã£o de GovernanÃ§a (Root Consolidation)..." -ForegroundColor Cyan
